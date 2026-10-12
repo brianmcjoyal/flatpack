@@ -1,0 +1,208 @@
+{
+  "id": "l-desk",
+  "name": "L-shaped or corner desk",
+  "tagline": "Two desktops joined at a corner, with a shared leg. Build it as two desks, then marry them.",
+  "covers": [
+    "L-shaped computer desks",
+    "Corner desks",
+    "Reversible gaming desks",
+    "Executive desks with a return",
+    "Desks with an attached shelf tower"
+  ],
+  "difficulty": 2,
+  "minutes": 55,
+  "people": 1,
+  "peopleNote": "One can manage it. Two makes the final flip much safer.",
+  "tools": [
+    {
+      "n": "Phillips screwdriver",
+      "why": "Leg plates, brackets, and the corner joining plate.",
+      "req": true
+    },
+    {
+      "n": "The provided Allen key",
+      "why": "Leg and frame bolts.",
+      "req": true
+    },
+    {
+      "n": "Tape measure",
+      "why": "Squaring the corner. An L-desk that is not square at the corner never sits flat against two walls.",
+      "req": true
+    },
+    {
+      "n": "Cordless drill on low torque",
+      "why": "There are a lot of screws in an L-desk.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Corner joining plate or bracket",
+    "Leg bolts and wood screws",
+    "Leveling feet",
+    "Cable grommets"
+  ],
+  "before": [
+    "Decide now whether the long side goes left or right. Most L-desks are reversible, but changing your mind after assembly means undoing the whole corner.",
+    "Measure the corner of your room. Walls are rarely square, and you want to know before you build.",
+    "Build it in the room where it will live. An assembled L-desk does not go through a door.",
+    "Clear enough floor to lay both tops upside down side by side."
+  ],
+  "safety": [
+    "Never lift an assembled L-desk by one of its two tops. The corner joint is the weak point and it will flex.",
+    "Do not load a monitor arm onto the corner until everything is fully tightened."
+  ],
+  "steps": [
+    {
+      "title": "Decide handedness and lay both tops out",
+      "secs": 18,
+      "scene": "l-layout",
+      "say": "Put both tops upside down on the cardboard in the L shape you want, with the long side where you want it. Look at it for a moment before committing.",
+      "do": [
+        "Both tops face-down, in the L shape",
+        "Long side left or right — decide now",
+        "Check the cable notches end up at the back of both tops"
+      ],
+      "watch": "Reversing an L-desk later means undoing the corner plate and every leg. Thirty seconds of thinking saves an hour."
+    },
+    {
+      "title": "Build the long section first, loose",
+      "secs": 18,
+      "scene": "leg-screw",
+      "say": "Treat the long top as a normal desk. Attach its legs and crossbar with every screw started but nothing tightened.",
+      "do": [
+        "Leg plates on, all screws started",
+        "Crossbar in, finger-tight",
+        "Short screws into the top only"
+      ],
+      "tip": "Compare screw lengths against the thickness of the top before driving any. This is where tops get punctured."
+    },
+    {
+      "title": "Build the short return the same way",
+      "secs": 16,
+      "scene": "leg-screw",
+      "say": "Same again for the shorter top. Note that the return usually has one fewer leg, because it shares one with the long side at the corner.",
+      "do": [
+        "Legs on, all loose",
+        "Leave the corner end bare for now",
+        "Keep both sections on the floor"
+      ],
+      "watch": "Do not fit a leg at the corner end of the return if the manual shows a shared leg. You will have one leg too many and a lump in the middle."
+    },
+    {
+      "title": "Join the corner with the plate",
+      "secs": 21,
+      "scene": "corner-plate",
+      "say": "Slide the two tops together and fit the corner joining plate or bracket underneath. Start all its screws loosely so the corner can still move.",
+      "do": [
+        "Butt the two tops together with no gap",
+        "Plate across the join, underneath",
+        "Every screw started, nothing tight"
+      ],
+      "tip": "Press the two tops together firmly while starting the screws. Any gap you leave now becomes a permanent step in the surface.",
+      "watch": "The joining plate is what carries the corner. If your kit has two, fit both."
+    },
+    {
+      "title": "Square the corner at ninety degrees",
+      "secs": 21,
+      "scene": "square-corner",
+      "say": "Measure out the same distance along each top from the corner, then measure between those two marks. For a true right angle at three and four feet, that diagonal is five feet.",
+      "do": [
+        "Mark three feet along one top from the inside corner",
+        "Mark four feet along the other",
+        "Adjust until the distance between the marks is exactly five feet"
+      ],
+      "tip": "This is the old three-four-five trick and it works at any scale — thirty, forty and fifty centimetres does the same job.",
+      "watch": "A corner that is a few degrees out means the desk only touches one wall and rocks on its shared leg."
+    },
+    {
+      "title": "Tighten in sequence from the corner outward",
+      "secs": 18,
+      "scene": "tighten-sequence",
+      "say": "Tighten the corner plate first, then work outward along both tops, then the crossbars. Second lap afterwards.",
+      "do": [
+        "Corner plate first",
+        "Then the legs nearest the corner, working outward",
+        "Crossbars last, then a second full lap"
+      ],
+      "tip": "Working outward from the corner keeps the ninety degrees you just set. Working inward pushes it out again."
+    },
+    {
+      "title": "Flip it with help",
+      "secs": 16,
+      "scene": "flip-over",
+      "say": "Two people, lifting from the tops at the two far ends, not from the corner. Set it down on all legs at once.",
+      "do": [
+        "Lift from the far ends of both tops",
+        "Keep the corner supported",
+        "All legs down together"
+      ],
+      "watch": "An L-desk lifted by the corner flexes exactly where it is weakest. Lift from the ends."
+    },
+    {
+      "title": "Level it against the real floor",
+      "secs": 18,
+      "scene": "leveling-feet",
+      "say": "L-desks have more legs than a flat floor can satisfy. Press every corner, find the ones that lift, and adjust those feet until nothing rocks.",
+      "do": [
+        "Press every corner and the middle of the corner section",
+        "Adjust the feet on legs that lift",
+        "Lay a level across the corner join both ways"
+      ],
+      "tip": "The shared corner leg is the one that matters most. Get that one bearing weight properly and the rest follows."
+    },
+    {
+      "title": "Push it into the room corner and check the gap",
+      "secs": 16,
+      "scene": "wall-fit",
+      "say": "Slide it into position. If there is a gap at one wall, that is your room, not your desk. Leave the gap rather than forcing the desk out of square.",
+      "do": [
+        "Push into the room corner",
+        "Look at the gap along both walls",
+        "Leave a gap rather than twisting the desk to close it"
+      ],
+      "tip": "Rooms are rarely square. A squared desk with a small wall gap is far better than a twisted desk pressed flat."
+    },
+    {
+      "title": "Grommets, cables, and load it up",
+      "secs": 18,
+      "scene": "cable-channel",
+      "say": "Press the cable grommets into their holes, mount the power strip underneath, and route cables before any monitors go on.",
+      "do": [
+        "Grommets pressed into the cut-outs",
+        "Power strip screwed or velcroed to the underside",
+        "Cables through the grommets with slack"
+      ],
+      "tip": "Put the heaviest items — monitors, a PC tower — over the legs rather than mid-span. An L-desk's weakest point is the unsupported middle of the long side."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "There is a step where the two tops meet",
+      "a": "The corner plate was tightened with a gap or at different heights. Loosen the plate, press both tops down flat onto a level surface, hold them flush, and retighten from the center outward."
+    },
+    {
+      "q": "The desk only touches one wall",
+      "a": "Either the desk corner is not square — use the three-four-five check — or your room corner is not square, which is very common. If the desk is square, leave the gap."
+    },
+    {
+      "q": "The corner rocks",
+      "a": "The shared corner leg is not bearing weight. Adjust its leveling foot down until it does, then recheck the other legs."
+    },
+    {
+      "q": "I built it the wrong way round",
+      "a": "On most reversible desks, undo the corner plate and the legs on one section, swap the tops, and rebuild. Annoying but no damage done. Check for asymmetric cable notches first."
+    },
+    {
+      "q": "The long side sags in the middle",
+      "a": "Unsupported span. Move heavy items over the legs, or add a center leg — many manufacturers sell one, and a simple adjustable furniture leg from a hardware store also works."
+    }
+  ],
+  "terms": [
+    "corner-plate",
+    "three-four-five",
+    "grommet",
+    "square",
+    "leveling-foot"
+  ]
+}

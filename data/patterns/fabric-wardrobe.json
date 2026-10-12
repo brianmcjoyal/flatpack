@@ -1,0 +1,198 @@
+{
+  "id": "fabric-wardrobe",
+  "name": "Fabric wardrobe or portable closet",
+  "tagline": "Plastic connectors, steel tubes, and a fabric cover. No tools at all, and the trick is to build it in the right order.",
+  "covers": [
+    "Portable fabric wardrobes",
+    "Garment racks and clothing rails",
+    "Fabric closet organizers",
+    "Shoe cabinets with fabric covers",
+    "Modular plastic closet systems"
+  ],
+  "difficulty": 1,
+  "minutes": 35,
+  "people": 1,
+  "peopleNote": "One person, though an extra pair of hands makes fitting the cover far easier.",
+  "tools": [
+    {
+      "n": "Your hands",
+      "why": "Genuinely the only tool needed.",
+      "req": true
+    },
+    {
+      "n": "Rubber mallet",
+      "why": "Seating stubborn tube-to-connector joints without hurting your palm.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Steel or plastic tubes",
+    "Plastic corner and T connectors",
+    "Hanging rail",
+    "Fabric cover",
+    "Shelf panels"
+  ],
+  "before": [
+    "Sort the tubes by length into piles before you start. They look similar and the difference of an inch matters.",
+    "Build it where it will stand. Fabric wardrobes are light but they cannot be carried assembled without racking.",
+    "These hold far less weight than they look like they should. Plan for shirts and light items, not winter coats."
+  ],
+  "safety": [
+    "Do not overload the hanging rail. A sagging rail is the warning sign before the whole thing collapses.",
+    "Keep it away from heaters and radiators. The cover is fabric and the frame is plastic-jointed."
+  ],
+  "steps": [
+    {
+      "title": "Sort the tubes by length",
+      "secs": 19,
+      "scene": "sort-hardware",
+      "say": "Lay the tubes out in piles by length and count each pile against the manual. This is nine tenths of the difficulty of this build.",
+      "do": [
+        "Measure and group: uprights, long horizontals, short depths",
+        "Count each pile against the parts list",
+        "Separate the connectors by shape: corners, Ts, four-ways"
+      ],
+      "watch": "Using a depth tube as an upright is the standard error, and you only find out at the last corner."
+    },
+    {
+      "title": "Build the base rectangle first",
+      "secs": 19,
+      "scene": "grid-layout",
+      "say": "Make the bottom rectangle flat on the floor: two long tubes, two short tubes, four corner connectors. Push each joint fully home.",
+      "do": [
+        "Four corner connectors, tubes between them",
+        "Push each tube in until it bottoms out",
+        "Check the rectangle is flat and square"
+      ],
+      "tip": "A joint that is only half pushed in will pull out under load. Push until the tube stops moving, every single joint."
+    },
+    {
+      "title": "Add the uprights",
+      "secs": 17,
+      "scene": "tube-pressfit",
+      "say": "Push the vertical tubes into the upward sockets of the base connectors. The frame will feel wobbly until the top goes on. That is normal.",
+      "do": [
+        "One upright per corner, plus any middle uprights",
+        "Press each fully home",
+        "Keep the frame roughly upright as you go"
+      ],
+      "watch": "If an upright is a different length from its neighbor you have a depth tube in the wrong place. Compare before carrying on."
+    },
+    {
+      "title": "Fit the mid-level shelf supports",
+      "secs": 17,
+      "scene": "grid-build",
+      "say": "Most wardrobes have T-connectors partway up for shelves. Push these on at the heights the manual shows, matching all four sides.",
+      "do": [
+        "T connectors onto the uprights at the marked heights",
+        "Same height on every upright",
+        "Short tubes between them to form the shelf frame"
+      ],
+      "tip": "Check the heights with a tape measure rather than by eye. A shelf frame that is not level will make the shelf panel slide out."
+    },
+    {
+      "title": "Close the top rectangle",
+      "secs": 19,
+      "scene": "grid-build",
+      "say": "Corner connectors onto the top of each upright, tubes between them. The moment the top rectangle closes, the whole thing becomes rigid.",
+      "do": [
+        "Top corner connectors on",
+        "Long and short tubes between them",
+        "Press every joint fully home"
+      ],
+      "tip": "If the frame still feels floppy once the top is closed, one or more joints are not fully seated. Go round and push each one again."
+    },
+    {
+      "title": "Fit the hanging rail",
+      "secs": 17,
+      "scene": "rail-fit",
+      "say": "The hanging rail clips into dedicated connectors near the top. Make sure it is properly in both ends — this is the part that carries all the weight.",
+      "do": [
+        "Rail into its sockets at both ends",
+        "Push until it seats",
+        "Tug downward to test it"
+      ],
+      "watch": "A rail that has only dropped into one end will fail with a full load of clothes on it."
+    },
+    {
+      "title": "Slide the cover on from the top",
+      "secs": 21,
+      "scene": "fabric-cover",
+      "say": "Drop the fabric cover down over the frame from the top, lining up the zip panels with the front. Work it down evenly rather than pulling one corner.",
+      "do": [
+        "Identify the front by the zips",
+        "Drop over from the top",
+        "Ease it down evenly, working all four corners together"
+      ],
+      "tip": "Two people makes this trivial: one lifts the cover over the top, the other guides the corners down.",
+      "watch": "Yanking one corner of the cover tears the seams or pulls the frame apart at a joint. Work it down evenly."
+    },
+    {
+      "title": "Fit the shelf panels and secure the cover",
+      "secs": 17,
+      "scene": "shelf-place",
+      "say": "Slide the shelf panels into their frames through the open front, then do up any internal velcro or ties that hold the cover to the frame.",
+      "do": [
+        "Shelf panels in through the front",
+        "Velcro tabs around the frame tubes inside",
+        "Zip the doors to check they close cleanly"
+      ],
+      "tip": "The internal velcro ties are what keep the cover taut and stop the frame racking. Most people never find them."
+    },
+    {
+      "title": "Load it lightly and watch for sag",
+      "secs": 17,
+      "scene": "load-shelves",
+      "say": "Load it gradually and watch the rail. Shirts and light clothes on the rail, heavier folded items on the bottom shelf.",
+      "do": [
+        "Light items on the rail",
+        "Heavy folded items on the bottom",
+        "Watch the rail for any bow"
+      ],
+      "watch": "If the rail bows, take weight off. These frames are rated far lower than they look, and a collapse takes the cover and the connectors with it."
+    },
+    {
+      "title": "Re-seat the joints in a week",
+      "secs": 17,
+      "scene": "calendar-recheck",
+      "say": "After a week under load, go round and push every joint home again. They settle, and this is the whole maintenance routine.",
+      "do": [
+        "Push each tube joint home",
+        "Check the rail at both ends",
+        "Re-tighten the internal velcro"
+      ],
+      "tip": "If a particular joint keeps working loose, a wrap of electrical tape around the tube end makes the fit snug permanently."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The whole frame leans or racks like a parallelogram",
+      "a": "Joints are not fully seated, or the internal velcro ties that hold the cover to the frame are not fastened. Those ties are structural. Push every joint home and fasten them all."
+    },
+    {
+      "q": "The hanging rail sags or fell down",
+      "a": "Overloaded, or the rail was only seated at one end. Reduce the weight and make sure both ends are fully pushed into their connectors."
+    },
+    {
+      "q": "A plastic connector cracked",
+      "a": "Replacements are sold by the manufacturer and as generic multi-packs. If a connector cracked, the frame is under more load than it should be — reduce the weight too."
+    },
+    {
+      "q": "A tube keeps falling out of its connector",
+      "a": "The fit has loosened. Wrap a couple of turns of electrical tape around the tube end and push it back in. It will hold indefinitely."
+    },
+    {
+      "q": "The cover will not zip up",
+      "a": "The frame is out of square, so the cover is being stretched diagonally. Square up the base rectangle and the zip will usually close easily."
+    },
+    {
+      "q": "It will not fit in the space I measured",
+      "a": "Check whether you used the right tubes for depth and width. Swapping a depth tube for a width tube changes the footprint and is easy to do when the lengths are close."
+    }
+  ],
+  "terms": [
+    "connector",
+    "square",
+    "press-fit"
+  ]
+}

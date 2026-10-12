@@ -1,0 +1,212 @@
+{
+  "id": "standing-desk",
+  "name": "Electric standing desk",
+  "tagline": "A motorised steel frame that you build upside down, then flip. Heavy, but genuinely simple.",
+  "covers": [
+    "Electric height-adjustable desks",
+    "Sit-stand desk frames",
+    "Dual-motor standing desks",
+    "Crank-adjustable desks",
+    "Standing desk frames bought without a top"
+  ],
+  "difficulty": 2,
+  "minutes": 60,
+  "people": 2,
+  "peopleNote": "Two people for the flip. The frame alone can weigh seventy pounds.",
+  "tools": [
+    {
+      "n": "The provided Allen key",
+      "why": "Frame bolts.",
+      "req": true
+    },
+    {
+      "n": "Cordless drill with a Phillips bit",
+      "why": "Driving twenty-plus wood screws into the top. Doing this by hand is genuinely miserable.",
+      "req": false
+    },
+    {
+      "n": "Tape measure",
+      "why": "Centring the frame on the top.",
+      "req": true
+    },
+    {
+      "n": "Pencil",
+      "why": "Marking screw positions if your top is not pre-drilled.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Frame bolts",
+    "Wood screws",
+    "Control box and keypad",
+    "Cable tray and clips",
+    "Motor cables"
+  ],
+  "before": [
+    "Clear a big floor area. You build the whole thing upside down and then flip it.",
+    "Put the top face-down on its own packaging. Standing desk tops are often bamboo or laminate and scratch instantly.",
+    "Check whether your top is pre-drilled. If not, you will be marking and drilling pilot holes, which adds twenty minutes.",
+    "Have the power outlet location in mind. The control box cable is not long."
+  ],
+  "safety": [
+    "Never put your fingers between the legs and the frame while the desk is powering. The motors have real force.",
+    "Keep cables clear of the lifting columns. A cable caught in a rising desk will be pulled apart.",
+    "Do not exceed the stated weight limit, and remember a loaded desk raising itself puts all that weight on the motors."
+  ],
+  "steps": [
+    {
+      "title": "Top face-down, frame parts laid out around it",
+      "secs": 16,
+      "scene": "cardboard-floor",
+      "say": "Lay the desktop upside down on its packaging. Put the two leg columns, the crossbar, and the feet around it in roughly the right positions.",
+      "do": [
+        "Top face-down on padding",
+        "Two leg columns, two feet, one crossbar",
+        "Hardware bag opened into a bowl"
+      ]
+    },
+    {
+      "title": "Bolt the crossbar to the leg columns",
+      "secs": 20,
+      "scene": "crossbar",
+      "say": "The telescoping crossbar connects the two leg columns. Bolt it to both, finger-tight, and leave it loose so you can set the width later.",
+      "do": [
+        "Crossbar brackets onto the columns",
+        "Finger-tight only",
+        "If the crossbar is adjustable, leave its width bolts loose too"
+      ],
+      "tip": "The crossbar usually adjusts in length to match different desktop widths. Setting it before you know your top width is backwards."
+    },
+    {
+      "title": "Bolt the feet onto the columns",
+      "secs": 18,
+      "scene": "bolt-hex",
+      "say": "Each foot bolts to the bottom of a leg column. Note which way the foot points — the longer side usually goes toward the front of the desk.",
+      "do": [
+        "Foot plate onto the column base",
+        "All bolts started, then tightened firmly",
+        "Check both feet point the same way"
+      ],
+      "watch": "Feet on backwards makes the desk unstable front to back, which you only notice when you lean on it. Compare both sides."
+    },
+    {
+      "title": "Center the frame on the top and set the crossbar width",
+      "secs": 20,
+      "scene": "frame-center",
+      "say": "Measure so the frame is centered side to side and set back a little from the front edge. Then tighten the crossbar width bolts.",
+      "do": [
+        "Measure from each side edge to the frame — make the numbers equal",
+        "Set the frame back about an inch from the front edge",
+        "Now tighten the crossbar length bolts"
+      ],
+      "tip": "Setting the frame slightly back from the front edge means the front edge sits comfortably against you rather than over the steel.",
+      "watch": "An off-center frame makes the desk sag on the long side and look crooked. Measure both sides before you drive a single screw."
+    },
+    {
+      "title": "Screw the frame to the top",
+      "secs": 20,
+      "scene": "screw-drive",
+      "say": "Drive the wood screws through the frame into the top. If the top is not pre-drilled, mark every hole and drill shallow pilot holes first.",
+      "do": [
+        "Use only the short screws for the top",
+        "Pre-drilled top: straight in",
+        "Undrilled top: mark, then pilot drill to about two thirds of the screw length"
+      ],
+      "watch": "Screw length matters enormously here. A long screw through a three-quarter inch top comes out the other side, and that is permanent damage to a desk you cannot hide.",
+      "tip": "If you are using a drill, set the clutch low. These are chipboard or bamboo tops and they strip easily."
+    },
+    {
+      "title": "Mount the control box and keypad",
+      "secs": 18,
+      "scene": "control-box",
+      "say": "The control box screws under the top, usually near the center. The keypad goes on the front edge on your dominant side.",
+      "do": [
+        "Control box in the center underside, away from the lifting columns",
+        "Keypad on the front edge, right side for most people",
+        "Pre-drill if your top is hardwood or bamboo"
+      ],
+      "tip": "Sit in your chair and reach for where the keypad should be before you screw it down. Most people mount it too far in."
+    },
+    {
+      "title": "Plug in the motor cables and tidy them",
+      "secs": 18,
+      "scene": "cable-channel",
+      "say": "Each leg's motor cable plugs into the control box, plus the keypad and the power. Then clip every cable into the tray with plenty of slack.",
+      "do": [
+        "Each motor cable into its labelled port",
+        "Keypad cable and power cable in",
+        "Clip all cables away from the lifting columns, with slack for full travel"
+      ],
+      "watch": "Leave enough slack for the desk at full height. A cable that is just long enough at sitting height will be ripped out the first time it rises."
+    },
+    {
+      "title": "Flip it with help",
+      "secs": 16,
+      "scene": "flip-over",
+      "say": "Two people, lift by the frame and the top together, and set it down on its feet. Do not lever it over on the legs.",
+      "do": [
+        "One person each end",
+        "Lift, do not roll",
+        "Set down on all feet at once"
+      ],
+      "watch": "Rolling a standing desk over on one leg puts the entire weight through a lifting column sideways. That is how motors get damaged."
+    },
+    {
+      "title": "Reset the desk before you use it",
+      "secs": 18,
+      "scene": "desk-reset",
+      "say": "Almost every electric desk needs an initialization reset. Hold the down button until it drops, bounces, and beeps. Until you do this, it may not move at all.",
+      "do": [
+        "Plug in",
+        "Hold the down arrow for about ten seconds",
+        "The desk lowers, dips, and beeps or flashes — that is the reset"
+      ],
+      "tip": "If a brand new standing desk 'does not work', this reset is the answer about four times out of five. It is in the manual, usually on the last page."
+    },
+    {
+      "title": "Set your heights and save presets",
+      "secs": 16,
+      "scene": "desk-adjust",
+      "say": "Sitting height: elbows level with the top, feet flat. Standing height: same elbow rule. Save both as presets.",
+      "do": [
+        "Sit, adjust until elbows are level with the desk surface",
+        "Save as preset one",
+        "Stand, repeat, save as preset two"
+      ],
+      "tip": "Monitor top at or just below eye level. Most people set a standing desk slightly too low and then lean."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The desk does not move at all",
+      "a": "Do the initialization reset: hold the down button for about ten seconds until the desk drops slightly and beeps. This is required on a new desk and is the most common 'faulty desk' that is not faulty."
+    },
+    {
+      "q": "It makes a beeping error code",
+      "a": "Look the code up in the manual — usually it means one motor cable is not fully seated, or the legs are out of sync. Unplug, reseat both motor cables, plug in, and reset."
+    },
+    {
+      "q": "One side rises faster than the other",
+      "a": "The legs are out of sync. Run the reset procedure, which re-zeroes both motors together."
+    },
+    {
+      "q": "A screw came through the desktop",
+      "a": "Wrong screw length. Back it out, fill with a wax repair stick in a matching color, and use the short screws. Compare screw length to top thickness before driving any others."
+    },
+    {
+      "q": "The desk wobbles at standing height",
+      "a": "Some wobble at full extension is normal for single-motor frames. Check the crossbar bolts and foot bolts are fully tight, make sure the frame is centered, and avoid leaning on the far corner."
+    },
+    {
+      "q": "A cable got pulled out when it raised",
+      "a": "Not enough slack. Unclip the cables, raise the desk to full height, then re-clip with the cables relaxed at that height."
+    }
+  ],
+  "terms": [
+    "control-box",
+    "initialization-reset",
+    "crossbar",
+    "pilot-hole"
+  ]
+}

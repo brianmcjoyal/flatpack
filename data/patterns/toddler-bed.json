@@ -1,0 +1,237 @@
+{
+  "id": "toddler-bed",
+  "name": "Toddler bed and bed rail",
+  "tagline": "A low frame with guard rails, or a rail added to a full-size bed. The gap between rail and mattress is the thing to get right.",
+  "covers": [
+    "Standalone toddler beds",
+    "Themed and character toddler beds",
+    "Bed rails for twin and full beds",
+    "Floor beds and low bed frames",
+    "Junior beds"
+  ],
+  "difficulty": 2,
+  "minutes": 40,
+  "people": 1,
+  "standard": {
+    "name": "ASTM F1821 (toddler beds) / ASTM F2085 (bed rails)",
+    "note": "Toddler beds are for children at least 15 months old and typically up to about 50 pounds. Portable bed rails are a separate product with their own standard, and they are intended for children roughly 2 to 5 years old — never for infants, and never on a crib."
+  },
+  "recall": true,
+  "tools": [
+    {
+      "n": "The supplied Allen key",
+      "why": "Frame bolts.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Rail brackets and slat clips.",
+      "req": true
+    },
+    {
+      "n": "Tape measure",
+      "why": "Checking the gap between the rail and the mattress, which is the whole safety case for this product.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Bolts and barrel nuts",
+    "Guard rails",
+    "Slats",
+    "Bed rail straps and brackets"
+  ],
+  "before": [
+    "Confirm your child is at least 15 months old. Below that, a toddler bed is not a safe product regardless of how big they are.",
+    "Measure the mattress you intend to use before you build. Toddler beds take a full-size crib mattress, not a twin.",
+    "Childproof the room first. A child who can get out of bed can reach everything in the room, and that change happens on night one."
+  ],
+  "safety": [
+    "Never use a toddler bed for a child under 15 months. Openings in and between bed parts can entrap the head and neck of a small child.",
+    "A portable bed rail must never be used on a crib, a toddler bed with its own rails, or for a child under about two years old. The hazard is entrapment between the rail and the mattress.",
+    "There must be no gap between a bed rail and the mattress that a child could roll into. This is the mechanism behind the fatalities associated with bed rails.",
+    "Anchor every piece of furniture in the room. The night the bed goes in is the night the room stops containing them."
+  ],
+  "steps": [
+    {
+      "title": "Check the age, weight and recall",
+      "secs": 19,
+      "scene": "age-check",
+      "say": "Fifteen months minimum, and most toddler beds stop at around fifty pounds. Check the model against the recall list while you are at it.",
+      "do": [
+        "At least 15 months old",
+        "Under the stated weight limit, usually around 50 pounds",
+        "Model number searched at cpsc.gov/recalls"
+      ],
+      "watch": "Bed rails have their own, higher floor: roughly two years old. A rail on a bed with a younger child is the hazard, not the protection."
+    },
+    {
+      "title": "Lay out the parts and sort the hardware",
+      "secs": 16,
+      "scene": "read-parts-list",
+      "say": "Two ends, two sides with integrated guard rails, slats and a hardware bag. Count everything against the manual first.",
+      "do": [
+        "Match every panel to its letter",
+        "Separate the bolt lengths — they are not interchangeable",
+        "Check for barrel nuts and the flat-head screwdriver you will need to rotate them"
+      ],
+      "tip": "If this frame uses barrel nuts, the same alignment trick from crib assembly applies: rotate the slot with a screwdriver so the bolt can find the thread."
+    },
+    {
+      "title": "Bolt the frame together loose",
+      "secs": 18,
+      "scene": "side-rail-bolt",
+      "say": "Attach both sides to both ends with every bolt started by hand and nothing tightened. The frame needs slack to square itself up.",
+      "do": [
+        "All four corners started by hand",
+        "Washers under every bolt head",
+        "Nothing tightened yet"
+      ],
+      "watch": "If a bolt will not start by hand, back it out. Cross-threading destroys the insert."
+    },
+    {
+      "title": "Square the frame and tighten",
+      "secs": 18,
+      "scene": "square-check",
+      "say": "Measure both diagonals and push the long corner until they match. Then tighten everything in two full laps.",
+      "do": [
+        "Diagonals equal",
+        "Tighten from the center outward",
+        "Second lap after the first"
+      ],
+      "tip": "A square frame is what keeps the mattress sitting tight against the rails. Out-of-square frames are where gaps come from."
+    },
+    {
+      "title": "Fit and secure every slat",
+      "secs": 18,
+      "scene": "slat-lay",
+      "say": "All slats in, evenly spaced, and each one clipped or screwed down. A toddler bed gets jumped on, so no slat is optional.",
+      "do": [
+        "Count the slats against the manual",
+        "Even spacing along the frame",
+        "Every slat secured, not just the end ones"
+      ],
+      "watch": "An unsecured slat can be pushed out from below. Collapsing slats are a documented failure mode in children's beds."
+    },
+    {
+      "title": "Fit the guard rails",
+      "secs": 18,
+      "scene": "toddler-rail",
+      "say": "Bolt the guard rails on fully tight, then push and pull on them hard. They are going to take a child's full weight leaning on them.",
+      "do": [
+        "Both rails bolted at every point",
+        "Tightened fully, then pull hard on each",
+        "Check the rail height above the mattress is what the manual specifies"
+      ],
+      "tip": "Most toddler beds put a rail on part of each side, leaving an opening to get in and out. Check that opening is where you want it before tightening."
+    },
+    {
+      "title": "Check the mattress size and the gaps",
+      "secs": 19,
+      "scene": "two-finger-gap",
+      "say": "A toddler bed takes a full-size crib mattress: at least fifty-one and five-eighths by twenty-seven and a quarter inches, between four and six inches thick. Then test every gap.",
+      "do": [
+        "Measure the mattress against those dimensions",
+        "Push it tight against one rail and two-finger test the opposite side and both ends",
+        "Check the gap between the rail and the mattress along its whole length"
+      ],
+      "watch": "Too thick a mattress makes the rail effectively shorter. Too thin or too small and gaps open up beside it. Both directions matter."
+    },
+    {
+      "title": "Bed rails on a full-size bed: strap them properly",
+      "secs": 20,
+      "scene": "bed-rail-strap",
+      "say": "If you are adding a portable rail to a regular bed, the straps must run under the mattress and be pulled tight, with the rail hard against the mattress edge.",
+      "do": [
+        "Straps under the mattress, not just the sheets, and pulled tight",
+        "Rail pressed firmly against the mattress with no gap",
+        "Push the rail away from the bed hard — no gap should open"
+      ],
+      "watch": "The fatal mechanism with bed rails is a child rolling into the gap between the rail and the mattress and becoming trapped. A loose rail is more dangerous than no rail at all."
+    },
+    {
+      "title": "Childproof the room before the first night",
+      "secs": 18,
+      "scene": "antitip-strap",
+      "say": "Anchor the dresser, the bookcase and anything else climbable. Tie up blind cords. Fit a gate if the stairs are a risk.",
+      "do": [
+        "Every piece of furniture anchored to a stud",
+        "Blind and curtain cords tied up out of reach",
+        "Gate at the stairs, outlet covers, nothing climbable near a window"
+      ],
+      "watch": "The bed and the childproofing are one job. A toddler bed in an unprepared room has simply removed the barrier that was keeping them in."
+    },
+    {
+      "title": "Set the re-check reminder",
+      "secs": 16,
+      "scene": "calendar-recheck",
+      "say": "Toddler beds get bounced on, climbed on and sat on the edge of, every day. Monthly checks from here.",
+      "do": [
+        "Monthly reminder to re-tighten every bolt",
+        "Monthly check of the rail-to-mattress gap",
+        "Keep the Allen key taped under the frame"
+      ],
+      "tip": "A bed that creaks is a bed with a loose bolt. Treat the creak as the reminder."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every month",
+      "what": "Re-tighten every bolt in the frame and both guard rails. Children's beds take far more dynamic load than adult beds."
+    },
+    {
+      "when": "Every month",
+      "what": "Push the mattress against each rail and re-run the two-finger gap check along the whole length."
+    },
+    {
+      "when": "Every month, for a portable bed rail",
+      "what": "Re-tighten the under-mattress straps and confirm no gap opens when you push the rail away from the bed."
+    },
+    {
+      "when": "Every month",
+      "what": "Check every slat is still secured and none has cracked."
+    },
+    {
+      "when": "Every three months",
+      "what": "Re-check that all the furniture in the room is still anchored."
+    },
+    {
+      "when": "When your child nears the weight limit",
+      "what": "Most toddler beds stop at around 50 pounds. Check the label and plan the move to a twin bed."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "There is a gap between the bed rail and the mattress",
+      "a": "Tighten the under-mattress straps and push the rail hard against the mattress. If a gap remains, the rail is the wrong length for the bed or the mattress is too small. Do not use it with a gap — that is the exact mechanism behind bed rail fatalities."
+    },
+    {
+      "q": "My child is 14 months and climbing out of the crib",
+      "a": "Do not move them to a toddler bed yet. Drop the crib mattress to the lowest setting, remove anything that can be used as a step, and consider a sleep sack. A floor mattress is a safer interim option than a toddler bed before 15 months."
+    },
+    {
+      "q": "The bed creaks and rocks",
+      "a": "Loosen every bolt, square the frame by its diagonals on a flat floor, and retighten in two laps. Check the slats are all secured too — unsecured slats shifting is a common creak source."
+    },
+    {
+      "q": "Can I use a twin mattress in a toddler bed?",
+      "a": "No. Toddler beds are sized for a full-size crib mattress. A twin is both too large to fit and will not sit correctly against the rails."
+    },
+    {
+      "q": "Can I put a bed rail on the toddler bed as well?",
+      "a": "No. Portable bed rails are designed for a standard bed with a child of about two to five. Adding one to a toddler bed that already has integrated rails creates new gaps between the two rails."
+    },
+    {
+      "q": "My child fell out of the open side",
+      "a": "Many toddler beds leave an entry gap by design. Position the bed with that opening against a wall, or add a soft rug or crash mat on that side. Some models sell a second rail to close it."
+    }
+  ],
+  "terms": [
+    "barrel-nut",
+    "two-finger-test",
+    "slat",
+    "square",
+    "anti-tip",
+    "stud"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "coffee-table",
+  "name": "Coffee table, end table or console",
+  "tagline": "A top, legs or a frame, and sometimes a glass panel or a lower shelf. Usually the quickest build in the house.",
+  "covers": [
+    "Coffee tables",
+    "End and side tables",
+    "Console and entry tables",
+    "Nesting tables",
+    "Tables with a glass top or shelf",
+    "C-tables and laptop tables"
+  ],
+  "difficulty": 1,
+  "minutes": 20,
+  "people": 1,
+  "peopleNote": "One person, unless there is glass involved, in which case two.",
+  "tools": [
+    {
+      "n": "Phillips screwdriver",
+      "why": "Leg plates and shelf brackets.",
+      "req": true
+    },
+    {
+      "n": "The provided Allen key",
+      "why": "Leg bolts.",
+      "req": true
+    },
+    {
+      "n": "Suction cup lifter or two people",
+      "why": "Only if there is a glass top or shelf.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Leg bolts",
+    "Leg plates",
+    "Rubber or suction pads for glass",
+    "Leveling feet"
+  ],
+  "before": [
+    "Work with the top upside down on the box. Same as every table.",
+    "If there is glass, leave it in its packaging until the very last step, and never set it on a hard floor on its edge.",
+    "Check whether the legs are angled. Many modern tables have splayed legs that must all lean the same way."
+  ],
+  "safety": [
+    "Tempered glass shatters into fragments if you knock an edge or over-tighten a clamp. Handle it by the faces, never the edges.",
+    "Never tighten a bolt that passes through glass beyond finger-tight plus a small nudge."
+  ],
+  "steps": [
+    {
+      "title": "Top upside down on the cardboard",
+      "secs": 18,
+      "scene": "cardboard-floor",
+      "say": "Lay the top face-down on the flattened box. Sweep the floor first. One piece of grit under a table top leaves a scratch you will see forever.",
+      "do": [
+        "Sweep, then lay the cardboard",
+        "Top face-down",
+        "Legs and hardware to hand"
+      ]
+    },
+    {
+      "title": "Check whether the legs are angled",
+      "secs": 23,
+      "scene": "leg-angle",
+      "say": "Many tables have splayed legs. If the leg plate is angled, all four must lean outward in the same way. Hold each one up and look before you screw it.",
+      "do": [
+        "Look at the leg plate: is it flat or angled?",
+        "Angled plates must all point outward",
+        "Hold two up and compare the lean"
+      ],
+      "watch": "One leg mounted with its angle pointing inward makes the table rock and look wrong, and is very easy to do by accident."
+    },
+    {
+      "title": "Screw the leg plates on, loose",
+      "secs": 24,
+      "scene": "leg-screw",
+      "say": "Position each plate on its holes, start every screw, and leave them all loose. Use only the short screws for anything going into the top.",
+      "do": [
+        "Short screws into the top, longer bolts through the legs",
+        "Start all screws before tightening",
+        "Plates square to the table edges"
+      ],
+      "watch": "Compare screw length to top thickness. This is the step where people put a screw through a brand new table top."
+    },
+    {
+      "title": "Fit the lower shelf or stretcher",
+      "secs": 21,
+      "scene": "crossbar",
+      "say": "If there is a lower shelf or a bar between the legs, fit it now while everything is loose. It is what stops the table racking.",
+      "do": [
+        "Bolt both ends finger-tight",
+        "Check it is the right way up",
+        "Make sure it sits level"
+      ],
+      "tip": "A lower shelf often doubles as the brace. Leaving it out because it looked decorative is why some tables wobble forever."
+    },
+    {
+      "title": "Tighten diagonally, two laps",
+      "secs": 24,
+      "scene": "tighten-sequence",
+      "say": "Tighten opposite corners rather than going round in order. Then do a second lap, because the first one loosens its neighbors.",
+      "do": [
+        "Opposite corners, in a cross",
+        "Shelf or stretcher last",
+        "Second full lap"
+      ],
+      "tip": "Firm and stop. These tops are usually chipboard or MDF with a thin veneer and they strip very easily."
+    },
+    {
+      "title": "Flip it and level it",
+      "secs": 24,
+      "scene": "leveling-feet",
+      "say": "Lift it over rather than rolling it on a leg. Then press each corner and adjust the feet until it sits dead still.",
+      "do": [
+        "Lift, do not lever",
+        "Press each corner to find the short leg",
+        "Screw that foot out, or add a felt pad"
+      ],
+      "tip": "Felt pads on all four legs: protects the floor, stops the drag noise, and gives you a free way to shim the short leg."
+    },
+    {
+      "title": "Fit the glass last, with two people",
+      "secs": 25,
+      "scene": "glass-set",
+      "say": "Stick the rubber or suction pads on first, then lower the glass straight down onto them. Two people, handling it by the faces.",
+      "do": [
+        "Clean pads stuck in position first",
+        "Two people, flat hands on the top and bottom faces",
+        "Lower straight down, do not slide it into place"
+      ],
+      "watch": "Never slide glass across a frame or set its edge against anything hard. Tempered glass fails from edge damage, and when it fails it goes all at once.",
+      "tip": "Clean both the glass and the pads with glass cleaner first. Dust under a suction pad means the glass will shift."
+    },
+    {
+      "title": "Load test and finish",
+      "secs": 21,
+      "scene": "shake-test",
+      "say": "Press down firmly on each corner and the middle, then push sideways to check for rack. Any movement means one more tightening pass.",
+      "do": [
+        "Press each corner and the center",
+        "Push sideways at the top",
+        "Retighten anything that moved"
+      ],
+      "tip": "Re-tighten once more after a couple of weeks. New tables settle, and two minutes then saves a wobble later."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The table rocks on my floor",
+      "a": "Find the leg that lifts, then either screw out its leveling foot or double up a felt pad underneath. Most floors are not flat, so this is normal and permanent."
+    },
+    {
+      "q": "The table racks sideways when I push it",
+      "a": "The lower shelf or stretcher is loose or missing. That part is the brace. Tighten it, or check the parts list to see if you skipped it."
+    },
+    {
+      "q": "One leg sticks out at a different angle",
+      "a": "An angled leg plate is mounted the wrong way round. Unscrew it, rotate it so the lean matches the other three, re-screw."
+    },
+    {
+      "q": "The glass top slides around",
+      "a": "The rubber or suction pads are missing, dirty, or not stuck down. Clean the glass and the frame with glass cleaner, apply fresh pads, lower the glass straight down."
+    },
+    {
+      "q": "A screw went through the top",
+      "a": "Wrong length screw. Back it out, fill with a colored wax repair stick, and use the short screws. Always compare screw length to top thickness first."
+    }
+  ],
+  "terms": [
+    "leg-plate",
+    "stretcher",
+    "leveling-foot",
+    "tempered-glass"
+  ]
+}

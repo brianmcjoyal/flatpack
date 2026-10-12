@@ -1,0 +1,239 @@
+{
+  "id": "crib-mattress-fit",
+  "name": "Crib mattress fit and safe sleep check",
+  "tagline": "Not an assembly job — a five-minute check. It is also the single most recalled failure in the whole nursery category, and no crib manual tells you to do it.",
+  "covers": [
+    "Crib mattress fit check",
+    "Mini crib and play yard mattress fit",
+    "Bassinet pad fit",
+    "Safe sleep setup",
+    "Second-hand crib and mattress checks"
+  ],
+  "difficulty": 1,
+  "minutes": 10,
+  "people": 1,
+  "peopleNote": "One person and two fingers.",
+  "standard": {
+    "name": "16 CFR 1219 and 16 CFR 1241",
+    "note": "A full-size crib mattress is a regulated size: at least 51 5/8 inches long, at least 27 1/4 inches wide, and no more than 6 inches thick. Infant mattresses must also meet firmness requirements under 16 CFR 1241. Padded crib bumpers are banned outright under the Safe Sleep for Babies Act."
+  },
+  "recall": true,
+  "tools": [
+    {
+      "n": "Two fingers",
+      "why": "The gap test is done by hand. Two adult fingers is the standard.",
+      "req": true
+    },
+    {
+      "n": "Tape measure",
+      "why": "Checking the mattress against the regulated dimensions.",
+      "req": true
+    },
+    {
+      "n": "An empty soda can",
+      "why": "A standard can is about the same width as the maximum allowed slat gap. It is the easiest field test there is.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Nothing. This is a check, not a build."
+  ],
+  "before": [
+    "Do this the day the crib is finished, and again any time the mattress, the mattress height or the crib itself changes.",
+    "Strip the crib to the bare mattress. Sheets and pads hide exactly what you are looking for.",
+    "Have the crib manual to hand if you have it — mattress size requirements are printed in it."
+  ],
+  "safety": [
+    "Nothing goes in a crib but a firm, correctly sized mattress and a fitted sheet. No pillows, no quilts, no bumpers, no positioners, no stuffed toys.",
+    "Padded crib bumpers are illegal to sell in the US. If one came with a bedding set, throw it away rather than passing it on.",
+    "Never add a second mattress, a mattress topper, or a folded blanket under the sheet to make the crib softer. Firm is the safety feature.",
+    "Baby sleeps on their back, on a flat surface, every sleep."
+  ],
+  "steps": [
+    {
+      "title": "Strip it back to the bare mattress",
+      "secs": 16,
+      "scene": "mattress-bare",
+      "say": "Take off the sheet, the waterproof pad, everything. You cannot judge a gap through bedding, and bedding is often what is hiding one.",
+      "do": [
+        "Sheet and any mattress protector off",
+        "Anything stored under the mattress removed",
+        "Look at the bare mattress sitting on the bare support"
+      ],
+      "watch": "If you find anything stored underneath the mattress, that changes the height and the fit. Nothing goes under a crib mattress."
+    },
+    {
+      "title": "The two-finger test on all four sides",
+      "secs": 22,
+      "scene": "two-finger-gap",
+      "say": "Push the mattress firmly into one corner. Then try to slide two fingers into the gap on the opposite side. Repeat at both ends. More than two fingers anywhere means the mattress is wrong for this crib.",
+      "do": [
+        "Press the mattress hard into one corner",
+        "Two fingers into the gap on the far side — they should not fit easily",
+        "Repeat at the head and the foot",
+        "Then push to the opposite corner and test again"
+      ],
+      "tip": "Use two adult fingers held flat together, not spread. If they slide in with room to spare, the gap is too big.",
+      "watch": "This is the test that prevents the most common and most serious crib failure. Undersized mattresses and mattresses sold for the wrong frame have been recalled over and over, and the hazard is an infant becoming trapped in the side gap."
+    },
+    {
+      "title": "Measure it against the regulated size",
+      "secs": 20,
+      "scene": "mattress-measure",
+      "say": "A full-size crib mattress has legally defined dimensions. Measure yours: at least fifty-one and five-eighths inches long, at least twenty-seven and a quarter wide, no more than six inches thick.",
+      "do": [
+        "Length: at least 51 5/8 inches",
+        "Width: at least 27 1/4 inches",
+        "Thickness: no more than 6 inches",
+        "For a toddler bed conversion, also at least 4 inches thick"
+      ],
+      "tip": "If you buy a mattress described as a full-size crib mattress from a reputable maker, these numbers take care of themselves. The problem is almost always a generic or imported mattress sold to fit 'most cribs'.",
+      "watch": "Mini cribs, play yards and bassinets all take different, smaller sizes. A mattress bought for one will not fit another, and 'close enough' is exactly the failure mode."
+    },
+    {
+      "title": "Press-test the firmness",
+      "secs": 18,
+      "scene": "mattress-firm",
+      "say": "Press your hand flat into the middle. A safe infant mattress feels unyieldingly firm and springs back immediately with no hand-shaped dent.",
+      "do": [
+        "Press down hard with a flat hand in the center",
+        "Lift off and watch — it should return instantly",
+        "No lingering impression, no sinking"
+      ],
+      "watch": "An infant mattress that feels comfortable to an adult is too soft. Softness is the hazard. If it conforms to your hand, it will conform around a baby's face."
+    },
+    {
+      "title": "Check the sheet actually fits",
+      "secs": 18,
+      "scene": "sheet-fit",
+      "say": "A fitted sheet must be made for that mattress size and must grip all four corners tightly. A sheet that can be pulled off a corner by hand will come off under a baby.",
+      "do": [
+        "Fitted sheet only, sized for that exact mattress",
+        "Pull firmly at each corner — it should not release",
+        "No loose fabric anywhere on the surface"
+      ],
+      "tip": "If a sheet keeps popping off a corner, it is too big. Sheet garters are not the answer — the right size sheet is.",
+      "watch": "A sheet that balls up is a suffocation risk. This is a real failure, not fussiness."
+    },
+    {
+      "title": "Check the slat gaps with a can",
+      "secs": 16,
+      "scene": "slat-check",
+      "say": "Slats must be no more than two and three-eighths inches apart. A standard soda can will not pass between correctly spaced slats.",
+      "do": [
+        "Try to pass a can between several pairs of slats",
+        "If it passes anywhere, stop using the crib",
+        "Also check no slat is loose or cracked"
+      ],
+      "watch": "Wide slat spacing has caused real recalls. On a second-hand crib it can also mean a slat is missing or has been replaced incorrectly."
+    },
+    {
+      "title": "Check the rail height above the mattress",
+      "secs": 18,
+      "scene": "mattress-height",
+      "say": "With the mattress at its current height, the top of the crib side must be at least three inches above the mattress surface at the highest setting — and much more once your baby can stand.",
+      "do": [
+        "Measure from the mattress top to the top of the side rail",
+        "At least 3 inches at the highest mattress setting",
+        "Lowest setting before your baby can pull to standing"
+      ],
+      "tip": "The rail should reach at least to your baby's chest when they stand against it. Once it is below the nipple line, it is time to move on from the crib entirely."
+    },
+    {
+      "title": "Empty the crib completely",
+      "secs": 18,
+      "scene": "crib-empty",
+      "say": "Mattress and fitted sheet. That is the whole list. Everything else comes out, including the things that came in the bedding set.",
+      "do": [
+        "No bumpers of any kind — they are banned",
+        "No pillows, quilts, comforters or loose blankets",
+        "No sleep positioners or wedges",
+        "No stuffed toys"
+      ],
+      "tip": "A wearable blanket or sleep sack is the safe way to keep a baby warm. It cannot ride up over the face.",
+      "watch": "Padded bumpers are the single most recalled item in this whole category, year after year, because they keep being sold despite the federal ban. If one is in your bedding set, bin it."
+    },
+    {
+      "title": "Check the mattress against the recall list",
+      "secs": 16,
+      "scene": "recall-check",
+      "say": "Check the mattress itself, not just the crib. Mattresses are recalled separately and frequently, for fit and for flammability.",
+      "do": [
+        "Find the law tag sewn to the mattress and note the model",
+        "Search it at cpsc.gov/recalls",
+        "Photograph the law tag — warranty and recall claims need it"
+      ],
+      "watch": "Several crib mattresses have been recalled for failing flammability standards as well as for fit. Both are on the same label."
+    },
+    {
+      "title": "Put it in the calendar",
+      "secs": 18,
+      "scene": "calendar-recheck",
+      "say": "Re-run this whole check monthly. Mattresses compress, supports settle, and a gap that was not there in month one can be there in month five.",
+      "do": [
+        "Monthly reminder, takes five minutes",
+        "Also after every mattress height change",
+        "Also any time the crib is moved or taken apart"
+      ],
+      "tip": "Pair it with the crib hardware check. Same reminder, same five minutes, and they cover the two biggest hazards in the room."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every month",
+      "what": "Two-finger gap test on all four sides. Mattresses compress with use and gaps open up over time."
+    },
+    {
+      "when": "Every month",
+      "what": "Press-test the firmness. A mattress that has started to dish in the middle needs replacing."
+    },
+    {
+      "when": "Every month",
+      "what": "Check the fitted sheet still grips all four corners and nothing has been added to the crib."
+    },
+    {
+      "when": "Every mattress height change",
+      "what": "Re-run the gap test and re-measure the rail height above the mattress."
+    },
+    {
+      "when": "Twice a year",
+      "what": "Re-check both the crib and the mattress model numbers at cpsc.gov/recalls."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "There is a gap of about an inch at one end",
+      "a": "That is too much. Two fingers is the limit and an inch comfortably exceeds it. The mattress is undersized for this crib — replace it with one that meets the full-size dimensions. Do not fill the gap with rolled towels or foam; that has caused deaths."
+    },
+    {
+      "q": "The mattress fits side to side but not end to end",
+      "a": "It is a mini crib or play yard mattress in a full-size crib, or a cut-down import. Measure it against 51 5/8 by 27 1/4 inches and replace if it falls short."
+    },
+    {
+      "q": "Can I add a mattress topper for comfort?",
+      "a": "No. Infant mattresses are firm by design and that firmness is the safety feature. A topper creates a soft surface and raises the sleep height, which also shortens the rail."
+    },
+    {
+      "q": "The sheet keeps coming off a corner",
+      "a": "The sheet is too large for the mattress. Buy one sized for that mattress. A loose sheet that balls up is a genuine suffocation risk, not an inconvenience."
+    },
+    {
+      "q": "My crib came with a bumper in the bedding set",
+      "a": "Throw it away. Padded crib bumpers are banned from sale in the US under the Safe Sleep for Babies Act and remain one of the most recalled items in the category. Do not pass it on."
+    },
+    {
+      "q": "The mattress has a dip where the baby sleeps",
+      "a": "Replace it. A dished mattress is both a soft-surface hazard and a sign the mattress support underneath may be sagging — check those four support bolts while you are at it."
+    },
+    {
+      "q": "Is a second-hand mattress acceptable?",
+      "a": "A crib can safely be second-hand if it checks out. A mattress is a harder call: you cannot see internal compression or hygiene, and firmness degrades. Most guidance is to buy the mattress new even when the crib is handed down."
+    }
+  ],
+  "terms": [
+    "two-finger-test",
+    "slat-spacing",
+    "law-tag",
+    "mattress-support"
+  ]
+}

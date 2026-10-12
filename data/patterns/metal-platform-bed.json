@@ -1,0 +1,188 @@
+{
+  "id": "metal-platform-bed",
+  "name": "Metal platform bed frame",
+  "tagline": "Steel side rails, bolt-on legs, and a roll of slats. No box spring needed.",
+  "covers": [
+    "Metal platform beds",
+    "Low-profile steel bed frames",
+    "Under-bed storage frames",
+    "Smart base frames",
+    "Heavy duty noise-free frames"
+  ],
+  "difficulty": 1,
+  "minutes": 30,
+  "people": 1,
+  "peopleNote": "Doable alone. Easier with two for the final lift.",
+  "tools": [
+    {
+      "n": "The provided Allen key",
+      "why": "Usually the only tool needed.",
+      "req": true
+    },
+    {
+      "n": "Adjustable wrench or pliers",
+      "why": "Some frames use nuts that need holding while you turn the bolt.",
+      "req": false
+    },
+    {
+      "n": "A rag",
+      "why": "Steel tubes often arrive with machine oil on them.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Hex bolts",
+    "Washers",
+    "Center support legs",
+    "Slat roll or individual slats"
+  ],
+  "before": [
+    "Build it in the bedroom. An assembled queen frame does not fit through a standard door.",
+    "Have the mattress nearby but leaning against a wall, not on the floor where you need to work.",
+    "Lay a towel or the cardboard down. Steel rails scratch hardwood instantly."
+  ],
+  "safety": [
+    "Steel edges from the factory can be sharp. Wipe the oil off and watch your fingers on cut ends.",
+    "Never skip the center support legs on a queen or king. That is what stops the frame from folding in the middle."
+  ],
+  "steps": [
+    {
+      "title": "Unpack and sort into three piles",
+      "secs": 18,
+      "scene": "sort-hardware",
+      "say": "Make three piles. Long rails, short rails and legs, and the hardware bag. Wipe the oil off the steel now rather than onto your sheets later.",
+      "do": [
+        "Two long side rails",
+        "Two short head and foot rails, plus legs",
+        "One hardware bag: bolts, washers, Allen key"
+      ],
+      "tip": "The hardware bag is often taped inside one of the tubes. Shake them if you cannot find it."
+    },
+    {
+      "title": "Lay the rectangle out on the floor first",
+      "secs": 21,
+      "scene": "frame-layout",
+      "say": "Put the four rails on the floor in the shape of the bed before you attach anything. Long rails on the sides, short ones at the head and foot.",
+      "do": [
+        "Form the rectangle roughly where the bed will live",
+        "Point the bracket holes inward and up",
+        "Check the head rail is the one with the headboard bolt holes, if your frame has them"
+      ],
+      "watch": "Head and foot rails can look identical but only one has the extra holes for a headboard. Compare them side by side."
+    },
+    {
+      "title": "Bolt the corners finger-tight only",
+      "secs": 22,
+      "scene": "bolt-hex",
+      "say": "Put every corner bolt in with its washer, but only finger-tight for now. Leaving them loose lets the frame shuffle into square.",
+      "do": [
+        "Washer always goes between the bolt head and the steel",
+        "Thread each bolt in by hand several turns",
+        "Four corners, loose"
+      ],
+      "tip": "Tightening as you go is why frames end up with one bolt that will not reach its hole. Loose first, tight last. Every single time.",
+      "watch": "If a bolt will not start by hand, you are cross-threading it. Back it out and start again straight."
+    },
+    {
+      "title": "Fit the center support bar",
+      "secs": 21,
+      "scene": "center-support",
+      "say": "Queen and king frames have a bar that runs down the middle, head to foot. It bolts to the head and foot rails. This is the backbone.",
+      "do": [
+        "Run it from head rail to foot rail through the center",
+        "Bolt both ends finger-tight",
+        "If it comes in two halves, join them in the middle first"
+      ],
+      "watch": "Some frames have a second cross bar. Check the manual for how many — missing one is the usual cause of a frame that sags under a mattress."
+    },
+    {
+      "title": "Screw the legs in",
+      "secs": 18,
+      "scene": "leg-screw",
+      "say": "Legs either thread into a socket or bolt onto a plate. Get them all in, including the center legs, which are the ones that actually carry the weight.",
+      "do": [
+        "Thread each leg in until it stops",
+        "Center legs go on the support bar",
+        "Count them against the manual: there are usually more than you expect"
+      ],
+      "tip": "If a leg has a plastic foot, make sure it is pressed fully on. They fall off and then the frame rocks."
+    },
+    {
+      "title": "Square it, then tighten everything",
+      "secs": 23,
+      "scene": "square-check",
+      "say": "Measure both diagonals of the rectangle and nudge until they match. Now go around and tighten every bolt firmly. Corners first, then the center.",
+      "do": [
+        "Measure corner to corner both ways",
+        "Push the long corner in until the numbers match",
+        "Tighten all bolts in a circuit, then do a second lap"
+      ],
+      "tip": "A second lap matters: tightening one bolt loosens its neighbor. Two laps and it is solid."
+    },
+    {
+      "title": "Roll out the slats",
+      "secs": 21,
+      "scene": "slat-lay",
+      "say": "Unroll the slats across the frame and space them evenly. Most have straps and a screw or clip at each end to stop them sliding.",
+      "do": [
+        "Unroll from head to foot",
+        "Space them evenly along the frame",
+        "Secure the end slats with the screws or clips provided"
+      ],
+      "watch": "Slats that are not fixed down creep toward the foot of the bed over a few months and then you have a gap under your hips."
+    },
+    {
+      "title": "Shake it hard before the mattress goes on",
+      "secs": 18,
+      "scene": "shake-test",
+      "say": "Grab a corner and rock it firmly. Any knock or squeak is a loose bolt, and it is ten times easier to find now than at midnight.",
+      "do": [
+        "Push and rock each corner",
+        "Listen for a metallic knock",
+        "Chase the noise and tighten that bolt"
+      ],
+      "tip": "Most squeaky metal bed complaints are one under-tightened bolt or a missing washer, not a bad frame."
+    },
+    {
+      "title": "Mattress on, then set it against the wall",
+      "secs": 18,
+      "scene": "mattress-place",
+      "say": "Walk the mattress on from the foot end. Then slide the whole bed into place and check it sits level and does not rock.",
+      "do": [
+        "Lift from the foot, not the side",
+        "Center it on the slats",
+        "Slide into position and check for rocking on uneven floors"
+      ],
+      "tip": "If it rocks on an uneven floor, a folded piece of cardboard under one leg fixes it permanently and costs nothing."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The last bolt hole will not line up",
+      "a": "Classic sign you tightened as you went. Loosen every other bolt a couple of turns, the frame will shuffle, the bolt will go in, then re-tighten everything."
+    },
+    {
+      "q": "The bed squeaks when I move",
+      "a": "Do a full tightening lap. If it still squeaks, the usual culprits are a missing washer, slats rubbing on the rail — put felt pads or a strip of fabric under the slat ends — or the frame touching the wall."
+    },
+    {
+      "q": "The center sags under the mattress",
+      "a": "A center support leg is missing or not touching the floor. Check every leg contacts the ground; some thread in and out to adjust height."
+    },
+    {
+      "q": "There are leftover bolts",
+      "a": "Check for a second cross support or extra legs you skipped, and check whether your frame also supports a headboard. Manufacturers do include a few spares, but count against the manual before assuming yours are spare."
+    },
+    {
+      "q": "My frame came with no slats",
+      "a": "Some platform frames are designed for a bunkie board or a bed base instead. Check the listing. Putting a mattress straight onto bare rails voids most mattress warranties."
+    }
+  ],
+  "terms": [
+    "slat",
+    "center-support",
+    "washer",
+    "square"
+  ]
+}

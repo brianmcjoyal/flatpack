@@ -1,0 +1,194 @@
+{
+  "id": "office-chair",
+  "name": "Office chair with a gas lift",
+  "tagline": "Five casters, a star base, a gas cylinder, and a back that bolts on. Twenty minutes if you do the base right.",
+  "covers": [
+    "Desk and task chairs",
+    "Mesh ergonomic chairs",
+    "Executive leather chairs",
+    "Drafting stools",
+    "Managerial chairs"
+  ],
+  "difficulty": 1,
+  "minutes": 25,
+  "people": 1,
+  "peopleNote": "One person. Holding the back while you bolt it is the only awkward moment.",
+  "tools": [
+    {
+      "n": "The provided Allen key",
+      "why": "Nearly every bolt on the chair.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Some back brackets and arm covers.",
+      "req": false
+    },
+    {
+      "n": "A rubber mallet",
+      "why": "Seating the casters and the gas cylinder with a confident tap.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Hex bolts and washers",
+    "Five casters",
+    "Gas cylinder and sleeve",
+    "Base and mechanism cover"
+  ],
+  "before": [
+    "Do it on carpet or cardboard. Chair bases are heavy plastic or steel and will mark a floor.",
+    "Keep every bolt in its labelled bag until the step that needs it. Office chairs use three or four bolt lengths that look identical.",
+    "Leave the plastic on the seat until the end so you do not get hand oil on new fabric."
+  ],
+  "safety": [
+    "Never try to open, cut, or puncture a gas cylinder. It is under high pressure and can injure you seriously.",
+    "If a caster will not seat, do not stand on the base to force it. Lay it flat and press down with your palm over the socket."
+  ],
+  "steps": [
+    {
+      "title": "Press the casters into the base",
+      "secs": 21,
+      "scene": "caster-press",
+      "say": "Flip the five-armed base upside down and push each caster into its socket until it clicks. They push in. There are no screws.",
+      "do": [
+        "Base upside down on carpet",
+        "Line the caster stem up straight with the socket",
+        "Push hard with the heel of your hand until it clicks"
+      ],
+      "tip": "If one will not go, a single firm tap with a rubber mallet seats it instantly.",
+      "watch": "A caster that is only half in will fall out the first time you roll over a threshold. All five should look identical in height."
+    },
+    {
+      "title": "Drop the gas cylinder in",
+      "secs": 18,
+      "scene": "gas-lift",
+      "say": "Turn the base right way up and drop the gas cylinder into the center hole, narrow end up. It is a friction fit. Your weight locks it later.",
+      "do": [
+        "Slide the plastic sleeve onto the cylinder first if there is one",
+        "Narrow end points up",
+        "Drop it in, no force needed"
+      ],
+      "watch": "The plastic cover sleeve has to go on before the cylinder sits in the base. Fitting it after means pulling the chair apart."
+    },
+    {
+      "title": "Bolt the seat to the mechanism",
+      "secs": 22,
+      "scene": "seat-mech",
+      "say": "Turn the seat upside down and bolt the tilt mechanism to its underside. The lever that adjusts the height must point to the right-hand side when you sit.",
+      "do": [
+        "Seat upside down on your lap or the floor",
+        "Line up all four bolt holes before starting any bolt",
+        "Washer, then bolt, finger-tight on all four, then tighten"
+      ],
+      "tip": "Start all four bolts loosely first. A mechanism bolted down at one corner will not let the others reach.",
+      "watch": "Mechanism on backwards is the single most common office chair mistake. The height lever goes on the right as you sit."
+    },
+    {
+      "title": "Attach the armrests, if they are separate",
+      "secs": 18,
+      "scene": "armrest",
+      "say": "Armrests bolt to the underside of the seat, often through the same area. They are handed, so there is a left and a right.",
+      "do": [
+        "Hold each arm in place and see which curve matches the seat",
+        "Finger-tight both bolts, then tighten",
+        "Check both arms end up the same height"
+      ],
+      "tip": "If the arms look lopsided, you have them swapped. Swap and they will match."
+    },
+    {
+      "title": "Bolt the back on",
+      "secs": 23,
+      "scene": "chair-back-bracket",
+      "say": "The back attaches either to a bracket on the seat or directly into the seat's rear. Hold it in place, start every bolt loosely, then tighten them all.",
+      "do": [
+        "Have the back at the angle the manual shows",
+        "Start all bolts by hand before tightening any",
+        "Tighten in a cross pattern, not one side at a time"
+      ],
+      "tip": "If you are working alone, lean the back against a wall or box to hold it while you start the first bolt.",
+      "watch": "Mesh chairs often hide these bolts behind a plastic cover you have to unclip first. Look for a seam."
+    },
+    {
+      "title": "Snap on the covers",
+      "secs": 18,
+      "scene": "cover-snap",
+      "say": "The plastic shells that hide the bolts clip on last. Line up the tabs and press until they click all the way round.",
+      "do": [
+        "Line up every tab before pressing",
+        "Press firmly along the whole seam",
+        "They should sit flush with no gap"
+      ],
+      "watch": "Forcing a cover on at an angle snaps the tabs. If it resists, you are misaligned."
+    },
+    {
+      "title": "Lower the seat onto the cylinder",
+      "secs": 21,
+      "scene": "seat-drop",
+      "say": "Line the hole in the mechanism up with the top of the gas cylinder and press the seat down. Then sit on it. Your weight is what locks it together.",
+      "do": [
+        "Line up and press down firmly",
+        "Sit down on it fully",
+        "Stand up and check it has not come loose"
+      ],
+      "tip": "It feels alarmingly loose until you sit on it. That is normal — a tapered friction fit. Your body weight seats it permanently."
+    },
+    {
+      "title": "Tune it to your body",
+      "secs": 21,
+      "scene": "chair-adjust",
+      "say": "Height so your feet are flat and your thighs level. Tilt tension so you can lean back without falling. Lumbar support in the small of your back.",
+      "do": [
+        "Feet flat, knees at about a right angle",
+        "Elbows roughly level with the desk",
+        "Tilt tension knob under the seat: clockwise is firmer"
+      ],
+      "tip": "Most people run an office chair too low and too far from the desk. Raise it, pull it in, and your shoulders will thank you."
+    },
+    {
+      "title": "Roll it, rock it, tighten it",
+      "secs": 18,
+      "scene": "shake-test",
+      "say": "Roll it around and rock in it. Any clunk is a loose bolt. Give every bolt one last check and you are done.",
+      "do": [
+        "Roll over carpet and hard floor",
+        "Rock back and sit heavily",
+        "Final tighten on back and seat bolts"
+      ],
+      "tip": "Re-check the back bolts after a week. They settle, and a loose back is what makes a chair feel cheap."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The chair sinks down slowly when I sit on it",
+      "a": "The gas cylinder has failed. It is not repairable but it is a cheap, universal part — almost all office chairs use the same size. Search 'office chair gas cylinder replacement' and swap it out."
+    },
+    {
+      "q": "The seat will not stay on the cylinder",
+      "a": "Sit on it properly. It is a tapered friction fit that needs real weight to seat. If it still lifts off, check the cylinder is dropped fully into the base."
+    },
+    {
+      "q": "The back leans to one side",
+      "a": "One side's bolts are tighter than the other, or a washer was missed. Loosen all the back bolts, hold it straight, and tighten evenly in a cross pattern."
+    },
+    {
+      "q": "A caster keeps falling out",
+      "a": "It was never fully seated. Lay the base on its side, line the stem up straight, and hit it once with a rubber mallet. If the socket itself is cracked, the base needs replacing."
+    },
+    {
+      "q": "The height lever is on the wrong side",
+      "a": "The mechanism is bolted on backwards. Undo the four bolts under the seat, turn it 180 degrees, re-bolt."
+    },
+    {
+      "q": "It rolls away on hardwood floors",
+      "a": "Standard office casters are made for carpet. Swap in rubber or polyurethane casters — they pull out and push in, no tools, and they cost very little."
+    }
+  ],
+  "terms": [
+    "gas-cylinder",
+    "caster",
+    "mechanism",
+    "washer"
+  ]
+}

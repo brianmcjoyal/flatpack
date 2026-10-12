@@ -1,0 +1,207 @@
+{
+  "id": "gaming-chair",
+  "name": "Gaming or racing chair",
+  "tagline": "Like an office chair, but the back bolts on through side brackets hidden under the upholstery. That part catches everyone.",
+  "covers": [
+    "Racing-style gaming chairs",
+    "PC gaming chairs with a reclining back",
+    "Bucket seat chairs",
+    "Chairs with a lumbar pillow and headrest",
+    "Streaming and esports chairs"
+  ],
+  "difficulty": 2,
+  "minutes": 40,
+  "people": 1,
+  "peopleNote": "One person can do it, but holding the heavy back upright while starting the first bolt is much easier with two.",
+  "tools": [
+    {
+      "n": "The provided Allen key",
+      "why": "Every bolt on the chair.",
+      "req": true
+    },
+    {
+      "n": "A second Allen key or a hex bit in a screwdriver handle",
+      "why": "Much more leverage on the side bracket bolts, which are tight.",
+      "req": false
+    },
+    {
+      "n": "Rubber mallet",
+      "why": "Seating the casters.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Hex bolts and washers",
+    "Side bracket covers",
+    "Casters",
+    "Gas cylinder and sleeve",
+    "Lumbar and headrest pillows"
+  ],
+  "before": [
+    "Lay everything out on the box. Gaming chairs come with four or five bolt lengths that look nearly identical — keep them in their bags.",
+    "Find the side brackets early. They are the two metal plates, often already bolted to the seat under a zipped or velcroed flap.",
+    "Do not remove any protective film from the plastic until the end."
+  ],
+  "safety": [
+    "Never attempt to open or cut a gas cylinder. It is under high pressure.",
+    "The back is heavy. Do not let go of it while only one bolt is started."
+  ],
+  "steps": [
+    {
+      "title": "Casters into the base",
+      "secs": 16,
+      "scene": "caster-press",
+      "say": "Flip the five-arm base over and push each caster in until it clicks. Push with your palm, or tap once with a mallet.",
+      "do": [
+        "Base upside down",
+        "Stem straight into the socket",
+        "Firm push until it clicks"
+      ],
+      "watch": "All five should sit at the same height. One half-seated caster falls out on the first threshold you roll over."
+    },
+    {
+      "title": "Sleeve, then cylinder, into the base",
+      "secs": 16,
+      "scene": "gas-lift",
+      "say": "Slide the plastic cover sleeve onto the gas cylinder first, then drop the cylinder into the center of the base, narrow end up.",
+      "do": [
+        "Sleeve onto the cylinder before anything else",
+        "Narrow end up",
+        "Drop in, no force"
+      ],
+      "watch": "Forgetting the sleeve means pulling the chair apart later to fit it. It is the most forgotten part in the box."
+    },
+    {
+      "title": "Find the side brackets",
+      "secs": 18,
+      "scene": "find-holes",
+      "say": "The back bolts to two metal plates on the sides of the seat. They are usually hidden under a zipped flap or a velcro panel. Open those flaps now.",
+      "do": [
+        "Look along both sides of the seat for a zip or velcro flap",
+        "Fold the flap back to expose the metal bracket",
+        "Note the bolt holes and which way they face"
+      ],
+      "tip": "On many chairs the brackets arrive bolted flat against the seat and have to be swung upright. Loosen their bolts, swing them up, and leave them loose.",
+      "watch": "Never cut the upholstery to find a bracket. Every one of these chairs has a flap."
+    },
+    {
+      "title": "Bolt the back on, loosely, with help",
+      "secs": 22,
+      "scene": "chair-back-bracket",
+      "say": "Hold the back upright between the two brackets and start one bolt on each side. Only a couple of turns. Then add the rest.",
+      "do": [
+        "Back held upright, brackets lined up with its holes",
+        "One bolt started on each side before you let go",
+        "Then all remaining bolts, finger-tight"
+      ],
+      "tip": "If you are alone, rest the back on a stack of cushions at roughly the right height. It holds the weight while you start the first bolt.",
+      "watch": "Washers matter on these bolts. They stop the bolt pulling through the bracket under recline load."
+    },
+    {
+      "title": "Square the back, then tighten properly",
+      "secs": 22,
+      "scene": "tighten-sequence",
+      "say": "Stand back and check the back is centered and vertical. Then tighten both sides evenly, alternating left and right, firmly.",
+      "do": [
+        "Look from the front: is the back centered and straight?",
+        "Tighten alternating sides, a little at a time",
+        "Finish firm — these bolts carry your weight when you recline"
+      ],
+      "watch": "Tightening one side fully first pulls the back crooked and locks it that way."
+    },
+    {
+      "title": "Clip the bracket covers on",
+      "secs": 16,
+      "scene": "cover-snap",
+      "say": "The plastic side covers hide the brackets. Line up the tabs and press until they click all the way round.",
+      "do": [
+        "Line every tab up first",
+        "Press along the whole edge",
+        "They should sit flush"
+      ],
+      "tip": "Left and right covers are usually different. If one does not fit, try it on the other side before forcing it."
+    },
+    {
+      "title": "Bolt the tilt mechanism under the seat",
+      "secs": 18,
+      "scene": "seat-mech",
+      "say": "Turn the whole seat and back assembly over and bolt the tilt mechanism to the underside. The height lever goes on the right as you sit.",
+      "do": [
+        "Assembly upside down on the box",
+        "All four bolts started before tightening any",
+        "Height lever points to your right when seated"
+      ],
+      "watch": "Mechanism backwards is the standard error. Check the lever side before you tighten."
+    },
+    {
+      "title": "Fit the armrests",
+      "secs": 16,
+      "scene": "armrest",
+      "say": "Armrests bolt through the seat base. They are handed, so if one looks wrong it is on the wrong side.",
+      "do": [
+        "Hold each arm up and match the curve to the seat",
+        "Bolts from underneath",
+        "Check both end up at the same height"
+      ],
+      "tip": "On 4D armrests, do not force the sliding parts while bolting. Bolt first, adjust after."
+    },
+    {
+      "title": "Drop the seat onto the cylinder and sit on it",
+      "secs": 18,
+      "scene": "seat-drop",
+      "say": "Line the hole in the mechanism up with the cylinder and press down. Then sit on it with your full weight — that is what locks it.",
+      "do": [
+        "Line up and press down",
+        "Sit fully",
+        "Stand and check it holds"
+      ],
+      "tip": "It feels loose until you sit. That is a tapered friction fit and it is correct."
+    },
+    {
+      "title": "Pillows, recline, and a final tighten",
+      "secs": 18,
+      "scene": "chair-adjust",
+      "say": "Thread the headrest and lumbar pillow straps on, test the recline through its full range, then do one last tightening pass on the side bolts.",
+      "do": [
+        "Headrest strap around the top of the back, lumbar strap around the middle",
+        "Recline fully and return",
+        "Final tighten on the side bracket bolts"
+      ],
+      "watch": "Test the recline before someone leans back hard for the first time. Full recline puts maximum load on exactly the bolts you just fitted."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "I cannot find where the back attaches",
+      "a": "Under the zipped or velcroed flaps on both sides of the seat. The metal brackets are often folded flat against the seat and need their bolts loosened so they can swing upright."
+    },
+    {
+      "q": "The back leans to one side",
+      "a": "One side was tightened before the other. Loosen all the side bolts, hold the back straight while looking from the front, and tighten alternating sides a little at a time."
+    },
+    {
+      "q": "The chair sinks when I sit on it",
+      "a": "Failed gas cylinder. It is a standard, inexpensive, universal part on nearly all chairs. Search for an office chair gas cylinder replacement in the same size class."
+    },
+    {
+      "q": "The recline lever does nothing",
+      "a": "Check the tilt tension knob underneath — wound fully tight, the back will not move. Loosen it several turns and try again."
+    },
+    {
+      "q": "A bolt will not go all the way in",
+      "a": "Wrong length from the wrong bag, or the bracket is not quite aligned. Compare it to the manual's chart, and loosen the other bolts so the bracket can shift."
+    },
+    {
+      "q": "The armrests are at different heights",
+      "a": "They are swapped left for right. Unbolt, swap, rebolt."
+    }
+  ],
+  "terms": [
+    "gas-cylinder",
+    "caster",
+    "mechanism",
+    "handed",
+    "washer"
+  ]
+}

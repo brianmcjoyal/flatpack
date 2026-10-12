@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "flatpack",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "/Users/brianmcjoyal/Desktop/flatpack/serve.js"
+      ],
+      "port": 4321,
+      "autoPort": false
+    }
+  ]
+}

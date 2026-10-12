@@ -1,0 +1,197 @@
+{
+  "id": "sectional-sofa",
+  "name": "Sofa, loveseat or sectional",
+  "tagline": "Big upholstered pieces that clip together and legs that screw on. Almost no tools, lots of lifting.",
+  "covers": [
+    "Modular and sectional sofas",
+    "Loveseats and armchairs",
+    "Convertible L-shaped sofas",
+    "Chaise lounges",
+    "Sofas with removable arms and backs"
+  ],
+  "difficulty": 2,
+  "minutes": 40,
+  "people": 2,
+  "peopleNote": "Two people. Sofa sections are not heavy so much as impossible to hold alone.",
+  "tools": [
+    {
+      "n": "Your hands",
+      "why": "Most modern sectionals use clips and screw-in legs with no tools at all.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Some back brackets and leg plates.",
+      "req": false
+    },
+    {
+      "n": "The provided Allen key",
+      "why": "Bolt-together arms on some models.",
+      "req": false
+    },
+    {
+      "n": "A utility knife",
+      "why": "Opening the plastic wrap. Cut away from the fabric, always.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "Metal clips or brackets",
+    "Screw-in legs",
+    "Leg plates",
+    "Connector pins",
+    "Cushion covers"
+  ],
+  "before": [
+    "Measure your doorway, hallway, and any turn before the delivery arrives. Sectionals come in pieces precisely so they fit, but each piece still has to get in.",
+    "Unwrap the pieces in the room, not in the hallway. The plastic protects them from door frames.",
+    "Decide which way the chaise or corner goes before you clip anything. On most sectionals you can choose left or right."
+  ],
+  "safety": [
+    "Cut plastic wrap away from the fabric and with a short blade. A nicked sofa cannot be repaired invisibly.",
+    "Lift sections from the frame underneath, never by the back cushion or the arm fabric."
+  ],
+  "steps": [
+    {
+      "title": "Unwrap in the room, cutting away from the fabric",
+      "secs": 19,
+      "scene": "unwrap",
+      "say": "Bring each piece in wrapped, then cut the plastic in the room where it lands. Short blade, cut away from the upholstery.",
+      "do": [
+        "Carry it in still wrapped",
+        "Cut along a seam of the plastic, blade angled away from the fabric",
+        "Bag the plastic immediately so nobody trips on it"
+      ],
+      "watch": "More new sofas are damaged by the unwrapping knife than by the delivery."
+    },
+    {
+      "title": "Screw the legs on while each piece is tipped",
+      "secs": 22,
+      "scene": "leg-screw",
+      "say": "Tip each section onto its back or front and screw the legs into their threaded plates. Hand tight is right. Do this before you clip anything together.",
+      "do": [
+        "Tip the section, do not lift it high",
+        "Thread each leg in by hand until it stops",
+        "Count the legs: a corner piece often takes an extra one"
+      ],
+      "tip": "If a leg has a bolt and a separate plate, the plate screws to the frame first with its own small screws.",
+      "watch": "Never force a leg that resists. You will cross-thread the insert and that leg will never sit straight again."
+    },
+    {
+      "title": "Attach the backs, if they come separate",
+      "secs": 21,
+      "scene": "sofa-back",
+      "say": "Many sofas ship with the backs off. They slide down into metal channels on the frame until they drop and lock, or they bolt on with brackets.",
+      "do": [
+        "Line the back's hooks up with the channels on the frame",
+        "Push straight down, firmly, until it seats with a thunk",
+        "Tug upward to confirm it is locked"
+      ],
+      "tip": "If a back will not drop in, it is usually on the wrong section — backs are often slightly different widths."
+    },
+    {
+      "title": "Position the sections before you clip them",
+      "secs": 19,
+      "scene": "sofa-layout",
+      "say": "Push the sections into their final position in the room first. Once clipped, the whole thing is one heavy object you will not want to move.",
+      "do": [
+        "Arrange in final position, roughly touching",
+        "Check the chaise is on the side you want",
+        "Leave a few inches between sections for now"
+      ],
+      "tip": "Most sectionals are reversible. Decide now, because changing your mind later means unclipping and relifting everything."
+    },
+    {
+      "title": "Clip the sections together",
+      "secs": 21,
+      "scene": "sofa-clip",
+      "say": "Line up the metal brackets on the adjoining frames, lift the two sections slightly, and slide them together until the hooks drop into each other.",
+      "do": [
+        "Line up the bracket on one with the slot on the other",
+        "Lift both slightly and slide together",
+        "Push down on the join to seat the hooks"
+      ],
+      "watch": "If the hooks will not meet, the two pieces are at slightly different heights. Have your helper lift one section an inch.",
+      "tip": "On a carpet, slide a piece of cardboard under the feet first. It makes the sections glide instead of fighting the pile."
+    },
+    {
+      "title": "Check it as one piece, not three",
+      "secs": 21,
+      "scene": "sofa-align",
+      "say": "Stand back and look along the top of the backs and the front of the seats. They should form one continuous line with no step between sections.",
+      "do": [
+        "Sight along the back rail",
+        "Sight along the seat front",
+        "Rock the join to check for play"
+      ],
+      "tip": "A step between two sections almost always means one piece has a leg screwed in further than the others. Level the legs and the step disappears."
+    },
+    {
+      "title": "Fit the cushions and the covers",
+      "secs": 19,
+      "scene": "cushion-fit",
+      "say": "Match each cushion to its place. Seat cushions and back cushions are often different depths, and the covers have hidden zips.",
+      "do": [
+        "Lay all cushions out and match sizes",
+        "Zips face down and toward the back where you cannot see them",
+        "Plump each one and work the corners of the cover into the foam corners"
+      ],
+      "tip": "A new cushion cover looks baggy. Pull the corners of the cover onto the corners of the foam and it tightens up immediately."
+    },
+    {
+      "title": "Sit in every seat and shake the joins",
+      "secs": 19,
+      "scene": "shake-test",
+      "say": "Sit heavily in each seat and across each join. Listen for clunks. Wiggle the sections to confirm the clips are holding.",
+      "do": [
+        "Sit in each position including across the joins",
+        "Try to pull two sections apart",
+        "Listen for a knock from a loose leg"
+      ],
+      "watch": "A section that moves separately is not clipped. Lift and reseat the hooks — do not just push harder."
+    },
+    {
+      "title": "Protect the floor and finish",
+      "secs": 19,
+      "scene": "floor-protect",
+      "say": "Stick felt pads on hard-floor legs or use cups on carpet. Then nudge the whole thing into final position and you are done.",
+      "do": [
+        "Felt pads under legs on wood, tile or laminate",
+        "Carpet cups if you want it to stop creeping",
+        "Lift to move it, do not drag"
+      ],
+      "tip": "Dragging a sofa on hard floors is how both the floor and the legs get wrecked. Lift, or slide on cardboard."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "Two sections will not clip together",
+      "a": "They are at different heights. Have someone lift one section an inch so the hook can drop into the slot. Also check the legs are all screwed in the same amount."
+    },
+    {
+      "q": "There is a gap or a step between sections",
+      "a": "Level the legs. One leg not threaded fully in tilts a whole section and shows up as a step at the join."
+    },
+    {
+      "q": "The back will not slide into the frame channels",
+      "a": "You most likely have the wrong back on that section, or it is upside down. The hooks always point downward into the channel."
+    },
+    {
+      "q": "A leg will not screw in straight",
+      "a": "Cross-threaded. Back it all the way out, start it again by hand very gently, and feel for the threads catching properly before applying any force."
+    },
+    {
+      "q": "The sofa creaks when someone sits down",
+      "a": "Usually a loose leg or an unseated clip. Tighten every leg by hand, then lift and reseat each join."
+    },
+    {
+      "q": "The cushion covers look loose and wrinkled",
+      "a": "Work the foam corners into the cover corners, then zip. New covers are cut to relax into shape and will look right within a week of use."
+    }
+  ],
+  "terms": [
+    "handed",
+    "leg-plate",
+    "clip-bracket"
+  ]
+}

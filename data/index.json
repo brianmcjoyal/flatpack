@@ -1,0 +1,2169 @@
+{
+  "meta": {
+    "name": "Flatpack",
+    "tagline": "Assembly instructions that actually make sense.",
+    "built": "2026-10-11",
+    "note": "Patterns are matched from free text. Every pattern file lives in data/patterns/ as plain JSON so it can be edited without touching any code.",
+    "gaps": [
+      "Car seats and anything that goes in a vehicle — installation is its own discipline, and a free certified technician inspection beats any written guide.",
+      "Treadmills, exercise bikes and home gym equipment.",
+      "Wall-mounted TV brackets and anything needing holes drilled into masonry.",
+      "Gazebos, pergolas, sheds and trampolines.",
+      "Electrical work of any kind, including hard-wired nursery lighting."
+    ],
+    "nurseryNote": "Nursery guides carry three things the others do not: the federal safety standard that applies, a prompt to check the model against the CPSC recall list, and a re-check schedule. That last one exists because every nursery manual we read says to inspect 'periodically' and none of them says how often or what to look at."
+  },
+  "patterns": [
+    {
+      "id": "cam-lock-carcass",
+      "name": "Cam-lock box furniture",
+      "tagline": "Flat panels joined with wooden pegs and little twist-locks.",
+      "group": "Storage",
+      "difficulty": 2,
+      "minutes": 75,
+      "people": 1,
+      "covers": [
+        "dresser",
+        "chest of drawers",
+        "nightstand",
+        "cabinet",
+        "sideboard",
+        "shoe cabinet",
+        "bedside table",
+        "credenza",
+        "buffet",
+        "armoire",
+        "wardrobe cabinet",
+        "linen cabinet",
+        "storage cabinet",
+        "accent cabinet",
+        "console cabinet"
+      ],
+      "strong": [
+        "dresser",
+        "chest of drawers",
+        "nightstand",
+        "night stand",
+        "bedside",
+        "cabinet",
+        "sideboard",
+        "credenza",
+        "buffet",
+        "armoire",
+        "cupboard",
+        "chiffonier",
+        "tallboy",
+        "highboy",
+        "commode",
+        "cam lock spins",
+        "cam lock wont tighten",
+        "holes dont line up",
+        "dresser wobbles"
+      ],
+      "weak": [
+        "drawer",
+        "storage",
+        "cam",
+        "dowel",
+        "chipboard",
+        "particle board",
+        "kallax",
+        "malm",
+        "hemnes",
+        "brimnes",
+        "beginnings"
+      ],
+      "related": [
+        "drawers",
+        "tv-stand",
+        "bookcase-open",
+        "changing-dresser"
+      ]
+    },
+    {
+      "id": "drawers",
+      "name": "Drawers and drawer slides",
+      "tagline": "Four sides, a base, and runners that have to be level.",
+      "group": "Storage",
+      "difficulty": 3,
+      "minutes": 45,
+      "people": 1,
+      "covers": [
+        "drawer unit",
+        "filing cabinet",
+        "drawer slides",
+        "under-bed drawers",
+        "desk drawer unit",
+        "mobile pedestal"
+      ],
+      "strong": [
+        "drawer slide",
+        "drawer slides",
+        "drawer runner",
+        "filing cabinet",
+        "file cabinet",
+        "drawer unit",
+        "drawer won't close",
+        "drawer box",
+        "pedestal drawer",
+        "drawer wont close",
+        "drawer will not close",
+        "drawer stuck",
+        "drawer sticking",
+        "drawer crooked",
+        "drawer rubbing",
+        "install drawer slides",
+        "drawer wont slide",
+        "drawer falls out",
+        "fix a drawer",
+        "drawers wont go in",
+        "drawer wont go in",
+        "drawer wont open",
+        "drawer not closing",
+        "drawer is crooked",
+        "drawers dont line up"
+      ],
+      "weak": [
+        "drawer",
+        "slide",
+        "runner",
+        "glide",
+        "stuck drawer",
+        "crooked drawer"
+      ],
+      "related": [
+        "cam-lock-carcass",
+        "tv-stand",
+        "changing-dresser"
+      ]
+    },
+    {
+      "id": "bookcase-open",
+      "name": "Bookcase or shelving unit",
+      "tagline": "Two tall sides, shelves, and a thin back that does all the work.",
+      "group": "Storage",
+      "difficulty": 2,
+      "minutes": 50,
+      "people": 1,
+      "covers": [
+        "bookcase",
+        "bookshelf",
+        "shelving unit",
+        "etagere",
+        "ladder shelf",
+        "display shelf",
+        "corner shelf",
+        "billy bookcase"
+      ],
+      "strong": [
+        "bookcase",
+        "bookshelf",
+        "book shelf",
+        "book case",
+        "shelving unit",
+        "etagere",
+        "ladder shelf",
+        "ladder bookshelf",
+        "display shelf",
+        "billy",
+        "shelf sagging",
+        "shelf is sagging",
+        "bookcase leaning",
+        "bookcase wobbles",
+        "shelf rocks"
+      ],
+      "weak": [
+        "shelf",
+        "shelves",
+        "shelving",
+        "library",
+        "bookshelves",
+        "tier shelf"
+      ],
+      "related": [
+        "cube-storage",
+        "wire-shelving",
+        "cam-lock-carcass"
+      ]
+    },
+    {
+      "id": "cube-storage",
+      "name": "Cube organizer and modular shelving",
+      "tagline": "Panels and plastic connectors, or a cam-lock grid.",
+      "group": "Storage",
+      "difficulty": 1,
+      "minutes": 35,
+      "people": 1,
+      "covers": [
+        "cube storage organizer",
+        "modular cube shelving",
+        "fabric drawer cubby",
+        "toy organizer",
+        "stackable cubes"
+      ],
+      "strong": [
+        "cube organizer",
+        "cube storage",
+        "cube shelf",
+        "cubby",
+        "cubbies",
+        "toy organizer",
+        "modular cube",
+        "storage cubes",
+        "9 cube",
+        "6 cube",
+        "4 cube",
+        "12 cube",
+        "cube unit leaning",
+        "connector cracked"
+      ],
+      "weak": [
+        "cube",
+        "modular",
+        "organizer",
+        "bins",
+        "fabric bin",
+        "kallax"
+      ],
+      "related": [
+        "bookcase-open",
+        "wire-shelving"
+      ]
+    },
+    {
+      "id": "wire-shelving",
+      "name": "Wire or metal utility shelving",
+      "tagline": "Posts, plastic collars, and shelves that wedge down on.",
+      "group": "Storage",
+      "difficulty": 1,
+      "minutes": 20,
+      "people": 1,
+      "covers": [
+        "wire shelving",
+        "garage rack",
+        "pantry rack",
+        "rolling utility cart",
+        "commercial kitchen rack",
+        "boltless rivet shelving"
+      ],
+      "strong": [
+        "wire shelving",
+        "wire shelf",
+        "wire rack",
+        "garage shelving",
+        "garage rack",
+        "utility shelving",
+        "chrome shelving",
+        "storage rack",
+        "rivet shelving",
+        "boltless",
+        "nsf rack",
+        "metal shelving unit",
+        "shelf sits crooked",
+        "wire shelf wont go down"
+      ],
+      "weak": [
+        "rack",
+        "pantry",
+        "garage",
+        "utility",
+        "chrome",
+        "basement shelving",
+        "wire"
+      ],
+      "related": [
+        "bookcase-open",
+        "cube-storage"
+      ]
+    },
+    {
+      "id": "fabric-wardrobe",
+      "name": "Fabric wardrobe or portable closet",
+      "tagline": "Plastic connectors, steel tubes, and a fabric cover.",
+      "group": "Storage",
+      "difficulty": 1,
+      "minutes": 35,
+      "people": 1,
+      "covers": [
+        "portable fabric wardrobe",
+        "garment rack",
+        "clothing rail",
+        "fabric closet organizer",
+        "modular plastic closet"
+      ],
+      "strong": [
+        "fabric wardrobe",
+        "portable closet",
+        "portable wardrobe",
+        "garment rack",
+        "clothes rack",
+        "clothing rack",
+        "closet organizer",
+        "fabric closet",
+        "canvas wardrobe",
+        "clothing rail",
+        "hanging rail fell down",
+        "wardrobe leaning"
+      ],
+      "weak": [
+        "wardrobe",
+        "closet",
+        "garment",
+        "tube",
+        "fabric cover",
+        "hanging rail"
+      ],
+      "related": [
+        "cube-storage",
+        "wire-shelving"
+      ]
+    },
+    {
+      "id": "metal-platform-bed",
+      "name": "Metal platform bed frame",
+      "tagline": "Steel rails, bolt-on legs, and a roll of slats.",
+      "group": "Bedroom",
+      "difficulty": 1,
+      "minutes": 30,
+      "people": 1,
+      "covers": [
+        "metal platform bed",
+        "steel bed frame",
+        "under-bed storage frame",
+        "smart base",
+        "noise-free bed frame"
+      ],
+      "strong": [
+        "metal bed",
+        "metal bed frame",
+        "steel bed frame",
+        "platform bed frame",
+        "smartbase",
+        "smart base",
+        "metal platform bed",
+        "bed frame no box spring",
+        "foldable bed frame",
+        "14 inch bed frame",
+        "18 inch bed frame",
+        "bed squeaks",
+        "bed frame squeaks",
+        "squeaky bed",
+        "bed frame wobbles",
+        "bed sags in the middle"
+      ],
+      "weak": [
+        "bed frame",
+        "bed",
+        "frame",
+        "slats",
+        "zinus",
+        "amazon basics bed",
+        "queen frame",
+        "king frame",
+        "twin frame"
+      ],
+      "related": [
+        "upholstered-bed",
+        "mattress-in-box"
+      ]
+    },
+    {
+      "id": "upholstered-bed",
+      "name": "Upholstered or wooden bed with a headboard",
+      "tagline": "Fabric or wood headboard, side rails, and slats.",
+      "group": "Bedroom",
+      "difficulty": 3,
+      "minutes": 60,
+      "people": 2,
+      "covers": [
+        "upholstered platform bed",
+        "velvet headboard bed",
+        "wooden platform bed",
+        "bed with headboard",
+        "storage bed with drawers",
+        "daybed"
+      ],
+      "strong": [
+        "upholstered bed",
+        "headboard",
+        "velvet bed",
+        "fabric bed",
+        "wooden bed",
+        "wood bed frame",
+        "storage bed",
+        "platform bed with headboard",
+        "tufted bed",
+        "sleigh bed",
+        "canopy bed",
+        "daybed",
+        "shalini",
+        "headboard wobbles",
+        "cant find the headboard holes",
+        "gap between mattress and headboard"
+      ],
+      "weak": [
+        "bed",
+        "upholstered",
+        "velvet",
+        "linen",
+        "tufted",
+        "wingback",
+        "king bed",
+        "queen bed",
+        "bed frame",
+        "side rail",
+        "slats"
+      ],
+      "related": [
+        "metal-platform-bed",
+        "mattress-in-box",
+        "toddler-bed"
+      ]
+    },
+    {
+      "id": "bunk-bed",
+      "name": "Bunk bed or loft bed",
+      "tagline": "The one build where getting it exactly right matters most.",
+      "group": "Bedroom",
+      "difficulty": 4,
+      "minutes": 150,
+      "people": 2,
+      "covers": [
+        "twin over twin bunk bed",
+        "twin over full bunk",
+        "loft bed with desk",
+        "triple bunk",
+        "mid-sleeper"
+      ],
+      "strong": [
+        "bunk bed",
+        "bunkbed",
+        "loft bed",
+        "triple bunk",
+        "twin over twin",
+        "twin over full",
+        "mid sleeper",
+        "high sleeper",
+        "bunk",
+        "bunk bed wobbles",
+        "bunk bed bolt missing"
+      ],
+      "weak": [
+        "ladder",
+        "guard rail",
+        "kids bed",
+        "children's bed",
+        "top bunk"
+      ],
+      "related": [
+        "mattress-in-box",
+        "metal-platform-bed",
+        "toddler-bed"
+      ]
+    },
+    {
+      "id": "mattress-in-box",
+      "name": "Mattress in a box",
+      "tagline": "Not really assembly, but the part everyone gets wrong.",
+      "group": "Bedroom",
+      "difficulty": 1,
+      "minutes": 15,
+      "people": 2,
+      "covers": [
+        "memory foam mattress in a box",
+        "hybrid mattress",
+        "mattress topper",
+        "bunkie board",
+        "futon mattress"
+      ],
+      "strong": [
+        "mattress in a box",
+        "mattress",
+        "memory foam mattress",
+        "hybrid mattress",
+        "mattress topper",
+        "bunkie board",
+        "foam mattress",
+        "mattress won't expand",
+        "mattress not expanding",
+        "mattress wont expand",
+        "mattress still flat",
+        "mattress not expanding",
+        "mattress smells"
+      ],
+      "weak": [
+        "foam",
+        "vacuum sealed",
+        "topper",
+        "off gassing",
+        "expand"
+      ],
+      "related": [
+        "metal-platform-bed",
+        "upholstered-bed"
+      ]
+    },
+    {
+      "id": "office-chair",
+      "name": "Office chair with a gas lift",
+      "tagline": "Five casters, a star base, a gas cylinder, a bolt-on back.",
+      "group": "Office",
+      "difficulty": 1,
+      "minutes": 25,
+      "people": 1,
+      "covers": [
+        "desk chair",
+        "task chair",
+        "mesh ergonomic chair",
+        "executive leather chair",
+        "drafting stool"
+      ],
+      "strong": [
+        "office chair",
+        "desk chair",
+        "task chair",
+        "ergonomic chair",
+        "mesh chair",
+        "executive chair",
+        "computer chair",
+        "rolling chair",
+        "swivel chair",
+        "drafting stool",
+        "gas cylinder",
+        "gas lift",
+        "chair keeps sinking",
+        "chair sinks",
+        "chair wont stay up",
+        "chair sinking down",
+        "chair wont go up",
+        "office chair broken"
+      ],
+      "weak": [
+        "chair",
+        "caster",
+        "casters",
+        "wheels",
+        "lumbar",
+        "recline",
+        "armrest",
+        "markus",
+        "hbada",
+        "sihoo"
+      ],
+      "related": [
+        "gaming-chair",
+        "simple-desk",
+        "glider-recliner"
+      ]
+    },
+    {
+      "id": "gaming-chair",
+      "name": "Gaming or racing chair",
+      "tagline": "Like an office chair, but the back bolts on through hidden side brackets.",
+      "group": "Office",
+      "difficulty": 2,
+      "minutes": 40,
+      "people": 1,
+      "covers": [
+        "racing-style gaming chair",
+        "PC gaming chair",
+        "bucket seat chair",
+        "chair with lumbar pillow and headrest",
+        "esports chair"
+      ],
+      "strong": [
+        "gaming chair",
+        "racing chair",
+        "racer chair",
+        "esports chair",
+        "bucket seat chair",
+        "gamer chair",
+        "pc chair",
+        "streaming chair",
+        "gaming chair back wont attach",
+        "cant find where the back attaches"
+      ],
+      "weak": [
+        "gaming",
+        "racing",
+        "headrest pillow",
+        "lumbar pillow",
+        "recline 180",
+        "side bracket",
+        "gtracing",
+        "dowinx",
+        "homall",
+        "respawn"
+      ],
+      "related": [
+        "office-chair",
+        "l-desk"
+      ]
+    },
+    {
+      "id": "simple-desk",
+      "name": "Four-leg desk or table",
+      "tagline": "A top, four legs, and a crossbar.",
+      "group": "Office",
+      "difficulty": 1,
+      "minutes": 25,
+      "people": 1,
+      "covers": [
+        "computer desk",
+        "writing desk",
+        "study desk",
+        "console table",
+        "dining table with straight legs",
+        "craft table"
+      ],
+      "strong": [
+        "computer desk",
+        "writing desk",
+        "study desk",
+        "simple desk",
+        "office desk",
+        "small desk",
+        "desk",
+        "work table",
+        "craft table",
+        "folding desk",
+        "laptop desk",
+        "dining table",
+        "kitchen table",
+        "table legs",
+        "folding table",
+        "end desk",
+        "desk wobbles",
+        "wobbly desk",
+        "table wobbles",
+        "screw went through the top"
+      ],
+      "weak": [
+        "table",
+        "legs",
+        "crossbar",
+        "top",
+        "cubiker",
+        "need desk",
+        "furinno desk"
+      ],
+      "related": [
+        "l-desk",
+        "standing-desk",
+        "coffee-table"
+      ]
+    },
+    {
+      "id": "l-desk",
+      "name": "L-shaped or corner desk",
+      "tagline": "Two desktops joined at a corner, with a shared leg.",
+      "group": "Office",
+      "difficulty": 2,
+      "minutes": 55,
+      "people": 1,
+      "covers": [
+        "L-shaped computer desk",
+        "corner desk",
+        "reversible gaming desk",
+        "executive desk with return",
+        "desk with shelf tower"
+      ],
+      "strong": [
+        "l shaped desk",
+        "l-shaped desk",
+        "l desk",
+        "corner desk",
+        "l shape desk",
+        "gaming desk l",
+        "reversible desk",
+        "desk with return",
+        "corner computer desk",
+        "step where the two tops meet",
+        "desk only touches one wall"
+      ],
+      "weak": [
+        "l shape",
+        "corner",
+        "return",
+        "two tops",
+        "tribesigns",
+        "bestier"
+      ],
+      "related": [
+        "simple-desk",
+        "standing-desk"
+      ]
+    },
+    {
+      "id": "standing-desk",
+      "name": "Electric standing desk",
+      "tagline": "A motorised steel frame you build upside down, then flip.",
+      "group": "Office",
+      "difficulty": 2,
+      "minutes": 60,
+      "people": 2,
+      "covers": [
+        "electric height-adjustable desk",
+        "sit-stand desk frame",
+        "dual-motor standing desk",
+        "crank desk",
+        "standing desk frame"
+      ],
+      "strong": [
+        "standing desk",
+        "sit stand desk",
+        "sit-stand desk",
+        "height adjustable desk",
+        "electric desk",
+        "adjustable desk",
+        "motorized desk",
+        "desk frame",
+        "flexispot",
+        "uplift desk",
+        "vivo desk",
+        "desk wont go up",
+        "desk wont move",
+        "desk beeping",
+        "standing desk error",
+        "desk out of sync"
+      ],
+      "weak": [
+        "standing",
+        "motor",
+        "keypad",
+        "control box",
+        "preset",
+        "reset",
+        "crank"
+      ],
+      "related": [
+        "simple-desk",
+        "l-desk"
+      ]
+    },
+    {
+      "id": "tv-stand",
+      "name": "TV stand or media console",
+      "tagline": "A long cam-lock box with doors and cable holes.",
+      "group": "Living room",
+      "difficulty": 2,
+      "minutes": 70,
+      "people": 1,
+      "covers": [
+        "TV stand",
+        "media console",
+        "entertainment center",
+        "sideboard",
+        "low cabinet with doors",
+        "fireplace TV console"
+      ],
+      "strong": [
+        "tv stand",
+        "tv console",
+        "media console",
+        "entertainment center",
+        "entertainment center",
+        "tv unit",
+        "media cabinet",
+        "tv cabinet",
+        "fireplace console",
+        "tv bench",
+        "besta",
+        "cabinet doors dont line up",
+        "doors uneven",
+        "door hangs open",
+        "cabinet door crooked"
+      ],
+      "weak": [
+        "tv",
+        "television",
+        "media",
+        "console",
+        "cable management",
+        "soundbar shelf",
+        "walker edison"
+      ],
+      "related": [
+        "cam-lock-carcass",
+        "bookcase-open"
+      ]
+    },
+    {
+      "id": "sectional-sofa",
+      "name": "Sofa, loveseat or sectional",
+      "tagline": "Big upholstered pieces that clip together, legs that screw on.",
+      "group": "Living room",
+      "difficulty": 2,
+      "minutes": 40,
+      "people": 2,
+      "covers": [
+        "modular sectional sofa",
+        "loveseat",
+        "armchair",
+        "convertible L-shaped sofa",
+        "chaise lounge"
+      ],
+      "strong": [
+        "sectional",
+        "sofa",
+        "couch",
+        "loveseat",
+        "love seat",
+        "modular sofa",
+        "chaise",
+        "armchair",
+        "accent chair",
+        "sofa legs",
+        "sectional couch",
+        "3 seater sofa",
+        "sections wont clip",
+        "gap between sofa sections",
+        "sofa sections wont connect"
+      ],
+      "weak": [
+        "upholstered",
+        "cushion",
+        "clip",
+        "bracket",
+        "seat",
+        "sleeper"
+      ],
+      "related": [
+        "futon",
+        "coffee-table",
+        "glider-recliner"
+      ]
+    },
+    {
+      "id": "futon",
+      "name": "Futon or convertible sofa bed",
+      "tagline": "Side arms, two decks, and a hinge that folds flat.",
+      "group": "Living room",
+      "difficulty": 3,
+      "minutes": 55,
+      "people": 2,
+      "covers": [
+        "futon frame",
+        "convertible sofa bed",
+        "click-clack sofa",
+        "daybed with folding back",
+        "sleeper loveseat"
+      ],
+      "strong": [
+        "futon",
+        "sofa bed",
+        "sleeper sofa",
+        "convertible sofa",
+        "click clack",
+        "clack sofa",
+        "folding sofa",
+        "futon frame",
+        "futon wont fold flat",
+        "futon wont lay flat"
+      ],
+      "weak": [
+        "convertible",
+        "fold flat",
+        "mechanism",
+        "guest bed",
+        "novogratz"
+      ],
+      "related": [
+        "sectional-sofa",
+        "upholstered-bed"
+      ]
+    },
+    {
+      "id": "coffee-table",
+      "name": "Coffee table, end table or console",
+      "tagline": "A top, legs, and sometimes a glass panel or lower shelf.",
+      "group": "Living room",
+      "difficulty": 1,
+      "minutes": 20,
+      "people": 1,
+      "covers": [
+        "coffee table",
+        "end table",
+        "side table",
+        "console table",
+        "nesting tables",
+        "glass top table",
+        "C-table"
+      ],
+      "strong": [
+        "coffee table",
+        "end table",
+        "side table",
+        "console table",
+        "nesting table",
+        "nightstand table",
+        "accent table",
+        "c table",
+        "sofa table",
+        "glass coffee table",
+        "lift top table",
+        "tv tray table",
+        "entryway table",
+        "table rocks",
+        "glass top slides"
+      ],
+      "weak": [
+        "table",
+        "glass top",
+        "lower shelf",
+        "legs",
+        "lack table"
+      ],
+      "related": [
+        "simple-desk",
+        "sectional-sofa"
+      ]
+    },
+    {
+      "id": "dining-chairs",
+      "name": "Dining chairs and stools",
+      "tagline": "A seat, four legs, a back. Built two or four times over.",
+      "group": "Dining",
+      "difficulty": 1,
+      "minutes": 20,
+      "people": 1,
+      "covers": [
+        "dining chairs set of 4",
+        "accent and side chairs",
+        "bar stools",
+        "counter stools",
+        "upholstered dining chairs",
+        "folding chairs"
+      ],
+      "strong": [
+        "dining chair",
+        "dining chairs",
+        "bar stool",
+        "bar stools",
+        "counter stool",
+        "side chair",
+        "kitchen chair",
+        "set of 4 chairs",
+        "set of 2 chairs",
+        "stool",
+        "folding chair",
+        "stackable chair",
+        "chair wobbles",
+        "wobbly chair",
+        "chair creaks",
+        "chairs are wobbly"
+      ],
+      "weak": [
+        "chair",
+        "chairs",
+        "seat",
+        "legs",
+        "backrest",
+        "dining set chairs"
+      ],
+      "related": [
+        "simple-desk",
+        "patio-set",
+        "high-chair"
+      ]
+    },
+    {
+      "id": "patio-set",
+      "name": "Patio and outdoor furniture",
+      "tagline": "Aluminum or rattan frames, bolts that will see rain.",
+      "group": "Outdoor",
+      "difficulty": 2,
+      "minutes": 90,
+      "people": 2,
+      "covers": [
+        "patio sofa set",
+        "rattan and wicker furniture",
+        "outdoor dining set",
+        "Adirondack chair",
+        "swing chair",
+        "fire pit table"
+      ],
+      "strong": [
+        "patio furniture",
+        "patio set",
+        "outdoor furniture",
+        "rattan",
+        "wicker",
+        "patio sofa",
+        "outdoor dining set",
+        "adirondack",
+        "garden furniture",
+        "deck furniture",
+        "egg chair",
+        "porch swing",
+        "fire pit table",
+        "bistro set",
+        "patio chairs",
+        "patio chair rocks",
+        "bolt is rusted"
+      ],
+      "weak": [
+        "patio",
+        "outdoor",
+        "garden",
+        "deck",
+        "balcony",
+        "cushions",
+        "umbrella",
+        "aluminum frame"
+      ],
+      "related": [
+        "dining-chairs",
+        "sectional-sofa"
+      ]
+    },
+    {
+      "id": "convertible-crib",
+      "name": "Convertible crib",
+      "tagline": "Two ends, two sides, and eight barrel nuts that fight you.",
+      "group": "Nursery",
+      "difficulty": 2,
+      "minutes": 60,
+      "people": 1,
+      "covers": [
+        "3-in-1 and 4-in-1 convertible cribs",
+        "Standard full-size cribs",
+        "Mini and portable cribs",
+        "Crib and changer combos",
+        "Toddler-bed-convertible cribs"
+      ],
+      "strong": [
+        "crib",
+        "convertible crib",
+        "baby crib",
+        "4 in 1 crib",
+        "3 in 1 crib",
+        "nursery crib",
+        "mini crib",
+        "crib assembly",
+        "barrel nut crib",
+        "crib bolt wont go in",
+        "crib wobbles",
+        "crib creaks",
+        "assemble a crib"
+      ],
+      "weak": [
+        "nursery",
+        "baby",
+        "infant",
+        "slats",
+        "mattress support",
+        "babyletto",
+        "davinci",
+        "delta children",
+        "storkcraft",
+        "graco crib",
+        "dream on me",
+        "union",
+        "sorelle",
+        "pottery barn crib"
+      ],
+      "related": [
+        "crib-mattress-fit",
+        "crib-conversion",
+        "changing-dresser",
+        "bassinet-sleeper"
+      ]
+    },
+    {
+      "id": "crib-conversion",
+      "name": "Crib conversion to toddler bed",
+      "tagline": "Take one side off, add a guardrail and a stabilizer bar.",
+      "group": "Nursery",
+      "difficulty": 2,
+      "minutes": 30,
+      "people": 1,
+      "covers": [
+        "Crib to toddler bed conversion",
+        "Crib to daybed conversion",
+        "Crib to full-size bed with conversion rails",
+        "Toddler guardrail fitting",
+        "3-in-1 and 4-in-1 conversions"
+      ],
+      "strong": [
+        "convert crib to toddler bed",
+        "crib conversion",
+        "toddler bed conversion",
+        "conversion rail",
+        "crib to daybed",
+        "guardrail for crib",
+        "convert my crib",
+        "stabilizer bar"
+      ],
+      "weak": [
+        "conversion",
+        "convert",
+        "daybed",
+        "guardrail",
+        "toddler rail"
+      ],
+      "related": [
+        "toddler-bed",
+        "convertible-crib",
+        "crib-mattress-fit"
+      ]
+    },
+    {
+      "id": "crib-mattress-fit",
+      "name": "Crib mattress fit and safe sleep check",
+      "tagline": "A five-minute check that no crib manual tells you to do.",
+      "group": "Nursery",
+      "difficulty": 1,
+      "minutes": 10,
+      "people": 1,
+      "covers": [
+        "Crib mattress fit check",
+        "Mini crib and play yard mattress fit",
+        "Bassinet pad fit",
+        "Safe sleep setup",
+        "Second-hand crib and mattress checks"
+      ],
+      "strong": [
+        "crib mattress fit",
+        "gap between mattress and crib",
+        "crib mattress gap",
+        "two finger test",
+        "safe sleep setup",
+        "crib mattress size",
+        "is my crib mattress too small",
+        "crib mattress too small",
+        "mattress gap crib"
+      ],
+      "weak": [
+        "crib mattress",
+        "safe sleep",
+        "bumpers",
+        "fitted sheet",
+        "firmness",
+        "law tag"
+      ],
+      "related": [
+        "convertible-crib",
+        "bassinet-sleeper",
+        "crib-conversion",
+        "play-yard"
+      ]
+    },
+    {
+      "id": "bassinet-sleeper",
+      "name": "Bassinet and bedside sleeper",
+      "tagline": "A fabric basket on a folding frame, with two real failure points.",
+      "group": "Nursery",
+      "difficulty": 1,
+      "minutes": 25,
+      "people": 1,
+      "covers": [
+        "Standalone bassinets",
+        "Bedside and co-sleeper bassinets",
+        "Rocking and gliding bassinets",
+        "Travel bassinets",
+        "Moses basket stands"
+      ],
+      "strong": [
+        "bassinet",
+        "bedside sleeper",
+        "co sleeper",
+        "cosleeper",
+        "moses basket",
+        "bassinet assembly",
+        "bassinet wont lock",
+        "snoo",
+        "halo bassinest",
+        "travel bassinet"
+      ],
+      "weak": [
+        "sleeper",
+        "newborn",
+        "rocking bassinet",
+        "bedside crib",
+        "incline"
+      ],
+      "related": [
+        "crib-mattress-fit",
+        "convertible-crib",
+        "play-yard"
+      ]
+    },
+    {
+      "id": "changing-dresser",
+      "name": "Changing table and nursery dresser",
+      "tagline": "The build is ordinary. The anchoring is the entire point.",
+      "group": "Nursery",
+      "difficulty": 2,
+      "minutes": 80,
+      "people": 1,
+      "covers": [
+        "Changing tables",
+        "Nursery dresser",
+        "Baby dresser",
+        "Dressers with a changing topper",
+        "Nursery dressers and chests",
+        "Combo changer and drawer units",
+        "Kids' clothing storage units"
+      ],
+      "strong": [
+        "changing table",
+        "changing dresser",
+        "nursery dresser",
+        "baby dresser",
+        "changing topper",
+        "changer combo",
+        "kids dresser",
+        "dresser tip over",
+        "anchor a dresser",
+        "sturdy act",
+        "anti tip dresser"
+      ],
+      "weak": [
+        "changing",
+        "nursery storage",
+        "topper",
+        "tip over",
+        "anchor",
+        "wall strap"
+      ],
+      "related": [
+        "drawers",
+        "cam-lock-carcass",
+        "convertible-crib",
+        "high-chair"
+      ]
+    },
+    {
+      "id": "glider-recliner",
+      "name": "Nursery glider and rocking recliner",
+      "tagline": "A heavy chair in pieces, with a pinch point you need to know about.",
+      "group": "Nursery",
+      "difficulty": 2,
+      "minutes": 35,
+      "people": 2,
+      "covers": [
+        "Nursery gliders",
+        "Glider and ottoman sets",
+        "Rocking recliners",
+        "Swivel gliders",
+        "Upholstered nursery armchairs"
+      ],
+      "strong": [
+        "glider",
+        "nursery glider",
+        "rocking chair",
+        "nursery rocker",
+        "glider ottoman",
+        "rocking recliner",
+        "swivel glider",
+        "glider chair",
+        "glider back wont attach",
+        "nursery chair"
+      ],
+      "weak": [
+        "rocker",
+        "recliner",
+        "ottoman",
+        "nursing chair",
+        "namesake",
+        "babyletto glider"
+      ],
+      "related": [
+        "sectional-sofa",
+        "office-chair",
+        "convertible-crib"
+      ]
+    },
+    {
+      "id": "play-yard",
+      "name": "Play yard and portable crib",
+      "tagline": "No tools at all. Four rails and a center release, and the order matters.",
+      "group": "Nursery",
+      "difficulty": 2,
+      "minutes": 15,
+      "people": 1,
+      "covers": [
+        "Pack and play style play yards",
+        "Portable and travel cribs",
+        "Play yards with a bassinet insert",
+        "Playpens",
+        "Travel cots"
+      ],
+      "strong": [
+        "pack n play",
+        "pack and play",
+        "play yard",
+        "playard",
+        "playpen",
+        "portable crib",
+        "travel crib",
+        "travel cot",
+        "pack n play wont fold",
+        "playard rail wont lock",
+        "graco pack n play"
+      ],
+      "weak": [
+        "portable",
+        "travel",
+        "fold",
+        "rails",
+        "playpen insert"
+      ],
+      "related": [
+        "bassinet-sleeper",
+        "crib-mattress-fit",
+        "convertible-crib",
+        "high-chair"
+      ]
+    },
+    {
+      "id": "high-chair",
+      "name": "High chair and booster seat",
+      "tagline": "The harness is the product. Everything else is furniture.",
+      "group": "Nursery",
+      "difficulty": 1,
+      "minutes": 30,
+      "people": 1,
+      "covers": [
+        "Convertible and standard high chairs",
+        "Wooden high chairs",
+        "Booster and clip-on seats",
+        "Space-saver high chairs",
+        "High chair to toddler chair conversion"
+      ],
+      "strong": [
+        "high chair",
+        "highchair",
+        "booster seat",
+        "feeding chair",
+        "baby chair",
+        "high chair harness",
+        "five point harness",
+        "stokke tripp trapp",
+        "space saver high chair",
+        "high chair tray wont click"
+      ],
+      "weak": [
+        "harness",
+        "tray",
+        "booster",
+        "feeding",
+        "buckle",
+        "submarining"
+      ],
+      "related": [
+        "dining-chairs",
+        "play-yard",
+        "changing-dresser"
+      ]
+    },
+    {
+      "id": "safety-gate",
+      "name": "Baby safety gate",
+      "tagline": "Two kinds exist, and using the wrong one at the top of the stairs is the dangerous mistake.",
+      "group": "Nursery",
+      "difficulty": 2,
+      "minutes": 45,
+      "people": 1,
+      "covers": [
+        "Pressure-mounted baby gates",
+        "Hardware-mounted stair gates",
+        "Extra-wide and retractable gates",
+        "Banister gate installation",
+        "Doorway and hallway gates"
+      ],
+      "strong": [
+        "baby gate",
+        "safety gate",
+        "stair gate",
+        "pressure mounted gate",
+        "hardware mounted gate",
+        "gate for top of stairs",
+        "baby proofing gate",
+        "retractable gate",
+        "banister gate",
+        "gate wont latch",
+        "install a baby gate"
+      ],
+      "weak": [
+        "gate",
+        "baby proof",
+        "babyproof",
+        "stairs",
+        "banister",
+        "latch",
+        "extension"
+      ],
+      "related": [
+        "changing-dresser",
+        "toddler-bed",
+        "convertible-crib"
+      ]
+    },
+    {
+      "id": "toddler-bed",
+      "name": "Toddler bed and bed rail",
+      "tagline": "A low frame with guard rails. The gap between rail and mattress is everything.",
+      "group": "Nursery",
+      "difficulty": 2,
+      "minutes": 40,
+      "people": 1,
+      "covers": [
+        "Standalone toddler beds",
+        "Themed and character toddler beds",
+        "Bed rails for twin and full beds",
+        "Floor beds and low bed frames",
+        "Junior beds"
+      ],
+      "strong": [
+        "toddler bed",
+        "bed rail",
+        "bed guard",
+        "junior bed",
+        "floor bed",
+        "kids bed",
+        "toddler bed rail",
+        "bed rail for twin bed",
+        "child bed rail",
+        "guard rail bed"
+      ],
+      "weak": [
+        "toddler",
+        "guardrail",
+        "rail",
+        "child bed",
+        "montessori bed"
+      ],
+      "related": [
+        "crib-conversion",
+        "bunk-bed",
+        "upholstered-bed",
+        "safety-gate"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "id": "ikea",
+      "name": "IKEA",
+      "aka": [
+        "ikea"
+      ],
+      "system": "Cam locks, wooden dowels, and on newer ranges a push-in wedge dowel that needs no tools. Allen key always included.",
+      "tip": "Every part has a number in the manual. IKEA ships replacement hardware free — search their site for 'spare parts'. Their manuals are pictures only, which is exactly why plain English helps.",
+      "patterns": [
+        "cam-lock-carcass",
+        "bookcase-open",
+        "cube-storage"
+      ]
+    },
+    {
+      "id": "sauder",
+      "name": "Sauder",
+      "aka": [
+        "sauder"
+      ],
+      "system": "Their patented Quick-Lock system: a dowel-and-cam variant that pulls panels together with fewer separate pieces.",
+      "tip": "Sauder manuals number every part and their customer service ships missing hardware free. The back panels are thin — nail them properly.",
+      "patterns": [
+        "cam-lock-carcass",
+        "tv-stand",
+        "bookcase-open"
+      ]
+    },
+    {
+      "id": "zinus",
+      "name": "Zinus",
+      "aka": [
+        "zinus"
+      ],
+      "system": "Steel frames with hex bolts and an included Allen key, plus foam mattresses in a box. Some frames fold out with no tools at all.",
+      "tip": "Zinus SmartBase frames need no tools: unfold, pop the legs out, done. Check which model you have before hunting for a hardware bag.",
+      "patterns": [
+        "metal-platform-bed",
+        "upholstered-bed",
+        "mattress-in-box"
+      ]
+    },
+    {
+      "id": "furinno",
+      "name": "Furinno",
+      "aka": [
+        "furinno"
+      ],
+      "system": "Turn-N-Tube: plastic tube connectors you hand-twist together. No tools, no cam locks.",
+      "tip": "Hand-tighten only. These plastic connectors strip if you take a screwdriver to them.",
+      "patterns": [
+        "simple-desk",
+        "bookcase-open",
+        "coffee-table"
+      ]
+    },
+    {
+      "id": "ameriwood",
+      "name": "Ameriwood / Dorel / Novogratz / Mainstays",
+      "aka": [
+        "ameriwood",
+        "dorel",
+        "novogratz",
+        "mainstays",
+        "altra",
+        "dhp"
+      ],
+      "system": "Standard cam lock and dowel on laminated chipboard, plus metal-framed futons and beds.",
+      "tip": "Dorel brands share a parts service. Have the model number from the box end or the sticker inside the piece.",
+      "patterns": [
+        "cam-lock-carcass",
+        "tv-stand",
+        "futon",
+        "metal-platform-bed"
+      ]
+    },
+    {
+      "id": "walker-edison",
+      "name": "Walker Edison",
+      "aka": [
+        "walker edison",
+        "walkeredison"
+      ],
+      "system": "Mixed metal and wood with hex bolts, often with a glass or slat shelf.",
+      "tip": "They publish assembly videos per product on their own site, which is worth a look alongside this guide.",
+      "patterns": [
+        "tv-stand",
+        "simple-desk",
+        "coffee-table"
+      ]
+    },
+    {
+      "id": "south-shore",
+      "name": "South Shore",
+      "aka": [
+        "south shore",
+        "southshore"
+      ],
+      "system": "Cam locks, dowels and Confirmat screws — the fat ones that bite straight into chipboard.",
+      "tip": "Confirmat screws need to go in straight and stop when snug. Angling them splits the panel edge.",
+      "patterns": [
+        "cam-lock-carcass",
+        "drawers",
+        "bookcase-open"
+      ]
+    },
+    {
+      "id": "songmics",
+      "name": "SONGMICS / VASAGLE / FEANDREA",
+      "aka": [
+        "songmics",
+        "vasagle",
+        "feandrea",
+        "songmics home"
+      ],
+      "system": "Steel frame plus MDF panels, hex bolts, and a mallet in the box.",
+      "tip": "The included mallet is for the wooden dowels and panel joints, not the bolts. Use it where the manual shows a hammer icon.",
+      "patterns": [
+        "bookcase-open",
+        "tv-stand",
+        "cam-lock-carcass"
+      ]
+    },
+    {
+      "id": "flexispot",
+      "name": "FlexiSpot / VIVO / UPLIFT",
+      "aka": [
+        "flexispot",
+        "vivo",
+        "uplift",
+        "fezibo",
+        "sandusky"
+      ],
+      "system": "Motorised standing desk frames with a control box and keypad.",
+      "tip": "A brand new frame that will not move almost always just needs the initialization reset: hold the down arrow for about ten seconds until it dips and beeps.",
+      "patterns": [
+        "standing-desk"
+      ]
+    },
+    {
+      "id": "hbada",
+      "name": "Hbada / SIHOO / Furmax / Ticova",
+      "aka": [
+        "hbada",
+        "sihoo",
+        "furmax",
+        "ticova",
+        "nouhaus",
+        "staples chair"
+      ],
+      "system": "Office chairs: star base, casters, gas cylinder, bolt-on back.",
+      "tip": "Gas cylinders are a near-universal size across brands. A failed one is a cheap part, not a dead chair.",
+      "patterns": [
+        "office-chair"
+      ]
+    },
+    {
+      "id": "gtracing",
+      "name": "GTRACING / Dowinx / Homall / RESPAWN",
+      "aka": [
+        "gtracing",
+        "dowinx",
+        "homall",
+        "respawn",
+        "x rocker",
+        "devoko chair"
+      ],
+      "system": "Racing-style gaming chairs with the back bolting to side brackets hidden under zipped flaps on the seat.",
+      "tip": "If you cannot find where the back attaches, open the zip or velcro flaps on both sides of the seat. The brackets are under there, often folded flat.",
+      "patterns": [
+        "gaming-chair"
+      ]
+    },
+    {
+      "id": "bestier",
+      "name": "Bestier / Rolanstar / Tribesigns / Cubiker / Armocity",
+      "aka": [
+        "bestier",
+        "rolanstar",
+        "tribesigns",
+        "cubiker",
+        "armocity",
+        "need",
+        "greenforest",
+        "sweetcrispy"
+      ],
+      "system": "Metal frame desks and shelving with hex bolts, often with reversible left or right layouts.",
+      "tip": "These are usually reversible. Decide which side the long section or the shelf tower goes on before you tighten anything.",
+      "patterns": [
+        "l-desk",
+        "simple-desk",
+        "bookcase-open"
+      ]
+    },
+    {
+      "id": "nathan-james",
+      "name": "Nathan James",
+      "aka": [
+        "nathan james"
+      ],
+      "system": "Metal frames with wood or fabric panels, hex bolts and washers throughout.",
+      "tip": "Their pieces lean on the washers to protect soft wood and fabric. Do not leave any out.",
+      "patterns": [
+        "bookcase-open",
+        "coffee-table",
+        "upholstered-bed"
+      ]
+    },
+    {
+      "id": "prepac",
+      "name": "Prepac",
+      "aka": [
+        "prepac"
+      ],
+      "system": "Cam locks, dowels and a lot of back-panel nails. Often includes a hanging rail system for wall units.",
+      "tip": "Their wall-mounted pieces use a hanging rail that must hit studs. Measure the rail, not the cabinet, when marking the wall.",
+      "patterns": [
+        "cam-lock-carcass",
+        "bookcase-open",
+        "drawers"
+      ]
+    },
+    {
+      "id": "amazon-basics",
+      "name": "Amazon Basics",
+      "aka": [
+        "amazon basics",
+        "amazonbasics",
+        "amazon brand",
+        "rivet",
+        "stone & beam",
+        "stone and beam"
+      ],
+      "system": "Varies widely by product. Steel bed frames with hex bolts, cam-lock cabinets, and tool-free wire shelving all appear under the same label.",
+      "tip": "Find the actual product type rather than searching the brand — the hardware differs completely between Amazon Basics lines.",
+      "patterns": [
+        "metal-platform-bed",
+        "wire-shelving",
+        "cam-lock-carcass"
+      ]
+    },
+    {
+      "id": "costway",
+      "name": "Costway / Giantex / Outsunny / HOMCOM / Best Choice Products / Devoko",
+      "aka": [
+        "costway",
+        "giantex",
+        "outsunny",
+        "homcom",
+        "best choice products",
+        "devoko",
+        "yaheetech",
+        "flamaker",
+        "walsunny"
+      ],
+      "system": "Outdoor and value furniture: bolts, nuts and washers rather than threaded inserts, so you often need a wrench as well as the Allen key.",
+      "tip": "Grease the bolt threads before assembly on anything that lives outside. It is the difference between a set you can repair and one you throw away."
+    },
+    {
+      "id": "lucid",
+      "name": "LUCID / Linenspa / Olee Sleep / Nectar / Novilla",
+      "aka": [
+        "lucid",
+        "linenspa",
+        "olee sleep",
+        "nectar",
+        "novilla",
+        "sweetnight",
+        "molblly"
+      ],
+      "system": "Mattresses and foundations in a box, vacuum compressed.",
+      "tip": "Unroll it flat on the bed frame before you cut the vacuum bag. And check your slat gaps — wide gaps are the real cause of most foam mattress sag complaints.",
+      "patterns": [
+        "mattress-in-box"
+      ]
+    },
+    {
+      "id": "nursery-majors",
+      "name": "Delta Children / Graco / Storkcraft / Dream On Me / Evolur",
+      "aka": [
+        "delta children",
+        "delta crib",
+        "storkcraft",
+        "dream on me",
+        "evolur",
+        "sorelle",
+        "union furniture",
+        "child craft",
+        "graco crib",
+        "babyletto crib",
+        "delta"
+      ],
+      "system": "Barrel nuts and long hex bolts, driven with a supplied M4 Allen wrench. A flat-head screwdriver is required to rotate the barrel nuts and is usually not supplied.",
+      "tip": "Manuals say explicitly not to use a power screwdriver — it strips the wood thread and snaps bolts. A flat-head screwdriver is needed to rotate the barrel nuts and is usually not in the box. Keep the booklet in the pouch sewn to the mattress support; you need it again at conversion time. These brands ship replacement crib hardware free — never substitute a hardware-store bolt.",
+      "patterns": [
+        "convertible-crib",
+        "crib-conversion",
+        "toddler-bed",
+        "changing-dresser"
+      ]
+    },
+    {
+      "id": "modern-nursery",
+      "name": "Babyletto / DaVinci / Namesake / Million Dollar Baby",
+      "aka": [
+        "babyletto",
+        "davinci",
+        "da vinci",
+        "namesake",
+        "million dollar baby",
+        "nurseryworks"
+      ],
+      "system": "Same barrel-nut and hex-bolt system as the volume brands, usually on solid wood rather than engineered panels.",
+      "tip": "Conversion kits are sold separately and are model-specific. Buy the kit when you buy the crib — they get discontinued long before your toddler needs one.",
+      "patterns": [
+        "convertible-crib",
+        "crib-conversion",
+        "glider-recliner"
+      ]
+    },
+    {
+      "id": "baby-gear",
+      "name": "Graco / Chicco / Fisher-Price / Ingenuity / 4moms",
+      "aka": [
+        "graco",
+        "chicco",
+        "fisher price",
+        "fisher-price",
+        "ingenuity",
+        "4moms",
+        "snoo",
+        "happiest baby",
+        "baby trend",
+        "summer infant",
+        "regalo",
+        "evenflo",
+        "munchkin",
+        "north states",
+        "cardinal gates"
+      ],
+      "system": "Tool-free folding gear: play yards, bassinets, high chairs and gates that lock by detent, over-center latch or threaded pressure cup.",
+      "tip": "With this category the question is almost never how to build it, it is whether every latch has actually locked. A click you did not hear is the failure.",
+      "patterns": [
+        "play-yard",
+        "bassinet-sleeper",
+        "high-chair",
+        "safety-gate"
+      ]
+    }
+  ],
+  "terms": {
+    "cam-lock": "The small metal disc that drops into a round hole and twists to grab a bolt. Clockwise tightens. Counterclockwise releases it so you can take the joint apart.",
+    "cam-bolt": "A screw with a wide mushroom head that screws into a panel face so the cam lock can grab it. Tighten only until its shoulder touches the wood.",
+    "dowel": "A smooth wooden peg. It lines two panels up but holds no weight on its own. Tap it in to about half depth.",
+    "square": "Describes a frame whose corners are true right angles. You check it by measuring both diagonals: if the two numbers match, it is square.",
+    "stud": "The vertical timber inside a wall, usually every 16 or 24 inches. It is what you screw an anti-tip bracket into. Drywall alone will not hold furniture.",
+    "anti-tip": "A strap or bracket that ties furniture to the wall so it cannot fall forward. Required on anything taller than it is wide, and on every dresser in a home with children.",
+    "washer": "A flat metal ring that goes under a bolt head. It spreads the load so the bolt does not pull through the material. Never leave one out.",
+    "shelf-pin": "A small metal or plastic peg that an adjustable shelf rests on. Count holes from the bottom so all four pins are at identical heights.",
+    "slat": "One of the wooden boards that spans a bed frame to support the mattress. Gaps wider than about three inches will make a foam mattress sag.",
+    "center-support": "The bar running down the middle of a bed frame, head to foot, with its own legs. It carries most of the load and is not optional on a queen or larger.",
+    "drawer-slide": "The pair of metal runners a drawer rides on. They come handed, left and right, and must be mounted at identical heights.",
+    "handed": "Means a part exists as a mirror pair — a left one and a right one. Chair legs, drawer slides and sofa arms are commonly handed.",
+    "gas-cylinder": "The pneumatic post that raises and lowers a chair seat. Never cut or open one. When it fails the chair sinks, and it is a cheap universal replacement part.",
+    "caster": "A chair or cart wheel that pushes into a socket. No screws. Push until it clicks, and all of them should sit at the same height.",
+    "mechanism": "The tilt and height assembly bolted under a chair seat. The height lever goes on the right as you sit.",
+    "stretcher": "A bar between table or desk legs. It looks decorative but it is the brace that stops the piece racking.",
+    "leveling-foot": "A threaded foot you turn in or out to stop furniture rocking on an uneven floor.",
+    "grommet": "The plastic ring that lines a cable hole in a desktop.",
+    "pilot-hole": "A small hole drilled before a screw, so the screw bites instead of splitting the wood. Drill to about two thirds the screw length.",
+    "threaded-insert": "A metal sleeve set into wood that a bolt screws into. If one pulls loose, epoxy it back in and let it cure before bolting.",
+    "barrel-nut": "A metal cylinder that drops into a round hole in a crib or bed frame, with a threaded hole running across it. The bolt comes in from the side and threads into that cross hole. If the cylinder is rotated even slightly, the bolt cannot find the thread — turn the slot on its end with a flat-head screwdriver until you can see straight through it.",
+    "confirmat": "A fat, coarse-threaded screw that bites directly into chipboard with no cam needed. Drive it straight and stop when snug.",
+    "tempered-glass": "Heat-treated glass used in table tops. Strong on its faces, fragile at the edges, and it shatters all at once rather than cracking. Handle by the faces.",
+    "initialization-reset": "The procedure that re-zeroes a standing desk's motors: hold the down button for about ten seconds until the desk dips and beeps. Needed on every new desk.",
+    "control-box": "The electronics box under a standing desk that the motor, keypad and power cables all plug into.",
+    "guard-rail": "The barrier along a top bunk. Needed on both sides, including the wall side, and the gap above the mattress must meet the manual's minimum.",
+    "plumb": "Truly vertical. A gate that is not plumb will not latch reliably.",
+    "off-gassing": "The temporary smell from new foam. Harmless, and it fades in a day or two with the window open.",
+    "bunkie-board": "A thin solid platform that sits on a bed frame to support a foam mattress where the slat gaps are too wide.",
+    "law-tag": "The legal label sewn to a mattress. Photograph it — warranty claims need the model and date from it.",
+    "glide": "The plastic cap on a furniture leg. On outdoor furniture it also keeps water out of the hollow leg, which stops it splitting in winter.",
+    "marine-grease": "Water-resistant grease. A dab on each outdoor bolt thread at assembly means the bolts still undo years later.",
+    "three-four-five": "A way to check a right angle without a square: measure 3 along one side, 4 along the other, and the diagonal between those marks should be exactly 5. Works in any unit.",
+    "corner-plate": "The bracket under an L-desk that joins its two tops. Tighten this before the legs and work outward from it.",
+    "connector": "A plastic joining piece on tool-free furniture. Press it on square, fully home. Angled pressure cracks it.",
+    "press-fit": "A joint that holds by friction alone, with no screw. Push until it stops moving.",
+    "sleeve": "The two tapered plastic halves that clip around a wire-shelving post to make a collar for a shelf. Wide end up.",
+    "wedge": "How a wire shelf grips: its corner collar drives down onto the tapered sleeve and locks by friction.",
+    "leg-plate": "The metal plate that screws to a table or sofa underside and gives a leg something to thread into.",
+    "clip-bracket": "The hooked metal plate that joins two sofa sections. Lift one section slightly so the hooks can drop into each other.",
+    "drawer-stop": "A small clip that prevents a drawer pulling all the way out of the cabinet. Fit them — a loaded drawer coming out in your hands can pull a dresser over.",
+    "hinge-adjust": "The two or three screws on a cabinet hinge that move the door sideways, in and out, and up and down. Five minutes here is what makes doors line up.",
+    "crossbar": "The bar that joins two legs or two uprights. It looks decorative but it is the brace that stops the piece racking side to side. On a standing desk it also sets the desk's width.",
+    "barrel-bolt": "A long bolt used on beds and futons that threads into a cylindrical barrel nut dropped into a hole in the rail. Start it by hand — the barrel has to be rotated so its threads line up.",
+    "mattress-support": "The frame, springs or board that holds a crib mattress up, bolted at all four corners. It is the most repeated structural failure point in cribs, and because it sits under the mattress you never see it unless you look on purpose.",
+    "two-finger-test": "Push the mattress hard into one corner, then try to slide two flat adult fingers into the gap on the opposite side. If they fit easily, the mattress is too small for the frame. The most important five seconds in a nursery.",
+    "slat-spacing": "The gap between crib slats, which must be no more than 2 3/8 inches. A standard soda can is close to that width and will not pass between correctly spaced slats.",
+    "preload": "The clamping force a tightened bolt holds. CPSC testing found a crib fastener backed off as little as half a turn loses its preload, after which impact loading works it looser and opens a gap.",
+    "five-point-harness": "Two shoulder straps, two hip straps and a crotch strap meeting at one buckle. The crotch strap is the one that stops a child sliding down and out — without it you effectively have no restraint.",
+    "submarining": "When a child slides down and forward under a high chair tray instead of being held by the harness. It is the reason the tray is never a restraint.",
+    "detent": "The sprung catch that holds a folding joint in its open position. The click you hear is the detent seating. A joint that has not clicked can fold under load.",
+    "over-center-latch": "The latch used in play yard top rails. It locks by travelling slightly past straight, which is why the rail has to be pushed down and outward rather than just down.",
+    "incline-limit": "A bassinet sleep surface must sit at no more than 10 degrees. Steeper inclined sleepers are banned in the US after infant deaths. Flat is the target; 10 degrees is the legal ceiling.",
+    "transit-lock": "A bracket, bolt or tie fitted for shipping that stops a mechanism moving. Gliders and recliners commonly have one, and it must be removed before use.",
+    "pinch-point": "A place where a mechanism closes on itself. The scissor linkage under a glider is the classic nursery example and it closes with an adult's full weight behind it.",
+    "stabilizer-bar": "The bar fitted along the open side when a crib converts to a toddler bed. It does the structural job the removed side used to do and is not optional.",
+    "toggle-anchor": "A drywall fixing that opens out behind the board to spread the load. Far stronger than a conical plastic plug, and the right choice for anchoring furniture where there is no stud.",
+    "pressure-mount": "A gate held in place by friction from four threaded cups wound out against the frame. Acceptable in a doorway or at the bottom of stairs, never at the top.",
+    "hardware-mount": "A gate screwed into studs or solid timber. The only acceptable type at the top of a staircase.",
+    "mesh-side": "The fabric mesh wall of a play yard or travel crib. A tear in it is both an entrapment and a strangulation risk and ends the product's life.",
+    "glide-mechanism": "The linkage under a glider that converts the chair's motion into a smooth back-and-forth glide. It is also the pinch point."
+  },
+  "catalog": [
+    {
+      "label": "Zinus Shalini upholstered platform bed",
+      "pattern": "upholstered-bed",
+      "brand": "zinus"
+    },
+    {
+      "label": "Zinus SmartBase metal bed frame",
+      "pattern": "metal-platform-bed",
+      "brand": "zinus"
+    },
+    {
+      "label": "Zinus Green Tea memory foam mattress",
+      "pattern": "mattress-in-box",
+      "brand": "zinus"
+    },
+    {
+      "label": "Amazon Basics metal platform bed frame",
+      "pattern": "metal-platform-bed",
+      "brand": "amazon-basics"
+    },
+    {
+      "label": "IKEA MALM dresser",
+      "pattern": "cam-lock-carcass",
+      "brand": "ikea"
+    },
+    {
+      "label": "IKEA KALLAX shelf unit",
+      "pattern": "cube-storage",
+      "brand": "ikea"
+    },
+    {
+      "label": "IKEA BILLY bookcase",
+      "pattern": "bookcase-open",
+      "brand": "ikea"
+    },
+    {
+      "label": "IKEA HEMNES nightstand",
+      "pattern": "cam-lock-carcass",
+      "brand": "ikea"
+    },
+    {
+      "label": "IKEA BESTÅ TV unit",
+      "pattern": "tv-stand",
+      "brand": "ikea"
+    },
+    {
+      "label": "IKEA LACK coffee table",
+      "pattern": "coffee-table",
+      "brand": "ikea"
+    },
+    {
+      "label": "IKEA MARKUS office chair",
+      "pattern": "office-chair",
+      "brand": "ikea"
+    },
+    {
+      "label": "Sauder Beginnings bookcase",
+      "pattern": "bookcase-open",
+      "brand": "sauder"
+    },
+    {
+      "label": "Sauder Select storage cabinet",
+      "pattern": "cam-lock-carcass",
+      "brand": "sauder"
+    },
+    {
+      "label": "Ameriwood Home Dakota TV stand",
+      "pattern": "tv-stand",
+      "brand": "ameriwood"
+    },
+    {
+      "label": "Novogratz Brittany futon",
+      "pattern": "futon",
+      "brand": "ameriwood"
+    },
+    {
+      "label": "Walker Edison 70-inch TV stand",
+      "pattern": "tv-stand",
+      "brand": "walker-edison"
+    },
+    {
+      "label": "Furinno Turn-N-Tube computer desk",
+      "pattern": "simple-desk",
+      "brand": "furinno"
+    },
+    {
+      "label": "Furinno 5-tier bookcase",
+      "pattern": "bookcase-open",
+      "brand": "furinno"
+    },
+    {
+      "label": "SONGMICS 6-tier shoe rack",
+      "pattern": "wire-shelving",
+      "brand": "songmics"
+    },
+    {
+      "label": "VASAGLE industrial bookshelf",
+      "pattern": "bookcase-open",
+      "brand": "songmics"
+    },
+    {
+      "label": "Hbada ergonomic office chair",
+      "pattern": "office-chair",
+      "brand": "hbada"
+    },
+    {
+      "label": "SIHOO M18 ergonomic chair",
+      "pattern": "office-chair",
+      "brand": "hbada"
+    },
+    {
+      "label": "Furmax mid-back mesh chair",
+      "pattern": "office-chair",
+      "brand": "hbada"
+    },
+    {
+      "label": "GTRACING gaming chair",
+      "pattern": "gaming-chair",
+      "brand": "gtracing"
+    },
+    {
+      "label": "Dowinx gaming chair with footrest",
+      "pattern": "gaming-chair",
+      "brand": "gtracing"
+    },
+    {
+      "label": "Homall racing gaming chair",
+      "pattern": "gaming-chair",
+      "brand": "gtracing"
+    },
+    {
+      "label": "FlexiSpot E7 standing desk",
+      "pattern": "standing-desk",
+      "brand": "flexispot"
+    },
+    {
+      "label": "VIVO electric standing desk frame",
+      "pattern": "standing-desk",
+      "brand": "flexispot"
+    },
+    {
+      "label": "Cubiker 40-inch computer desk",
+      "pattern": "simple-desk",
+      "brand": "bestier"
+    },
+    {
+      "label": "Bestier L-shaped gaming desk",
+      "pattern": "l-desk",
+      "brand": "bestier"
+    },
+    {
+      "label": "Tribesigns L-shaped corner desk",
+      "pattern": "l-desk",
+      "brand": "bestier"
+    },
+    {
+      "label": "Rolanstar desk with shelves",
+      "pattern": "simple-desk",
+      "brand": "bestier"
+    },
+    {
+      "label": "Nathan James Theo bookshelf",
+      "pattern": "bookcase-open",
+      "brand": "nathan-james"
+    },
+    {
+      "label": "South Shore 6-drawer double dresser",
+      "pattern": "cam-lock-carcass",
+      "brand": "south-shore"
+    },
+    {
+      "label": "Prepac wall-mounted media console",
+      "pattern": "tv-stand",
+      "brand": "prepac"
+    },
+    {
+      "label": "Amazon Basics 5-shelf wire shelving",
+      "pattern": "wire-shelving",
+      "brand": "amazon-basics"
+    },
+    {
+      "label": "Seville Classics UltraDurable rack",
+      "pattern": "wire-shelving",
+      "brand": "amazon-basics"
+    },
+    {
+      "label": "LUCID 10-inch memory foam mattress",
+      "pattern": "mattress-in-box",
+      "brand": "lucid"
+    },
+    {
+      "label": "Linenspa 8-inch hybrid mattress",
+      "pattern": "mattress-in-box",
+      "brand": "lucid"
+    },
+    {
+      "label": "Costway rattan patio sofa set",
+      "pattern": "patio-set",
+      "brand": "costway"
+    },
+    {
+      "label": "Devoko 5-piece patio conversation set",
+      "pattern": "patio-set",
+      "brand": "costway"
+    },
+    {
+      "label": "Yaheetech 3-piece bistro set",
+      "pattern": "patio-set",
+      "brand": "costway"
+    },
+    {
+      "label": "Best Choice Products wicker sectional",
+      "pattern": "patio-set",
+      "brand": "costway"
+    },
+    {
+      "label": "DHP Emily futon sofa bed",
+      "pattern": "futon",
+      "brand": "ameriwood"
+    },
+    {
+      "label": "Yaheetech twin over twin bunk bed",
+      "pattern": "bunk-bed",
+      "brand": "costway"
+    },
+    {
+      "label": "Max & Lily solid wood bunk bed",
+      "pattern": "bunk-bed"
+    },
+    {
+      "label": "Sweetcrispy fabric storage wardrobe",
+      "pattern": "fabric-wardrobe",
+      "brand": "bestier"
+    },
+    {
+      "label": "SONGMICS portable closet organizer",
+      "pattern": "fabric-wardrobe",
+      "brand": "songmics"
+    },
+    {
+      "label": "Set of 4 upholstered dining chairs",
+      "pattern": "dining-chairs"
+    },
+    {
+      "label": "Counter-height bar stools, set of 2",
+      "pattern": "dining-chairs"
+    },
+    {
+      "label": "9-cube fabric storage organizer",
+      "pattern": "cube-storage"
+    },
+    {
+      "label": "3-drawer mobile file cabinet",
+      "pattern": "drawers"
+    },
+    {
+      "label": "Lift-top coffee table with storage",
+      "pattern": "coffee-table"
+    },
+    {
+      "label": "Modular 4-seat fabric sectional sofa",
+      "pattern": "sectional-sofa"
+    },
+    {
+      "label": "Delta Children 4-in-1 convertible crib",
+      "pattern": "convertible-crib"
+    },
+    {
+      "label": "Babyletto Hudson 3-in-1 convertible crib",
+      "pattern": "convertible-crib"
+    },
+    {
+      "label": "DaVinci Kalani 4-in-1 convertible crib",
+      "pattern": "convertible-crib"
+    },
+    {
+      "label": "Graco Pack 'n Play play yard",
+      "pattern": "play-yard"
+    },
+    {
+      "label": "HALO BassiNest swivel sleeper",
+      "pattern": "bassinet-sleeper"
+    },
+    {
+      "label": "Delta Children 6-drawer changing dresser",
+      "pattern": "changing-dresser"
+    },
+    {
+      "label": "Storkcraft Portofino glider and ottoman",
+      "pattern": "glider-recliner"
+    },
+    {
+      "label": "Graco Blossom convertible high chair",
+      "pattern": "high-chair"
+    },
+    {
+      "label": "Regalo Easy Step walk-through gate",
+      "pattern": "safety-gate"
+    },
+    {
+      "label": "Delta Children toddler bed with guardrails",
+      "pattern": "toddler-bed"
+    },
+    {
+      "label": "Newton or Newton-style crib mattress",
+      "pattern": "crib-mattress-fit"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": "cube-storage",
+  "name": "Cube organizer and modular shelving",
+  "tagline": "Panels and plastic connectors, or a cam-lock grid. The no-tools kind is deceptively easy to build wrong.",
+  "covers": [
+    "Cube storage organizers",
+    "Modular wire or plastic cube shelving",
+    "Fabric drawer cubbies",
+    "Kids' toy organizers",
+    "Stackable storage cubes"
+  ],
+  "difficulty": 1,
+  "minutes": 35,
+  "people": 1,
+  "peopleNote": "One person. A child can genuinely help with this one.",
+  "tools": [
+    {
+      "n": "Rubber mallet",
+      "why": "Seating plastic connectors and dowels without hurting your palm.",
+      "req": false
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "If yours is the wooden cam-lock style rather than the plastic connector style.",
+      "req": false
+    },
+    {
+      "n": "Tape measure",
+      "why": "Squaring the finished grid.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Plastic connectors or cam locks",
+    "Panels",
+    "Mallet",
+    "Anti-tip strap",
+    "Fabric bins"
+  ],
+  "before": [
+    "Work out which type you have. If it came with plastic X-shaped connectors it is the tool-free kind. If it came with an Allen key and metal discs, follow the cam-lock box pattern instead.",
+    "Build it flat on the floor, then stand it up. Building a grid standing up is a losing battle.",
+    "Decide now whether it goes against a wall. Tall cube units must be anchored."
+  ],
+  "safety": [
+    "Cube units are light and children love climbing them. Anchor anything taller than two cubes high.",
+    "Never stack two separate cube units on top of each other unless they are designed to connect."
+  ],
+  "steps": [
+    {
+      "title": "Identify which system you have",
+      "secs": 20,
+      "scene": "sort-hardware",
+      "say": "Plastic X or T-shaped connectors means the tool-free kind. Metal discs and an Allen key means it is really a cam-lock box in a grid shape.",
+      "do": [
+        "Look in the hardware bag",
+        "Plastic connectors: carry on with this guide",
+        "Cam locks and Allen key: the cam-lock box guide is the one you want"
+      ],
+      "tip": "A few units are a hybrid, with plastic connectors and screws for the back. Read the parts list."
+    },
+    {
+      "title": "Lay out the grid flat, dry, before connecting",
+      "secs": 21,
+      "scene": "grid-layout",
+      "say": "Put the panels on the floor in the shape of the finished grid without connecting anything. You will instantly see how it goes together.",
+      "do": [
+        "Outer panels around the edge",
+        "Inner divider panels where the cubes split",
+        "Compare against the manual picture"
+      ],
+      "tip": "Dry-laying the whole thing first takes two minutes and prevents the classic problem of discovering you are a divider short at the far corner."
+    },
+    {
+      "title": "Start with one corner",
+      "secs": 19,
+      "scene": "clip-snap",
+      "say": "Push a corner connector onto the edge of one panel, then push the second panel into the other side of the connector. Firm, straight pressure.",
+      "do": [
+        "Connector onto panel one, straight on, not angled",
+        "Panel two into the other slot",
+        "Press until it bottoms out"
+      ],
+      "watch": "Angled pressure cracks plastic connectors. If it resists, you are not square to the slot."
+    },
+    {
+      "title": "Build out one row at a time",
+      "secs": 21,
+      "scene": "grid-build",
+      "say": "Work along one row completely before starting the next. Each new panel adds stiffness, so the grid gets easier to handle as you go.",
+      "do": [
+        "Complete the bottom row first",
+        "Then add the uprights for the next row",
+        "Then the next horizontal row"
+      ],
+      "tip": "Work on the floor with the back of the unit facing down. Gravity holds everything in place for you."
+    },
+    {
+      "title": "Seat every connector fully",
+      "secs": 19,
+      "scene": "mallet-tap",
+      "say": "Go back over every joint and tap it home with the mallet or the heel of your hand. Half-seated connectors are why these units feel flimsy.",
+      "do": [
+        "Tap each joint, gently",
+        "Look for any gap between panel and connector",
+        "The grid should feel rigid, not springy"
+      ],
+      "watch": "If you can see daylight at a joint, it is not seated. That one joint will be the one that fails."
+    },
+    {
+      "title": "Square the grid and fit the back if there is one",
+      "secs": 21,
+      "scene": "square-check",
+      "say": "Measure the diagonals of the outer rectangle and push until they match. Then fit any back panel, which locks that shape in.",
+      "do": [
+        "Diagonals equal",
+        "Back panel on, printed side out",
+        "Nails or screws at corners first, then around"
+      ],
+      "tip": "Many cube units have no back at all. Those rely on being anchored to the wall for rigidity, which makes the next step more important, not less."
+    },
+    {
+      "title": "Stand it up and anchor it",
+      "secs": 21,
+      "scene": "antitip-strap",
+      "say": "Stand it up where it lives, then strap it to the wall. A cube unit full of books is heavy and has almost no base depth to resist tipping.",
+      "do": [
+        "Stand up with help if it is wide",
+        "Find a stud or use a proper anchor",
+        "Strap at the top, snug"
+      ],
+      "watch": "Cube organizers in children's rooms are among the most commonly tipped furniture there is. They are light, grippy, and exactly the right shape to climb."
+    },
+    {
+      "title": "Drop in the bins and load it",
+      "secs": 19,
+      "scene": "load-shelves",
+      "say": "Assemble any fabric bins by folding their stiffener panels in, then slide them into the cubes. Heavy things at the bottom.",
+      "do": [
+        "Fabric bins: slide the cardboard stiffeners into their fabric sleeves",
+        "Bins into the lower cubes for heavy items",
+        "Keep the top row light"
+      ],
+      "tip": "If a bin is a tight fit, squeeze it slightly as it goes in. They are usually cut a hair generous on purpose."
+    },
+    {
+      "title": "Final push test",
+      "secs": 19,
+      "scene": "shake-test",
+      "say": "Push the top of the unit firmly. With the strap on it should barely move. Any flex means a connector somewhere is not seated.",
+      "do": [
+        "Push at the top corner",
+        "Listen for clicks or creaks",
+        "Re-tap any joint that moves"
+      ],
+      "tip": "Check the strap again after a month. Drywall anchors can settle a little under constant tension."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "A plastic connector cracked",
+      "a": "They are sold separately by every manufacturer and in generic multi-packs. Order spares — if one cracked, the unit is probably under some stress, so check the grid is square."
+    },
+    {
+      "q": "The whole unit racks and leans like a parallelogram",
+      "a": "That is normal for a backless cube unit and exactly what the wall strap is for. Square it, then anchor it. Adding a back panel of thin hardboard also works very well."
+    },
+    {
+      "q": "The panels will not push into the connectors",
+      "a": "You are going in at an angle, or there is a burr in the slot. Line it up dead square and press with your palm, not your fingertips. Check the slot for flashing you can trim with a knife."
+    },
+    {
+      "q": "A cube is slightly too small for my bins",
+      "a": "Measure the cube opening and buy bins to match. Cube sizes vary between brands even though they look standard — a common size is around thirteen inches, but not universally."
+    },
+    {
+      "q": "Can I stack two units?",
+      "a": "Only if the manufacturer says so and only when both are anchored to the wall. An unanchored stack is the least stable furniture arrangement in a house."
+    }
+  ],
+  "terms": [
+    "connector",
+    "square",
+    "anti-tip",
+    "stud"
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "patio-set",
+  "name": "Patio and outdoor furniture",
+  "tagline": "Aluminum or rattan frames, bolts that will see rain, and cushions with hidden straps.",
+  "covers": [
+    "Patio sofa and sectional sets",
+    "Rattan and wicker furniture",
+    "Outdoor dining sets",
+    "Adirondack and deck chairs",
+    "Gazebo-adjacent frames and swing chairs",
+    "Fire pit tables"
+  ],
+  "difficulty": 2,
+  "minutes": 90,
+  "people": 2,
+  "peopleNote": "Two people. Outdoor sets come in many boxes and the frames are awkward rather than heavy.",
+  "tools": [
+    {
+      "n": "The provided Allen key",
+      "why": "Most frame bolts.",
+      "req": true
+    },
+    {
+      "n": "Adjustable wrench",
+      "why": "Many outdoor sets use nuts and bolts rather than threaded inserts.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Brackets and slat screws.",
+      "req": false
+    },
+    {
+      "n": "A tube of marine grease or petroleum jelly",
+      "why": "On the bolt threads. Outdoor hardware seizes with rust and you will want to take this apart one day.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Bolts, washers, nuts",
+    "Feet or glides",
+    "Cushions with straps",
+    "Glass or slat table top"
+  ],
+  "before": [
+    "Build it on the patio or deck, not in the garage. These sets are wide and often do not fit through a side gate assembled.",
+    "Lay a tarp or the cardboard down. Concrete scuffs powder-coated aluminum immediately.",
+    "Check the weather. Half-built outdoor furniture left in rain overnight will have rust bloom on the bare bolt ends.",
+    "Open every box and group parts by piece — sofa, chairs, table — before building anything. Outdoor sets mix parts across boxes."
+  ],
+  "safety": [
+    "Glass table tops are tempered and fail suddenly if an edge is knocked. Two people, handled by the faces.",
+    "Never leave a glass-topped patio table without its umbrella hole plug or its umbrella. Wind lifts unsecured tops."
+  ],
+  "steps": [
+    {
+      "title": "Open every box and group by piece",
+      "secs": 18,
+      "scene": "read-parts-list",
+      "say": "Outdoor sets arrive in several boxes and the parts are mixed between them. Open them all and make a pile per piece of furniture before you start.",
+      "do": [
+        "Open all boxes",
+        "One pile per chair, one for the sofa, one for the table",
+        "Keep each hardware bag with its pile"
+      ],
+      "watch": "Building the first chair with the sofa's bolts is extremely easy to do when everything is in one heap."
+    },
+    {
+      "title": "Grease the bolt threads",
+      "secs": 16,
+      "scene": "grease-threads",
+      "say": "Wipe a little marine grease or petroleum jelly on each bolt thread before it goes in. Two minutes now means these bolts still undo in five years.",
+      "do": [
+        "A dab on the thread of each bolt",
+        "Especially any bolt that will sit facing upward and collect water",
+        "Wipe excess off the finish"
+      ],
+      "tip": "This is the single best piece of outdoor furniture advice. Rusted-solid bolts are why patio sets get thrown away instead of repaired."
+    },
+    {
+      "title": "Build the frames, everything finger-tight",
+      "secs": 22,
+      "scene": "bolt-hex",
+      "say": "Assemble each frame with its bolts, washers and nuts started but loose. Outdoor frames have more flex than indoor ones and need room to find their shape.",
+      "do": [
+        "Washer between bolt head and frame, every time",
+        "Nut on the back, finger-tight",
+        "All bolts in before any are tightened"
+      ],
+      "watch": "Many outdoor bolts need a wrench on the nut while you turn the bolt. Having a second person hold it makes this easy."
+    },
+    {
+      "title": "Check the frames sit flat before tightening",
+      "secs": 18,
+      "scene": "square-check",
+      "say": "Put each frame on a flat surface and press each corner. Adjust while loose until it sits with no rock, then tighten.",
+      "do": [
+        "Each frame on flat ground",
+        "Press each corner",
+        "Adjust and then tighten, diagonally, two laps"
+      ],
+      "tip": "Patios are not level. Get the furniture itself sitting flat on a known-flat surface first, then deal with the patio separately with glides."
+    },
+    {
+      "title": "Fit the feet and glides",
+      "secs": 16,
+      "scene": "leveling-feet",
+      "say": "Push or screw the plastic glides into every leg end. They keep water out of the tube and stop the legs grinding into the patio.",
+      "do": [
+        "One glide per leg, pushed fully in",
+        "Adjustable feet: leave room to adjust",
+        "Check none are missing"
+      ],
+      "watch": "An open aluminum leg end fills with water, and in winter that water freezes and splits the tube. Every leg needs its cap."
+    },
+    {
+      "title": "Fit the table top",
+      "secs": 22,
+      "scene": "glass-set",
+      "say": "Slat tops screw down from underneath. Glass tops sit on rubber pads and clamp gently. Two people either way.",
+      "do": [
+        "Slat top: screws from underneath, started loose then tightened in a cross pattern",
+        "Glass top: clean rubber pads first, then lower it straight down",
+        "Clamps on glass: finger-tight plus a nudge, no more"
+      ],
+      "watch": "Over-tightening a clamp on a tempered glass top is a classic way to shatter it, sometimes days later rather than immediately."
+    },
+    {
+      "title": "Umbrella hole and plug",
+      "secs": 16,
+      "scene": "umbrella-hole",
+      "say": "If there is an umbrella hole, fit the plug now or put the umbrella in. An open hole in a glass top is a stress point and a wind catcher.",
+      "do": [
+        "Plug in if no umbrella",
+        "Umbrella through the hole and into the base, if using",
+        "Never use an umbrella without a weighted base"
+      ],
+      "tip": "A patio umbrella in a table with no weighted base will lift in a gust and take the glass with it."
+    },
+    {
+      "title": "Strap the cushions on",
+      "secs": 16,
+      "scene": "cushion-clip",
+      "say": "Most outdoor cushions have velcro strips or ties underneath. Use them. Unsecured cushions end up in the neighbor's garden.",
+      "do": [
+        "Find the velcro or ties on the cushion underside",
+        "Fasten them around the frame rails",
+        "Seat cushions first, then backs"
+      ],
+      "tip": "If there are no straps, a few outdoor velcro strips from a hardware store solve it for a couple of dollars."
+    },
+    {
+      "title": "Final tighten and a wobble check",
+      "secs": 18,
+      "scene": "tighten-sequence",
+      "say": "Second tightening lap on every piece, then sit in each seat and rock. Any movement is a loose bolt.",
+      "do": [
+        "Full second lap on every piece",
+        "Sit and rock in each seat",
+        "Check the table does not rack when leaned on"
+      ],
+      "tip": "Keep the Allen key and a small wrench in a drawer. Outdoor furniture expands and contracts with temperature and needs a tighten each spring."
+    },
+    {
+      "title": "Plan for weather from day one",
+      "secs": 18,
+      "scene": "cover-protect",
+      "say": "Bring cushions in or get a cover. Sun fades fabric faster than anything, and water in the frame is what eventually kills these sets.",
+      "do": [
+        "Cushion storage bag or bring them inside",
+        "A fitted cover for the frames if they stay out all winter",
+        "Tip tables up or cover them so water drains"
+      ],
+      "tip": "Set a spring reminder: tighten every bolt, check every glide, re-grease anything that looks rusty. That is a twenty-year patio set instead of a three-year one."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "A bolt is already rusting",
+      "a": "Replace it with a stainless steel bolt of the same size from a hardware store, and grease the thread. Unlike bunk beds, outdoor furniture bolts are usually generic and safe to substitute like for like."
+    },
+    {
+      "q": "The chair rocks on my patio",
+      "a": "Check the frame itself on flat ground first. If the frame is fine, the patio is uneven — use adjustable glides or a thin shim under the short leg."
+    },
+    {
+      "q": "The glass top will not sit flat",
+      "a": "A rubber pad is missing or out of position, or there is grit on one. Lift the glass with two people, clean everything, reposition the pads, lower straight down."
+    },
+    {
+      "q": "A bolt is seized and will not undo",
+      "a": "Penetrating oil, left overnight, then try again. If the head is rounded off, a bolt extractor or a hacksaw cut is the next step. Grease on assembly prevents all of this."
+    },
+    {
+      "q": "The cushions keep blowing away",
+      "a": "Use the straps underneath. If the cushions have none, outdoor velcro strips or a few cushion clips solve it permanently."
+    },
+    {
+      "q": "A leg filled with water and split",
+      "a": "The glide cap was missing. Replace the glide, and check every other leg. Aluminum splits when water inside freezes, and that damage is not repairable."
+    }
+  ],
+  "terms": [
+    "glide",
+    "tempered-glass",
+    "marine-grease",
+    "washer"
+  ]
+}

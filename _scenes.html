@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Scene contact sheet</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+ body{padding:16px}
+ .sheet{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+ .cell{background:var(--bg-sunk);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+ .cell svg{display:block;width:100%;height:auto}
+ .cell b{display:block;font:600 11px ui-sans-serif;padding:4px 7px;background:var(--bg-raised);color:var(--ink-soft)}
+</style></head><body>
+<div class="sheet" id="sheet"></div>
+<script type="module">
+import { drawScene } from './js/diagrams.js';
+const ids = await fetch('data/index.json').then(r=>r.json()).then(async ix=>{
+  const s=new Set();
+  for (const p of ix.patterns) {
+    const d = await fetch(`data/patterns/${p.id}.json`).then(r=>r.json());
+    d.steps.forEach(x=>s.add(x.scene));
+  }
+  return [...s].sort();
+});
+const PER = 16;
+const page = +(new URLSearchParams(location.search).get('page') || 0);
+const slice = ids.slice(page*PER, page*PER+PER);
+document.querySelector('#sheet').innerHTML = slice.map(id=>`<div class="cell"><b>${id}</b>${drawScene(id)}</div>`).join('');
+document.title = `scenes ${page*PER+1}-${page*PER+slice.length} of ${ids.length}`;
+</script></body></html>

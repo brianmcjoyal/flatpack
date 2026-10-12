@@ -1,0 +1,271 @@
+{
+  "id": "changing-dresser",
+  "name": "Changing table and nursery dresser",
+  "tagline": "A dresser with a changing top. The build is ordinary. The anchoring is the entire point, and there is now a federal rule behind it.",
+  "covers": [
+    "Changing tables",
+    "Nursery dresser",
+    "Baby dresser",
+    "Dressers with a changing topper",
+    "Nursery dressers and chests",
+    "Combo changer and drawer units",
+    "Kids' clothing storage units"
+  ],
+  "difficulty": 2,
+  "minutes": 80,
+  "people": 1,
+  "peopleNote": "One to build, two to stand it up and walk it into place.",
+  "standard": {
+    "name": "STURDY Act / 16 CFR 1261 (ASTM F2057-23)",
+    "note": "Since 1 September 2023, free-standing clothing storage units at least 27 inches tall, at least 30 pounds, with at least 3.2 cubic feet of enclosed storage must pass a federal tip-over standard and must ship with an anti-tip device. If your unit is in that size range and came with no anchor kit, that is a red flag worth raising with the seller. Units made before that date were never tested to it — and those are the ones still in most homes."
+  },
+  "recall": true,
+  "tools": [
+    {
+      "n": "Phillips screwdriver",
+      "why": "Cam bolts, drawer slides, back panel.",
+      "req": true
+    },
+    {
+      "n": "Stud finder",
+      "why": "The anchor has to reach a stud or a properly rated anchor. Guessing is how anchors pull out of drywall.",
+      "req": true
+    },
+    {
+      "n": "Drill with a small bit",
+      "why": "Pilot holes for the wall bracket. A pilot hole is what stops a screw splitting the stud or wandering.",
+      "req": true
+    },
+    {
+      "n": "Rubber mallet",
+      "why": "Dowels and back panel nails.",
+      "req": true
+    },
+    {
+      "n": "Tape measure",
+      "why": "Squaring the carcass, and setting the drawer slides level.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Cam locks and cam bolts",
+    "Dowels",
+    "Drawer slides",
+    "Back panel and nails",
+    "Anti-tip restraint kit"
+  ],
+  "before": [
+    "Decide the final position before you build. Changing furniture must sit against a wall it can be anchored to, so a unit destined for a spot with no stud needs a plan first.",
+    "Check the box for the anchor kit now. If this is a clothing storage unit made after September 2023 and there is no anchor in the box, contact the seller.",
+    "Build it in the nursery. A finished dresser rarely clears a doorway.",
+    "Put all hardware in a bowl. You will be handling small screws near a carpet."
+  ],
+  "safety": [
+    "A child climbing an open drawer is the tip-over mechanism. It takes very little weight, and it happens in seconds and silently.",
+    "A changing table is used with both your hands occupied. Never step away from a baby on it, not for a moment, and use the restraint strap if one is fitted.",
+    "Anchor it before you put anything on it, not after. The most dangerous window is the evening you finish building and tell yourself you will do the strap tomorrow."
+  ],
+  "steps": [
+    {
+      "title": "Find the anchor kit first",
+      "secs": 16,
+      "scene": "sort-hardware",
+      "say": "Before you build anything, find the anti-tip kit — a strap or a bracket pair, usually in its own bag. Set it somewhere you cannot ignore it.",
+      "do": [
+        "Look for a strap, two brackets, and wood screws",
+        "Set it on top of the box, not back in with the other hardware",
+        "If there is no kit, order one now so it arrives before you need it"
+      ],
+      "tip": "Tape the anchor kit to the outside of the box. It is the step people skip, and the one that matters most.",
+      "watch": "Units covered by the federal rule have to ship with an anchor that meets ASTM F3096. A unit in that size class with no anchor in the box may not be compliant."
+    },
+    {
+      "title": "Count parts and label the panels",
+      "secs": 14,
+      "scene": "read-parts-list",
+      "say": "Dressers have the most look-alike panels of any furniture. Match each to its letter in the manual and pencil the letter on a face that will end up hidden.",
+      "do": [
+        "Lay every panel out flat, none stacked",
+        "Pencil-mark each one",
+        "Count the hardware bags against the list"
+      ],
+      "watch": "Side panels are mirror images. Getting one the wrong way round throws off every hole after it."
+    },
+    {
+      "title": "Dowels, cam bolts, and cams the right way round",
+      "secs": 18,
+      "scene": "cam-insert",
+      "say": "Tap dowels to half depth, hand-tighten the cam bolts, and drop a cam into each big round hole with its keyhole gap facing the edge the bolt arrives from.",
+      "do": [
+        "Dowels half in",
+        "Cam bolts tight to the shoulder, no further",
+        "Every cam's keyhole gap pointing at the incoming bolt"
+      ],
+      "tip": "Do all the prep across every panel first, then all the joining. It is much faster than panel by panel."
+    },
+    {
+      "title": "Build the carcass and lock the cams",
+      "secs": 16,
+      "scene": "panel-join",
+      "say": "Lay the bottom down, stand the sides and dividers into it, bring the top across, then turn each cam clockwise about half a turn until it bites.",
+      "do": [
+        "Press each joint closed with hand pressure, never force",
+        "Lock cams from the middle outward",
+        "Tug each joint to confirm"
+      ],
+      "watch": "If a joint will not close, a cam is facing the wrong way or a dowel is proud. Open it up and look."
+    },
+    {
+      "title": "Square it, then fit the back",
+      "secs": 16,
+      "scene": "square-check",
+      "say": "Measure both diagonals and push the long corner until they match. Then nail the back panel on, corners first. The back is what holds that shape.",
+      "do": [
+        "Diagonals equal before any nail goes in",
+        "Printed side of the back panel faces out",
+        "Nails every few inches, including into the dividers and fixed shelves"
+      ],
+      "tip": "A square carcass is why drawers glide and drawer fronts line up. Everything downstream depends on this step."
+    },
+    {
+      "title": "Mount the drawer slides level",
+      "secs": 18,
+      "scene": "slide-mark",
+      "say": "Measure up from the bottom of the cabinet on both sides for every slide, and mark. Both sides must match exactly, or the drawer will tilt and rub.",
+      "do": [
+        "Measure from the cabinet bottom each time, not from the slide below",
+        "Same height left and right, checked twice",
+        "Front screw first, check level along the length, then the back screw"
+      ],
+      "tip": "If your cabinet has pre-drilled slide holes, use them and skip the measuring — the factory already got it right.",
+      "watch": "A sixteenth of an inch of difference between left and right is enough to make a drawer bind. This is the step that decides whether the dresser feels cheap or solid."
+    },
+    {
+      "title": "Build and hang the drawers",
+      "secs": 14,
+      "scene": "drawer-box",
+      "say": "Assemble each drawer box square, slide the base into its groove, then hang them and check the fronts line up as a row.",
+      "do": [
+        "Square each drawer box by its diagonals before fixing the base",
+        "Hang all drawers, then close them and sight along the row",
+        "Fit the drawer stops — they keep a loaded drawer from coming out in your hands"
+      ],
+      "watch": "Drawer stops matter more here than on any other furniture. A drawer that pulls all the way out is both a dropped-drawer hazard and a climbing step."
+    },
+    {
+      "title": "Fit the changing top and its restraint",
+      "secs": 16,
+      "scene": "changing-top",
+      "say": "The changing tray or topper screws down to the dresser top. It must be mechanically fixed, not just resting there, and the restraint strap goes on now.",
+      "do": [
+        "Screw the topper down through its brackets — never leave it loose",
+        "Check the raised guard rails are on all four sides, or at least the three the manual specifies",
+        "Fit the safety strap and test the buckle"
+      ],
+      "tip": "A changing pad should also have its own non-slip backing or be strapped down. A pad that slides is the same hazard as a loose topper.",
+      "watch": "Never use a dresser as a changing table without a proper topper fixed to it. A pad balanced on a flat dresser top has nothing stopping it sliding off the edge."
+    },
+    {
+      "title": "Anchor it to a stud",
+      "secs": 20,
+      "scene": "antitip-strap",
+      "say": "Find a stud, pilot-drill, screw the wall bracket in, fix the other bracket to the dresser, and pull the strap snug so the unit cannot rock forward.",
+      "do": [
+        "Stud finder, confirmed by tapping for the solid note",
+        "Pilot hole first, then the screw — straight in, fully seated",
+        "No stud available: use a heavy-duty toggle anchor rated well above the loaded weight of the unit",
+        "Two anchors on a wide dresser, one near each end"
+      ],
+      "tip": "Pull the top of the dresser toward you hard once the strap is on. It should barely move. If it rocks, the strap is slack.",
+      "watch": "Drywall alone will not hold a loaded dresser. A plastic wall plug in plasterboard will pull straight out under a climbing child, which is exactly the load the anchor exists to resist."
+    },
+    {
+      "title": "Load it low and test it",
+      "secs": 16,
+      "scene": "load-shelves",
+      "say": "Heaviest things in the bottom drawers. Then open the top drawer fully and press down on it — with the anchor fitted, the dresser should not lift at the back.",
+      "do": [
+        "Heavy items in the bottom two drawers",
+        "Nothing heavy or tempting on top of the unit",
+        "Open the top drawer fully and lean on it to test the anchor"
+      ],
+      "tip": "Never put a television on a dresser. Tip-over incidents involving a TV on a chest are among the most severe in the CPSC data.",
+      "watch": "Do not put toys, remote controls or anything a child wants on top of a dresser. Reaching for something up high is what starts a climb."
+    },
+    {
+      "title": "Set the re-check reminder",
+      "secs": 16,
+      "scene": "calendar-recheck",
+      "say": "Anchors loosen, drywall settles, and children get heavier and more determined. Put a reminder in your phone now.",
+      "do": [
+        "Every three months, pull the top of the unit forward and confirm the anchor holds",
+        "Re-tighten the strap if there is any slack",
+        "Re-check every time you move the furniture"
+      ],
+      "tip": "Also re-check after any house move. Anchors are the first thing taken off and the last thing put back."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every three months",
+      "what": "Pull hard on the top of the unit. It should not rock forward at all. Any movement means the strap has gone slack or the wall fixing has loosened."
+    },
+    {
+      "when": "Every three months",
+      "what": "Open the top drawer fully and press down on it. The back of the unit must stay on the floor."
+    },
+    {
+      "when": "Every three months",
+      "what": "Check the changing topper is still firmly screwed to the dresser top and the restraint strap buckle still latches."
+    },
+    {
+      "when": "Every six months",
+      "what": "Re-tighten the cams and the drawer slide screws. Slides in particular work loose with daily use."
+    },
+    {
+      "when": "After any move",
+      "what": "Re-anchor to a stud in the new room before anything goes back in the drawers. This is the single most commonly skipped step after a move."
+    },
+    {
+      "when": "When your child starts pulling to stand",
+      "what": "Walk the room and re-check every anchor. The risk changes the week they become mobile, not gradually."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "There is no stud where the dresser needs to go",
+      "a": "Use a heavy-duty toggle bolt rated well above the loaded weight of the unit — not a plastic plug. Snap-toggle style anchors hold far more in drywall than conical plugs. If you are unsure, anchor into the nearest stud and angle the strap, which is still far better than drywall alone."
+    },
+    {
+      "q": "The dresser did not come with an anchor kit",
+      "a": "Contact the manufacturer — most will send one free. Universal anti-tip kits are a few dollars at any hardware store. If the unit is over 27 inches tall and was made after September 2023, a missing anchor may be a compliance problem worth raising with the seller."
+    },
+    {
+      "q": "A drawer tilts or rubs",
+      "a": "The two slides for that drawer are at different heights. Measure from the cabinet bottom to each slide — they must match. Fix the one that is wrong."
+    },
+    {
+      "q": "The drawer fronts do not line up as a row",
+      "a": "Close them all and look along the face. Loosen the slide on the offending drawer half a turn, nudge it up or down, and retighten. Many dressers also have adjustable fronts with their own bolts."
+    },
+    {
+      "q": "The whole dresser leans forward",
+      "a": "Either the floor slopes or the carcass was nailed out of square. Check the diagonals. Anchoring will also pull the top back against the wall, which is another reason to do it."
+    },
+    {
+      "q": "Can I just push it against the wall instead of anchoring?",
+      "a": "No. Tip-over happens when a child pulls a drawer out and climbs it, which pivots the unit forward away from the wall. Proximity to the wall does nothing against that. The anchor is what resists it."
+    }
+  ],
+  "terms": [
+    "cam-lock",
+    "dowel",
+    "drawer-slide",
+    "stud",
+    "anti-tip",
+    "toggle-anchor",
+    "square",
+    "drawer-stop"
+  ]
+}

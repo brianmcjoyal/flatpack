@@ -1,0 +1,178 @@
+{
+  "id": "mattress-in-box",
+  "name": "Mattress in a box",
+  "tagline": "Not really assembly, but the part everyone gets wrong. Cut it in the right place and let it breathe.",
+  "covers": [
+    "Memory foam mattresses in a box",
+    "Hybrid and spring-in-a-box mattresses",
+    "Mattress toppers",
+    "Bunkie boards and foundations",
+    "Futon mattresses"
+  ],
+  "difficulty": 1,
+  "minutes": 15,
+  "people": 2,
+  "peopleNote": "Two people to carry the box. A compressed queen mattress is around eighty pounds and completely unwieldy.",
+  "tools": [
+    {
+      "n": "Scissors",
+      "why": "Opening the outer plastic. Safer than a knife near foam.",
+      "req": true
+    },
+    {
+      "n": "A utility knife, used very carefully",
+      "why": "Some inner vacuum bags are too tough for scissors. Shallow cuts only.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Nothing. It is a mattress."
+  ],
+  "before": [
+    "Get the box into the bedroom before you open anything. An expanded mattress will not go through a doorway comfortably and cannot be re-rolled.",
+    "Have the bed frame finished, slats in, and the floor clear.",
+    "Open a window. New foam has an off-gassing smell for the first day or two, which is normal and fades."
+  ],
+  "safety": [
+    "Cut the inner bag with a shallow, slow stroke. A knife that reaches the foam leaves a permanent slice.",
+    "Never let anyone stand near the open end as you cut the vacuum seal. It expands fast and with force."
+  ],
+  "steps": [
+    {
+      "title": "Get the box into the room first",
+      "secs": 19,
+      "scene": "box-carry",
+      "say": "Carry or drag the box all the way to the bedroom while it is still compressed. This is the only chance you get.",
+      "do": [
+        "Two people, use the handles if there are any",
+        "Slide it on cardboard if the hallway is tight",
+        "Position it next to the finished bed frame"
+      ],
+      "watch": "Once expanded it cannot be put back in the box. Doorways, stair turns, and tight landings must be dealt with now."
+    },
+    {
+      "title": "Open the outer box and get it onto the frame",
+      "secs": 19,
+      "scene": "unwrap",
+      "say": "Cut the box open and lift the still-wrapped roll onto the bed frame. It is much easier to manoeuvre compressed than expanded.",
+      "do": [
+        "Cut the box, do not tip it out",
+        "Lift the wrapped roll onto the slats",
+        "Lay it along the frame in the direction it will unroll"
+      ],
+      "tip": "Note the 'head' and 'foot' or 'this side up' markings on the plastic before you cut. They matter on hybrids and pillow-tops."
+    },
+    {
+      "title": "Unroll it before you cut the vacuum bag",
+      "secs": 22,
+      "scene": "mattress-unroll",
+      "say": "Take the outer plastic off and unroll the mattress flat on the frame, still inside its vacuum bag. Only then do you cut the seal.",
+      "do": [
+        "Remove the outer loose plastic",
+        "Unroll the sealed mattress flat on the frame",
+        "Center it before cutting anything"
+      ],
+      "watch": "Cutting the vacuum bag while it is still rolled up means wrestling an expanding mattress across the room. Flat first, then cut."
+    },
+    {
+      "title": "Cut the vacuum seal shallow and slow",
+      "secs": 21,
+      "scene": "mattress-cut",
+      "say": "Cut the inner bag along the top surface with a shallow stroke. Scissors if you can get them in. You will hear the air rush in.",
+      "do": [
+        "Cut along the top face, not the edge",
+        "Shallow, slow, with the blade angled away from the foam",
+        "Step back as it inflates"
+      ],
+      "watch": "A slice in the foam cannot be repaired and most warranties will not cover damage from opening. Go slowly — this takes ten seconds and lasts ten years."
+    },
+    {
+      "title": "Pull the bag out from underneath",
+      "secs": 19,
+      "scene": "mattress-expand",
+      "say": "As it rises, work the plastic out from under it. Easier if you do it while it is still only partly expanded.",
+      "do": [
+        "Pull the bag out one end at a time",
+        "Lift a corner of the mattress as needed",
+        "Get all the plastic clear before it is fully risen"
+      ],
+      "tip": "If you miss a piece of plastic and it ends up trapped, two people can roll the mattress on its side to retrieve it."
+    },
+    {
+      "title": "Let it expand and air out",
+      "secs": 21,
+      "scene": "mattress-rest",
+      "say": "It takes a couple of hours to reach most of its height and up to two days to fully firm up. Leave it bare with the window cracked.",
+      "do": [
+        "Leave it uncovered for a few hours at least",
+        "Window open if you can",
+        "No sheets, no mattress protector yet"
+      ],
+      "tip": "If it still looks a little thin or has a soft spot after a day, give it another day. Foam genuinely does keep recovering."
+    },
+    {
+      "title": "Check it is actually supported",
+      "secs": 21,
+      "scene": "slat-lay",
+      "say": "Foam mattresses need slats close together or a solid base. Wide gaps make the foam sag between them and will void the warranty.",
+      "do": [
+        "Check the gap between slats against the mattress warranty, usually around three inches maximum",
+        "Add extra slats or a bunkie board if the gaps are too wide",
+        "Make sure every slat contacts the frame"
+      ],
+      "watch": "This is the most common cause of a foam mattress 'going bad' in year one. The mattress was fine; the base was not."
+    },
+    {
+      "title": "Protector on, then sheets",
+      "secs": 19,
+      "scene": "mattress-place",
+      "say": "Once it has aired out, put a protector on before anything else. Most warranties are void on a stained mattress.",
+      "do": [
+        "Waterproof or breathable protector first",
+        "Then the sheets",
+        "Note the warranty registration if there is one"
+      ],
+      "tip": "Take a photo of the law tag on the side of the mattress. Warranty claims need that model and date information and the tag is easy to lose track of."
+    },
+    {
+      "title": "Give it three weeks before you judge it",
+      "secs": 19,
+      "scene": "calendar-recheck",
+      "say": "New foam feels different for the first few weeks and your body also adapts. Most sleep trials are long for exactly this reason.",
+      "do": [
+        "Sleep on it for at least two to three weeks",
+        "Note the trial period end date somewhere",
+        "Rotate it head to foot after a month"
+      ],
+      "tip": "Put the trial return deadline in your calendar the day it arrives. It is the one thing people forget until it has passed."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "It is not expanding to full height",
+      "a": "Give it forty-eight hours in a warm room. Cold foam expands slowly, so if it arrived off a cold truck it can take longer. Walking gently on it also helps the cells open."
+    },
+    {
+      "q": "It smells strongly",
+      "a": "That is off-gassing and it is normal and harmless. Leave it bare with a window open and a fan running for a day or two."
+    },
+    {
+      "q": "I cut into the foam",
+      "a": "A shallow nick in the cover is cosmetic and will not affect the mattress. A deep cut into the foam cannot be repaired. Contact the retailer, but be aware opening damage is often excluded."
+    },
+    {
+      "q": "There is a dip where I sleep after a few months",
+      "a": "Check the base before blaming the mattress. Slat gaps wider than about three inches, or a missing center support, will cause exactly this and are usually the real culprit."
+    },
+    {
+      "q": "Can I put it back in the box to return it?",
+      "a": "No. Home compression is not possible. Almost every brand with a sleep trial arranges collection or donation instead — check the policy rather than trying to re-roll it."
+    }
+  ],
+  "terms": [
+    "off-gassing",
+    "slat",
+    "bunkie-board",
+    "law-tag"
+  ]
+}

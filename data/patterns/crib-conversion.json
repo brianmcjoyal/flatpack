@@ -1,0 +1,231 @@
+{
+  "id": "crib-conversion",
+  "name": "Crib conversion to toddler bed",
+  "tagline": "Take one side off, add a guardrail and a stabilizer bar. Fifteen minutes of work with a hard age rule attached.",
+  "covers": [
+    "Crib to toddler bed conversion",
+    "Crib to daybed conversion",
+    "Crib to full-size bed with conversion rails",
+    "Toddler guardrail fitting",
+    "3-in-1 and 4-in-1 conversions"
+  ],
+  "difficulty": 2,
+  "minutes": 30,
+  "people": 1,
+  "peopleNote": "One person, though a second set of hands helps when the side comes off.",
+  "standard": {
+    "name": "ASTM F1821 (toddler beds)",
+    "note": "Once converted, the product is a toddler bed and a different standard applies. The headline rule: never use a toddler bed for a child under 15 months, and most are rated to a maximum of 50 pounds."
+  },
+  "tools": [
+    {
+      "n": "The supplied Allen wrench",
+      "why": "The same one that built the crib. It should be in the pouch under the mattress support.",
+      "req": true
+    },
+    {
+      "n": "A flat-head screwdriver",
+      "why": "Holding barrel nuts in alignment, exactly as during the original build.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "Stabilizer bar",
+    "Conversion rail or guardrail (often sold separately)",
+    "Bolts and barrel nuts",
+    "Allen wrench"
+  ],
+  "before": [
+    "Find the manual first. It is in the pouch sewn to the mattress support, which is exactly why the pouch exists.",
+    "Confirm you have the right guardrail. Conversion rails are model-specific, and many are sold separately rather than being in the original box.",
+    "Lower the mattress support to its lowest position before you start, if it is not there already.",
+    "Decide if your child is ready. Converting early because the crib looks small is the most common reason this goes wrong."
+  ],
+  "safety": [
+    "Never put a child under 15 months in a toddler bed. Openings in and between bed parts can entrap the head and neck of a small child, and infants have died this way.",
+    "The stabilizer bar is not optional. With one side removed, it is what stops the frame racking. Fit it even if the bed looks fine without it.",
+    "Do not convert without the correct guardrail for your model. A gap between a guardrail and the mattress is an entrapment hazard.",
+    "Once converted, the room has to be childproofed. A toddler who can get out of bed can reach everything, so anchor the furniture and cover the outlets before the first night."
+  ],
+  "steps": [
+    {
+      "title": "Check the age and size rules first",
+      "secs": 19,
+      "scene": "age-check",
+      "say": "Fifteen months is the hard floor, and it is a safety limit rather than a suggestion. Most toddler beds are also rated to about fifty pounds.",
+      "do": [
+        "At least 15 months old",
+        "Under the bed's stated weight limit, usually around 50 pounds",
+        "Genuinely ready: climbing out of the crib is the real signal, not age alone"
+      ],
+      "tip": "If your child is climbing out of the crib, convert now — a fall from a crib rail is worse than anything a toddler bed presents.",
+      "watch": "Converting early to free up the crib for a new baby is understandable and still not safe. Borrow a second crib or use a bassinet instead."
+    },
+    {
+      "title": "Get the manual out of the pouch",
+      "secs": 16,
+      "scene": "read-parts-list",
+      "say": "The booklet is in the pouch stitched to the underside of the mattress support. Conversion steps are at the back, in their own section.",
+      "do": [
+        "Lift the mattress and look under the support",
+        "Find the conversion section",
+        "Check which parts the conversion needs and whether you have them"
+      ],
+      "tip": "If the booklet is gone, every major manufacturer has it by model number on their site. The model is on the label on the crib end's bottom rail."
+    },
+    {
+      "title": "Lower the mattress support",
+      "secs": 18,
+      "scene": "mattress-height",
+      "say": "The mattress support has to be at its lowest position for a toddler bed. If it is higher, undo the four corner bolts and drop it now.",
+      "do": [
+        "Four corner bolts out",
+        "Support down to the lowest setting",
+        "All four bolts back in and fully tightened"
+      ],
+      "watch": "A toddler bed at crib height is a fall hazard. This step is easy to skip because the crib is already built and the mattress is already in."
+    },
+    {
+      "title": "Remove one side — gently",
+      "secs": 18,
+      "scene": "crib-side-remove",
+      "say": "Undo the four bolts on one long side and lift it away. Pull straight out rather than levering, so you do not damage the holes you will bolt back into.",
+      "do": [
+        "Four bolts out, keeping the barrel nuts if they come loose",
+        "Lift the side straight away from the frame",
+        "Bag every bolt and barrel nut and label the bag"
+      ],
+      "tip": "Keep the removed side and all its hardware. You will want them if you sell the crib or have another baby.",
+      "watch": "Store the hardware with the side panel, not loose in a drawer. Conversion hardware going missing is the most common reason a crib cannot be converted back."
+    },
+    {
+      "title": "Fit the stabilizer bar",
+      "secs": 19,
+      "scene": "stabilizer-bar",
+      "say": "The stabilizer bar runs along the open side, low down, and bolts to both ends. It replaces the structural job the removed side was doing.",
+      "do": [
+        "Line it up with the pin holes at both ends",
+        "Barrel nuts rotated and held with the screwdriver",
+        "Both bolts started by hand, then tightened firmly"
+      ],
+      "tip": "Pull gently at both ends as you seat it — the manual actually tells you to, because the pins need to engage before the bolts go in.",
+      "watch": "Without the stabilizer bar the frame can rack side to side under a child's weight. Fit it even on a daybed configuration."
+    },
+    {
+      "title": "Fit the guardrail and close the gap",
+      "secs": 20,
+      "scene": "toddler-rail",
+      "say": "The guardrail bolts to the open side. Once it is on, check there is no gap between the rail and the mattress that a child could slip into.",
+      "do": [
+        "Bolt the rail at both ends, fully tight",
+        "Push the mattress firmly against the rail",
+        "Check for gaps along the whole length — you should not be able to fit more than two fingers"
+      ],
+      "tip": "If the gap is too big, the mattress is likely too small for the frame. Use a full-size crib mattress, not a smaller one.",
+      "watch": "A gap between the guardrail and the mattress is an entrapment hazard, which is the exact mechanism the 15-month rule exists to guard against."
+    },
+    {
+      "title": "Check the mattress size against the toddler rules",
+      "secs": 18,
+      "scene": "two-finger-gap",
+      "say": "A toddler bed needs a full-size crib mattress: at least fifty-one and five-eighths inches long, twenty-seven and a quarter wide, four inches thick, and no more than six inches thick.",
+      "do": [
+        "Measure length, width and thickness",
+        "At least 4 inches thick, never more than 6",
+        "Two-finger test around every edge"
+      ],
+      "watch": "Too thick and the guardrail is effectively shorter than designed. Too thin and the gaps open up. Both ends of that range matter."
+    },
+    {
+      "title": "Full re-tighten of everything",
+      "secs": 18,
+      "scene": "torque-feel",
+      "say": "You have just disturbed a frame that was holding tension. Go around every remaining bolt on the whole bed and bring it up firm. Two laps.",
+      "do": [
+        "Every bolt on both ends, the remaining side, the stabilizer bar and the guardrail",
+        "Mattress support bolts underneath as well",
+        "Second lap after the first"
+      ],
+      "tip": "Wood threads lose a little grip each time a crib comes apart. A converted crib is on at least its second assembly, so it deserves more attention than a new one, not less."
+    },
+    {
+      "title": "Childproof the room before the first night",
+      "secs": 18,
+      "scene": "antitip-strap",
+      "say": "The night your child can get out of bed is the night every piece of furniture in the room becomes climbable. Do this before bedtime, not after.",
+      "do": [
+        "Anchor the dresser, bookcase and any shelving to the wall",
+        "Cords from blinds tied up and out of reach",
+        "Outlet covers, and a gate at the door or the top of the stairs if needed"
+      ],
+      "watch": "The conversion and the childproofing are one job, not two. A toddler bed without a childproofed room has just removed the only thing that was containing them overnight."
+    },
+    {
+      "title": "Set the re-check reminder",
+      "secs": 16,
+      "scene": "calendar-recheck",
+      "say": "A toddler bed takes far more abuse than a crib — it gets climbed on, bounced on, and sat on the edge of. Monthly checks from here.",
+      "do": [
+        "Monthly reminder to re-tighten every bolt",
+        "Monthly check of the guardrail-to-mattress gap",
+        "Check the stabilizer bar is still firm"
+      ],
+      "tip": "Keep the Allen wrench taped under the bed frame. You will reach for it more often than you expect."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every month",
+      "what": "Re-tighten every bolt on the frame, the stabilizer bar and the guardrail. Toddler beds take a lot of dynamic load."
+    },
+    {
+      "when": "Every month",
+      "what": "Push the mattress against the guardrail and re-run the two-finger gap check. Mattresses shift."
+    },
+    {
+      "when": "Every month",
+      "what": "Rack the frame side to side by the headboard. If it moves, the stabilizer bar bolts have loosened."
+    },
+    {
+      "when": "Every three months",
+      "what": "Re-check that every piece of furniture in the room is still anchored."
+    },
+    {
+      "when": "When your child nears the weight limit",
+      "what": "Most toddler beds stop at around 50 pounds. Check the label and plan the move to a twin bed."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "I do not have the conversion rail",
+      "a": "Conversion rails are model-specific and usually sold separately. Find your model number on the label on the crib end's bottom rail and order the matching rail from the manufacturer. Do not improvise one."
+    },
+    {
+      "q": "The bolt holes do not line up for the stabilizer bar",
+      "a": "Pull gently at both ends of the bar as the manual describes — the locating pins need to seat before the bolts will reach. Also loosen the bolts at the other end so the frame can shuffle."
+    },
+    {
+      "q": "There is a gap between the guardrail and the mattress",
+      "a": "Push the mattress hard against the rail. If a gap remains, your mattress is undersized for the frame. A full-size crib mattress is a regulated size — measure yours against it."
+    },
+    {
+      "q": "The bed racks side to side",
+      "a": "The stabilizer bar is missing, loose, or fitted to only one end. That bar is doing the structural work the removed side used to do."
+    },
+    {
+      "q": "My child is 13 months and climbing out of the crib",
+      "a": "Do not convert yet. Instead drop the mattress to its lowest setting if it is not already, remove anything in the crib that can be used as a step, and consider a sleep sack that makes climbing harder. If they are genuinely climbing out, a floor mattress is safer than a toddler bed before 15 months."
+    },
+    {
+      "q": "Can I convert back to a crib later?",
+      "a": "Yes, if you kept the side panel and its hardware. Reassemble, fully re-tighten everything, and re-run the slat and mattress gap checks — a crib on its third assembly needs a careful going-over."
+    }
+  ],
+  "terms": [
+    "barrel-nut",
+    "stabilizer-bar",
+    "two-finger-test",
+    "mattress-support",
+    "anti-tip"
+  ]
+}

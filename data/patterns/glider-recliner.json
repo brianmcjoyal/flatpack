@@ -1,0 +1,229 @@
+{
+  "id": "glider-recliner",
+  "name": "Nursery glider and rocking recliner",
+  "tagline": "A heavy chair in two or three pieces, with a glide mechanism underneath and a pinch point you need to know about.",
+  "covers": [
+    "Nursery gliders",
+    "Glider and ottoman sets",
+    "Rocking recliners",
+    "Swivel gliders",
+    "Upholstered nursery armchairs"
+  ],
+  "difficulty": 2,
+  "minutes": 35,
+  "people": 2,
+  "peopleNote": "Two people. Gliders are genuinely heavy and the back has to be held upright while it locks on.",
+  "tools": [
+    {
+      "n": "Your hands",
+      "why": "Most gliders are back-slides-onto-frame with no tools at all.",
+      "req": true
+    },
+    {
+      "n": "The supplied Allen key",
+      "why": "Some models bolt the back on, and most ottomans bolt together.",
+      "req": false
+    },
+    {
+      "n": "A utility knife, used carefully",
+      "why": "Opening the packaging. Cut away from the upholstery with a short blade.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "Glide or swivel base",
+    "Back section",
+    "Bolts and Allen key on some models",
+    "Ottoman parts",
+    "Locking brackets or levers"
+  ],
+  "before": [
+    "Unwrap it in the nursery. A glider rarely fits through a doorway assembled, and the packaging protects it on the way in.",
+    "Clear a space bigger than the chair. A glider needs clearance behind it to glide, and a reclining one needs considerably more.",
+    "Check which way up the back goes before you lift it. It is heavy and you do not want to find out mid-lift."
+  ],
+  "safety": [
+    "The glide mechanism underneath is a pinch point. Small fingers and toes fit into it and it closes with your full body weight behind it. Keep children and pets clear while it is moving.",
+    "Never let a child play on or under a glider, and never let one glide while a toddler is on the floor beside it.",
+    "Recliners have a second pinch point in the footrest mechanism. Keep it closed when not in use.",
+    "Do not lift a glider by its arms or its back. Lift the frame."
+  ],
+  "steps": [
+    {
+      "title": "Unwrap in the room, cutting away from the fabric",
+      "secs": 16,
+      "scene": "unwrap",
+      "say": "Bring it in wrapped and cut the plastic in the room where it lands. Short blade, angled away from the upholstery.",
+      "do": [
+        "Carry it in still wrapped",
+        "Cut along a seam of the plastic",
+        "Bag the plastic straight away"
+      ],
+      "watch": "More new upholstered furniture is damaged by the unwrapping knife than by the delivery."
+    },
+    {
+      "title": "Set the base down and check it glides",
+      "secs": 18,
+      "scene": "glider-base",
+      "say": "Put the seat base in place and push it back and forth. It should glide smoothly and silently before you add anything else.",
+      "do": [
+        "Base on the floor where the chair will live",
+        "Push it through its full travel",
+        "Listen for grinding or knocking"
+      ],
+      "tip": "Test it now, while the chair is light and you can still turn it over to look underneath.",
+      "watch": "Shipping bolts or a transit lock are fitted on some models and must come off before use. Check underneath for a bracket or zip tie that does not belong."
+    },
+    {
+      "title": "Find the back's locking channels",
+      "secs": 18,
+      "scene": "sofa-back",
+      "say": "Most glider backs slide down into two steel channels on the frame. Look at the bottom of the back section — you will see two hooks or tongues.",
+      "do": [
+        "Turn the back and find the hooks on its lower edge",
+        "Find the matching channels on the chair frame",
+        "Check for any levers that have to be flipped open first"
+      ],
+      "tip": "Some models have small locking levers inside the channels that must be flipped up before the back goes in and down afterwards. Easy to miss, and the back will not stay on without them."
+    },
+    {
+      "title": "Slide the back on — two people",
+      "secs": 20,
+      "scene": "glider-back",
+      "say": "One person each side, line the hooks up with the channels, and push the back straight down until it drops and seats with a solid thunk.",
+      "do": [
+        "Both sides lined up before pushing",
+        "Push straight down, firmly and evenly",
+        "Keep pushing until it stops moving"
+      ],
+      "watch": "If one side goes in and the other does not, lift it out and start again. Forcing one side in at an angle bends the channel and that damage is permanent."
+    },
+    {
+      "title": "Lock the back and lift-test it",
+      "secs": 18,
+      "scene": "glider-lock",
+      "say": "Flip down any locking levers, then grab the top of the back and pull upward hard. It must not lift off.",
+      "do": [
+        "Locking levers down, both sides",
+        "Pull up firmly on the top of the back",
+        "Push the back from behind too"
+      ],
+      "tip": "Do this before anyone sits in it. A back that is seated but not locked feels completely normal until someone leans back hard.",
+      "watch": "This is the step that catches people out. The chair looks finished and works fine, and then the back comes off months later."
+    },
+    {
+      "title": "Build the ottoman",
+      "secs": 18,
+      "scene": "leg-screw",
+      "say": "The ottoman usually has four legs that bolt on, and sometimes its own glide mechanism. Start every bolt by hand, then tighten.",
+      "do": [
+        "Ottoman upside down on a soft surface",
+        "All bolts started by hand first",
+        "Tighten in a diagonal pattern, then a second lap"
+      ],
+      "tip": "If the ottoman glides too, check it is not fitted with a transit lock either."
+    },
+    {
+      "title": "Understand the pinch point",
+      "secs": 20,
+      "scene": "glider-pinch",
+      "say": "Look underneath while someone glides it slowly. You will see the scissor linkage open and close. That gap closes with the full weight of an adult behind it.",
+      "do": [
+        "Have someone glide it slowly while you look underneath",
+        "Note where the linkage closes",
+        "Show anyone else in the house, especially older children"
+      ],
+      "watch": "Crushed fingers and toes from glider mechanisms are a well-known nursery injury. The danger is highest when a toddler is on the floor beside a chair being used at night in the dark."
+    },
+    {
+      "title": "Set the recline and the lock, if it has one",
+      "secs": 18,
+      "scene": "glider-recline",
+      "say": "Test the recline through its full range and find the glide lock. Most gliders have one, and locking it when you stand up is a good habit.",
+      "do": [
+        "Recline fully and return",
+        "Find the glide lock lever, usually underneath or on the side",
+        "Check the footrest closes fully and stays closed"
+      ],
+      "tip": "Lock the glide when you get out of the chair with a baby in your arms. It stops the chair moving as you stand."
+    },
+    {
+      "title": "Sit, glide, and check for noise",
+      "secs": 18,
+      "scene": "shake-test",
+      "say": "Sit properly and glide for a minute. Any knock, squeak or catch is worth chasing now rather than at three in the morning.",
+      "do": [
+        "Full weight, full travel, both directions",
+        "Listen for knocking from the mechanism",
+        "Check the back for any movement relative to the seat"
+      ],
+      "tip": "A glider that squeaks when new usually just needs the mechanism pivots lubricated — a drop of light machine oil, not a spray."
+    },
+    {
+      "title": "Position it and set a reminder",
+      "secs": 16,
+      "scene": "calendar-recheck",
+      "say": "Leave clearance behind and beside it. Then set a reminder, because glider bolts loosen under cyclic loading faster than almost any other furniture.",
+      "do": [
+        "Clearance behind for the full glide and recline",
+        "Not against a wall or a radiator",
+        "Three-monthly reminder to re-tighten and re-test the back lock"
+      ],
+      "watch": "A glider is used thousands of times, in the dark, by a tired person holding a baby. It earns its checks."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every three months",
+      "what": "Pull up hard on the top of the back. It must not lift. Back-locking levers are the thing that quietly works loose."
+    },
+    {
+      "when": "Every three months",
+      "what": "Re-tighten every bolt on the chair and the ottoman. Gliding is cyclic loading and it loosens fasteners steadily."
+    },
+    {
+      "when": "Every three months",
+      "what": "Look underneath at the glide mechanism for wear, loose pivots or missing fasteners."
+    },
+    {
+      "when": "Whenever it squeaks",
+      "what": "A squeak is a dry or loose pivot. Tighten first, then lubricate with a drop of light machine oil."
+    },
+    {
+      "when": "When your baby becomes mobile",
+      "what": "Re-brief everyone in the house on the pinch point underneath, and consider locking the glide when the chair is not in use."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The back will not slide into the frame",
+      "a": "Check for locking levers inside the channels that need flipping open first, and make sure you have the back the right way round. Line both sides up and push straight down with even pressure — going in at an angle will jam it."
+    },
+    {
+      "q": "The back lifts off when I lean forward",
+      "a": "The locking levers are not engaged. Find them inside or beside the channels and flip them down. Then pull up hard to confirm."
+    },
+    {
+      "q": "It will not glide, or glides stiffly",
+      "a": "Look underneath for a transit lock or shipping bracket that was never removed. If it is clear, check the mechanism bolts are not overtightened — a crushed pivot binds."
+    },
+    {
+      "q": "It squeaks with every glide",
+      "a": "Tighten every bolt in the mechanism first. If it persists, a drop of light machine oil on each pivot usually silences it. Avoid spray lubricants near upholstery."
+    },
+    {
+      "q": "The chair rocks unevenly on my floor",
+      "a": "Check for felt pads or leveling feet on the base. Gliders are sensitive to uneven floors because the whole mechanism is referenced off the base."
+    },
+    {
+      "q": "My toddler put their fingers in the mechanism",
+      "a": "That is the known hazard with this product. Lock the glide when the chair is not in use, and keep the area beside the chair clear when a toddler is mobile."
+    }
+  ],
+  "terms": [
+    "transit-lock",
+    "glide-mechanism",
+    "pinch-point",
+    "leg-plate"
+  ]
+}

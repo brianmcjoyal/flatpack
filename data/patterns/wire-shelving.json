@@ -1,0 +1,171 @@
+{
+  "id": "wire-shelving",
+  "name": "Wire or metal utility shelving",
+  "tagline": "Four posts, plastic sleeves that act as a collar, and shelves that wedge down onto them. No tools, no screws.",
+  "covers": [
+    "Chrome and black wire shelving",
+    "Garage and pantry storage racks",
+    "Rolling utility carts",
+    "Commercial-style kitchen racks",
+    "Boltless rivet shelving"
+  ],
+  "difficulty": 1,
+  "minutes": 20,
+  "people": 1,
+  "peopleNote": "One person, though the final shelf is easier with two.",
+  "tools": [
+    {
+      "n": "Rubber mallet",
+      "why": "The only tool. Shelves wedge onto the posts and need firm taps to seat.",
+      "req": true
+    },
+    {
+      "n": "Work gloves",
+      "why": "Wire shelf edges and cut post ends are sharp.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Four posts",
+    "Plastic split sleeves",
+    "Shelves",
+    "Leveling feet or casters",
+    "Mallet (sometimes)"
+  ],
+  "before": [
+    "Decide your shelf heights before you start. Changing one later means lifting every shelf above it off.",
+    "Think about what goes on the bottom shelf and leave enough space for it. People always leave too little.",
+    "If you want casters, fit them instead of the feet — the posts take one or the other, not both."
+  ],
+  "safety": [
+    "Loaded wire shelving in a garage can be very heavy. Tall units should be strapped to the wall.",
+    "Never climb on wire shelving. The shelves hold weight but the wedge joints are not designed for a point load at the edge."
+  ],
+  "steps": [
+    {
+      "title": "Understand the sleeve trick",
+      "secs": 26,
+      "scene": "sleeve-explain",
+      "say": "Each post is grooved every inch. Two plastic half-sleeves clip around a groove to form a tapered collar. The shelf then wedges down onto that collar. That is the whole system.",
+      "do": [
+        "Look at the numbered grooves running up each post",
+        "Notice the plastic sleeves come in matching halves",
+        "The sleeve is tapered: wide end up"
+      ],
+      "tip": "Once you see that the sleeve is a tapered collar and the shelf is a wedge, everything about these racks makes sense."
+    },
+    {
+      "title": "Fit the feet or casters to the posts",
+      "secs": 20,
+      "scene": "leveling-feet",
+      "say": "Screw a leveling foot into the bottom of each post, or press in the casters if you want it to roll. One or the other.",
+      "do": [
+        "Thread the feet in, a few turns, leaving room to adjust later",
+        "Casters press in until they click",
+        "Note which end of the post is the bottom — it is usually unthreaded at the top"
+      ],
+      "watch": "Casters make a tall loaded rack much less stable. For a garage rack carrying real weight, use the feet."
+    },
+    {
+      "title": "Clip sleeves on at the height of the bottom shelf",
+      "secs": 24,
+      "scene": "sleeve-clip",
+      "say": "Pick the groove number for your bottom shelf and clip a pair of sleeves around that groove on all four posts. The same number on all four. This is the only thing you can get wrong.",
+      "do": [
+        "Choose a numbered groove",
+        "Snap both sleeve halves around it",
+        "Repeat at the identical number on all four posts"
+      ],
+      "tip": "Say the number out loud as you do each post. Mismatched sleeve heights are the only failure mode of this entire design.",
+      "watch": "The tapered sleeve has a wide end and a narrow end. Wide end up, every time, or the shelf will not wedge."
+    },
+    {
+      "title": "Drop the bottom shelf on and tap it down",
+      "secs": 24,
+      "scene": "shelf-wedge",
+      "say": "Lower the shelf so its four corner collars sit over the sleeves, then tap each corner down with the mallet until it stops moving.",
+      "do": [
+        "All four corners over their sleeves",
+        "Tap each corner in turn, working around",
+        "It should feel completely solid when seated"
+      ],
+      "tip": "Tap in a circuit rather than hammering one corner fully first. That keeps the shelf level as it wedges."
+    },
+    {
+      "title": "Stand it up on the bottom shelf",
+      "secs": 20,
+      "scene": "rack-stand",
+      "say": "With the bottom shelf on, stand the frame up. It will now stand by itself, which makes the rest easy.",
+      "do": [
+        "Lift from two opposite posts",
+        "Stand it on its feet",
+        "Check it is roughly where you want it before adding more shelves"
+      ],
+      "watch": "A frame with only one shelf is still floppy. Lift it by the posts near the shelf, not by the top of the posts."
+    },
+    {
+      "title": "Add the rest of the shelves, top one last",
+      "secs": 23,
+      "scene": "shelf-stack",
+      "say": "Work upward: sleeves at a matching number on all four posts, shelf down, tap to seat. Do the top shelf last.",
+      "do": [
+        "Same groove number on all four posts, every time",
+        "Shelf down, tap each corner",
+        "Leave the tallest gap where your tallest items go"
+      ],
+      "tip": "Put the top shelf right at the top of the posts. It braces the frame and stops the posts splaying."
+    },
+    {
+      "title": "Level it and check for rock",
+      "secs": 20,
+      "scene": "leveling-feet",
+      "say": "Push each corner. Turn the leveling foot out on any post that lifts off the floor until the rack sits dead still.",
+      "do": [
+        "Press each top corner to find the short post",
+        "Screw that foot out",
+        "Recheck all four"
+      ],
+      "tip": "A rack that rocks will walk across a garage floor over time as you load and unload it. Level it properly once."
+    },
+    {
+      "title": "Strap a tall one to the wall, then load bottom-heavy",
+      "secs": 23,
+      "scene": "antitip-strap",
+      "say": "Tall racks get a strap to a stud. Then load it with the heaviest things on the bottom two shelves.",
+      "do": [
+        "Strap or bracket at the top, into a stud",
+        "Heaviest items lowest",
+        "Spread the load across each shelf rather than at one end"
+      ],
+      "tip": "Check the per-shelf weight rating in the manual. It is usually generous, but it assumes the load is spread out, not concentrated in one corner."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "A shelf sits crooked",
+      "a": "The sleeves are at different groove numbers. Lift the shelf off, count the grooves on all four posts from the bottom, and set them all identical."
+    },
+    {
+      "q": "The shelf will not go down onto the sleeve",
+      "a": "A sleeve is upside down. They are tapered — the wide end goes up so the shelf collar can wedge onto it."
+    },
+    {
+      "q": "I need to change a shelf height",
+      "a": "Lift off every shelf above it, move the sleeves, and rebuild upward. It is quick but there is no shortcut, which is why choosing heights first matters."
+    },
+    {
+      "q": "The rack sways side to side",
+      "a": "The top shelf is missing or not at the very top of the posts. The top shelf is the brace. Also confirm every shelf corner is fully tapped down."
+    },
+    {
+      "q": "The posts came in two halves",
+      "a": "Many tall racks use threaded post sections that screw together to make a full-height post, or they can be used as two short racks. Both are correct — pick one before you start."
+    }
+  ],
+  "terms": [
+    "sleeve",
+    "wedge",
+    "leveling-foot",
+    "anti-tip"
+  ]
+}

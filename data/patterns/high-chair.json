@@ -1,0 +1,232 @@
+{
+  "id": "high-chair",
+  "name": "High chair and booster seat",
+  "tagline": "Legs, a seat, a tray and a five-point harness. The harness is the product — everything else is furniture.",
+  "covers": [
+    "Convertible and standard high chairs",
+    "Wooden high chairs",
+    "Booster and clip-on seats",
+    "Space-saver high chairs",
+    "High chair to toddler chair conversion"
+  ],
+  "difficulty": 1,
+  "minutes": 30,
+  "people": 1,
+  "standard": {
+    "name": "ASTM F404 / 16 CFR 1231",
+    "note": "High chairs sold in the US must meet 16 CFR 1231. The standard requires a restraint system that works independently of the tray, and stability testing against a child pushing off a table. The tray is not a restraint and never was."
+  },
+  "recall": true,
+  "tools": [
+    {
+      "n": "The supplied Allen key",
+      "why": "Leg and frame bolts.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Seat brackets and harness anchors on some models.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Bolts and washers",
+    "Five-point harness",
+    "Tray and tray insert",
+    "Footrest"
+  ],
+  "before": [
+    "Build it where it will be used, so you can check it clears the table and the counter.",
+    "Keep the harness bagged until the end. It is easy to trap a strap under a bracket during assembly.",
+    "Check the age and weight limits on the label. A high chair is for a baby who can sit upright unassisted."
+  ],
+  "safety": [
+    "The tray is not a restraint. A child can slide down and under a tray — this is called submarining, and it is why the five-point harness exists. Use the harness every single time, even for a two-minute snack.",
+    "Never place the chair where a child can push off a table, counter or wall. That push is what tips high chairs over, and the standard specifically tests for it.",
+    "Never leave a child unattended in a high chair, and never let an older child climb or hang on it.",
+    "Do not use a booster seat on a chair with a soft, sloped or wheeled seat."
+  ],
+  "steps": [
+    {
+      "title": "Check the model for a recall",
+      "secs": 16,
+      "scene": "recall-check",
+      "say": "High chairs are recalled regularly, usually for harness or latch failures. Search the model at cpsc.gov/recalls before you build it.",
+      "do": [
+        "Model number on the label under the seat or on the frame",
+        "Search at cpsc.gov/recalls",
+        "Register with the manufacturer"
+      ],
+      "watch": "Especially important for a second-hand chair, where the harness may have been replaced or removed."
+    },
+    {
+      "title": "Sort the legs — they are handed",
+      "secs": 18,
+      "scene": "panel-identify",
+      "say": "Front and rear legs are usually different lengths and different angles. Match each to the manual before any bolt goes in.",
+      "do": [
+        "Lay all legs out and compare lengths",
+        "Look for stamped L and R, or front and rear markings",
+        "Check which way each leg's angle points"
+      ],
+      "watch": "Legs in the wrong sockets make a chair that looks almost right and is measurably less stable. The splay of the legs is what resists tipping."
+    },
+    {
+      "title": "Bolt the frame, everything loose first",
+      "secs": 18,
+      "scene": "bolt-hex",
+      "say": "Start every bolt with a washer by hand before tightening any. The frame needs slack to find its shape.",
+      "do": [
+        "Washer under every bolt head",
+        "All bolts started by hand",
+        "Nothing tightened until they are all in"
+      ],
+      "watch": "If a bolt will not start by hand you are cross-threading it. Back it out and start again straight."
+    },
+    {
+      "title": "Fit the seat and the footrest",
+      "secs": 18,
+      "scene": "seat-mech",
+      "say": "The seat drops onto or bolts to the frame. The footrest matters more than people think: a child with nowhere to put their feet braces and pushes.",
+      "do": [
+        "Seat seated fully and bolted at every point the manual shows",
+        "Footrest at a height where the child's feet rest flat",
+        "Check the recline mechanism works through its full range, if it has one"
+      ],
+      "tip": "A supported foot makes a child sit back in the seat rather than sliding forward, which reduces submarining as well as fidgeting."
+    },
+    {
+      "title": "Thread the five-point harness correctly",
+      "secs": 22,
+      "scene": "harness-thread",
+      "say": "Two shoulder straps, two hip straps, one crotch strap, all meeting at one buckle. Thread each through its correct slot and check nothing is twisted.",
+      "do": [
+        "Shoulder straps through the slots at or just below shoulder height",
+        "Hip straps through the side slots",
+        "Crotch strap through the seat — this is the one that stops submarining",
+        "Run a finger along each strap to find twists"
+      ],
+      "tip": "Photograph the harness routing before you ever take it off to wash it. Re-threading from memory is genuinely hard.",
+      "watch": "A five-point harness with the crotch strap unused is a three-point harness, and a child can slide straight out underneath it."
+    },
+    {
+      "title": "Fit the tray and understand what it is for",
+      "secs": 18,
+      "scene": "tray-fit",
+      "say": "The tray clicks onto the arms. Check it latches on both sides and cannot be lifted off by a child. It is a table, not a safety device.",
+      "do": [
+        "Push until both sides click",
+        "Pull up firmly at both corners to confirm it is latched",
+        "Check the release mechanism is stiff enough that a child cannot work it"
+      ],
+      "watch": "The tray must never be the thing holding a child in. The standard requires the restraint to work with the tray removed, for exactly this reason."
+    },
+    {
+      "title": "Tighten and test for stability",
+      "secs": 18,
+      "scene": "tighten-sequence",
+      "say": "Full tightening lap, then a second. Then push the chair sideways at seat height and try to rock it onto two legs.",
+      "do": [
+        "Two full tightening laps",
+        "Push sideways at seat height",
+        "Press down hard on the front edge of the seat, simulating a child leaning forward"
+      ],
+      "tip": "Test it on the actual floor it will live on. A chair that is stable on carpet can rock on tile."
+    },
+    {
+      "title": "Position it away from push-off surfaces",
+      "secs": 18,
+      "scene": "chair-position",
+      "say": "Place the chair so the child cannot reach a table edge, counter or wall with their feet. That push is the classic tip-over.",
+      "do": [
+        "Far enough from the table that feet cannot reach the edge",
+        "Not against a wall",
+        "Clear of cords, curtains and anything hot"
+      ],
+      "watch": "This is the one placement rule most people never hear. A child pushing off a solid surface can tip a high chair backwards in a single movement."
+    },
+    {
+      "title": "Adjust the harness to your child",
+      "secs": 18,
+      "scene": "harness-fit",
+      "say": "Shoulder straps at or just below shoulder height. Tighten until you can slip only two fingers flat between the strap and your child's chest.",
+      "do": [
+        "Shoulder straps at or just below the shoulders",
+        "Two fingers flat under the strap, no more",
+        "Re-check the fit every few weeks as they grow"
+      ],
+      "tip": "Loose is the common error. A harness you can get a fist under is not restraining anything."
+    },
+    {
+      "title": "Set the re-check reminder",
+      "secs": 16,
+      "scene": "calendar-recheck",
+      "say": "High chairs get food, moisture and daily force. Monthly tighten, and check the harness every time you wash it.",
+      "do": [
+        "Monthly reminder to re-tighten every bolt",
+        "Check harness routing after every wash",
+        "Check the tray latches still hold firmly"
+      ],
+      "tip": "Food and liquid getting into joints is what makes high chair bolts loosen faster than other furniture. Wipe the frame when you wipe the tray."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every month",
+      "what": "Re-tighten every frame bolt. Food, moisture and daily loading work them loose faster than on other furniture."
+    },
+    {
+      "when": "Every month",
+      "what": "Rock the chair sideways and press down hard on the front of the seat. Any wobble means a loose leg bolt."
+    },
+    {
+      "when": "Every month",
+      "what": "Pull up on both front corners of the tray to confirm it is still latching on both sides."
+    },
+    {
+      "when": "After every harness wash",
+      "what": "Re-check the routing against your photo, look for twists, and confirm the crotch strap is in use."
+    },
+    {
+      "when": "Every few weeks",
+      "what": "Re-check the shoulder strap height against your growing child and the two-finger tightness."
+    },
+    {
+      "when": "Every six months",
+      "what": "Inspect the harness webbing for fraying and the buckle for cracks. Replacement harnesses are available from manufacturers."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "My child slides down under the tray",
+      "a": "That is submarining, and it means the crotch strap is not being used or the harness is too loose. Thread the crotch strap, then tighten until only two flat fingers fit under the shoulder strap."
+    },
+    {
+      "q": "The chair rocks on one leg",
+      "a": "Loosen all the leg bolts, stand the chair on a flat floor, press down on the seat to let it settle, then retighten in a diagonal pattern. If it still rocks, check you have not swapped a front leg to the back."
+    },
+    {
+      "q": "The tray will not click on",
+      "a": "One side is not aligned. Line both arms up and push evenly with both hands rather than one side at a time. Check for dried food in the latch channels — that is the usual culprit after a few months."
+    },
+    {
+      "q": "I took the harness off to wash it and cannot re-thread it",
+      "a": "Manufacturers publish harness routing diagrams by model, and most will email you one. In future, photograph it before removal."
+    },
+    {
+      "q": "The harness buckle is cracked",
+      "a": "Stop using the chair and order a replacement harness from the manufacturer. Do not substitute a harness from another chair — anchor points and strap lengths differ."
+    },
+    {
+      "q": "Can I use a second-hand high chair?",
+      "a": "Check the model against the CPSC recall list, confirm the full five-point harness is present and undamaged, confirm the tray latches on both sides, and fully re-tighten every bolt. A missing crotch strap means the chair is not usable until it is replaced."
+    }
+  ],
+  "terms": [
+    "five-point-harness",
+    "submarining",
+    "washer",
+    "handed"
+  ]
+}

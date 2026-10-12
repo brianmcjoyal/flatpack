@@ -1,0 +1,242 @@
+{
+  "id": "cam-lock-carcass",
+  "name": "Cam-lock box furniture",
+  "tagline": "Flat panels joined with wooden pegs and little twist-locks. The most common flat-pack furniture on earth.",
+  "covers": [
+    "Dressers and chests of drawers",
+    "Nightstands",
+    "Cabinets and sideboards",
+    "Bookcases with a solid back",
+    "Shoe cabinets",
+    "Media consoles"
+  ],
+  "difficulty": 2,
+  "minutes": 75,
+  "people": 1,
+  "peopleNote": "One person is fine. A second pair of hands makes standing it up easier.",
+  "tools": [
+    {
+      "n": "Phillips screwdriver",
+      "why": "The cam bolts and back panel screws. A #2 Phillips fits almost everything.",
+      "req": true
+    },
+    {
+      "n": "Rubber mallet or a hammer + folded towel",
+      "why": "Tapping wooden dowels in without bruising the panel.",
+      "req": true
+    },
+    {
+      "n": "Tape measure",
+      "why": "Checking the box is square before the back goes on. This is the step everyone skips.",
+      "req": false
+    },
+    {
+      "n": "Cordless drill with a clutch",
+      "why": "Faster, but set the clutch to its lowest setting or you will strip the holes.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key (the little L-shaped metal wrench)",
+    "Cam locks",
+    "Cam bolts",
+    "Wooden dowels",
+    "Back panel nails"
+  ],
+  "before": [
+    "Clear a space twice the size of the finished piece. You need room to lay panels flat.",
+    "Keep the cardboard box and lay it on the floor. It protects your floor and the panel faces.",
+    "Do not build in the room where it was delivered if that room has a doorway it cannot pass through. Build it in its final room.",
+    "Put all hardware into a bowl, muffin tin, or ice cube tray. Loose hardware on carpet disappears."
+  ],
+  "safety": [
+    "Anything taller than it is wide can tip onto a child. Strap it to the wall. This is the last step and it is not optional.",
+    "Never let a child climb on open drawers while you are building."
+  ],
+  "steps": [
+    {
+      "title": "Lay the box down and open it flat",
+      "secs": 11,
+      "scene": "cardboard-floor",
+      "say": "Open the box on the floor and flatten the cardboard. That is your work surface. It protects the finished faces from scratches.",
+      "do": [
+        "Cut the box open along the seams rather than tearing it",
+        "Flatten it next to your build space",
+        "Keep the manual out and open"
+      ],
+      "tip": "Take a photo of the manual with your phone. You will drop it, sit on it, or lose it."
+    },
+    {
+      "title": "Count every part before you touch a screwdriver",
+      "secs": 16,
+      "scene": "read-parts-list",
+      "say": "Find the parts list in the manual. Count your panels and your hardware against it now, while you can still get a free replacement part shipped.",
+      "do": [
+        "Match each panel to its letter or number in the manual",
+        "Write the letter on each panel with a pencil, on a face that will end up hidden",
+        "Count the hardware bags"
+      ],
+      "tip": "Manufacturers ship free replacement hardware. Finding a missing part at step 2 costs you three days. Finding it at step 11 costs you a weekend.",
+      "watch": "Panels often look identical but have holes in slightly different places. Labeling them now prevents the single most common mistake in flat-pack furniture."
+    },
+    {
+      "title": "Meet the only three pieces of hardware that matter",
+      "secs": 17,
+      "scene": "sort-hardware",
+      "say": "There are three. A wooden peg called a dowel, a bolt with a round head called a cam bolt, and a metal disc called a cam lock. That is the whole system.",
+      "do": [
+        "Dowel: a smooth wooden peg. It lines panels up but holds nothing",
+        "Cam bolt: a screw with a wide mushroom head. It screws into the panel face",
+        "Cam lock: a metal disc with a slot on top and a keyhole-shaped opening on the side"
+      ],
+      "tip": "The dowel aligns, the cam bolt reaches across, the cam lock grabs it and pulls. Once you see it that way, every box you ever build is the same box."
+    },
+    {
+      "title": "Work out which way the panels face",
+      "secs": 14,
+      "scene": "panel-identify",
+      "say": "Panels have a good face and a rough face. The rough one goes inside or backward. Holes are your other clue: big round holes face inward.",
+      "do": [
+        "Good finish out, rough chipboard in",
+        "The edge with a thin plastic strip glued on is an edge people will see — it faces front",
+        "Rows of small holes along a panel are shelf pin holes, so that face is inside"
+      ],
+      "watch": "Building a panel backwards is the mistake that costs an hour. Thirty seconds here saves it."
+    },
+    {
+      "title": "Tap the dowels in",
+      "secs": 14,
+      "scene": "dowel-tap",
+      "say": "Push a dowel into each small hole on the panel edges, then tap it with the mallet until half of it is still sticking out.",
+      "do": [
+        "Start it by hand, straight, not at an angle",
+        "Tap gently until it stops moving",
+        "Half in, half out"
+      ],
+      "tip": "If you only have a hammer, fold a towel over the dowel and hit the towel.",
+      "watch": "A dowel driven all the way in is hard to get back out. Tap, check, tap again."
+    },
+    {
+      "title": "Screw in the cam bolts",
+      "secs": 16,
+      "scene": "cam-bolt-screw",
+      "say": "The cam bolts screw into the flat face of the panel, next to the dowels. Hand tight, until the shoulder sits against the wood. No further.",
+      "do": [
+        "Use the Allen key or a screwdriver, whichever the head takes",
+        "Screw until the metal shoulder touches the panel and stop",
+        "The mushroom head should stick straight out, not lean"
+      ],
+      "watch": "Overtightening strips the hole and the bolt spins forever. If one spins, move it to a less important spot and tell the manufacturer."
+    },
+    {
+      "title": "Drop the cam locks in the right way up",
+      "secs": 18,
+      "scene": "cam-insert",
+      "say": "The cam lock goes into the big round hole. The keyhole opening on its side has to point at the edge where the bolt will come in. This is the step people get wrong.",
+      "do": [
+        "Look at the side of the cam: there is a gap shaped like a keyhole",
+        "Turn the cam so that gap points toward the panel edge the bolt comes from",
+        "The arrow or the open slot on top should point at that edge too"
+      ],
+      "tip": "Hold the cam next to the hole and sight along the edge. If the gap faces the edge, it is right.",
+      "watch": "A cam inserted backwards will not grab anything and feels like the bolt is too short. Nine times out of ten the cam is just facing the wrong way."
+    },
+    {
+      "title": "Join your first two panels",
+      "secs": 14,
+      "scene": "panel-join",
+      "say": "Line the dowels and the cam bolt head up with their holes and press the panels together. They should close with light hand pressure.",
+      "do": [
+        "Lay the panel with the cams flat on the floor, holes up",
+        "Bring the dowelled panel down onto it",
+        "Press along the whole joint until the gap closes"
+      ],
+      "watch": "If it will not close, do not force it. Something is misaligned or a dowel is too proud. Pull apart and look."
+    },
+    {
+      "title": "Twist to lock",
+      "secs": 14,
+      "scene": "cam-twist",
+      "say": "Turn each cam lock clockwise about half a turn. You will feel it bite and pull the panels tight together. Stop as soon as it feels firm.",
+      "do": [
+        "Clockwise, roughly 180 degrees",
+        "You will feel resistance and then it holds",
+        "Tug the joint to check"
+      ],
+      "tip": "Clockwise tightens. If it keeps spinning with no resistance, the bolt head never entered the cam: open it up and check the cam direction.",
+      "watch": "Do not keep turning past firm. Cams break, and a broken cam in a hole is a bad afternoon."
+    },
+    {
+      "title": "Make the box square before the back goes on",
+      "secs": 16,
+      "scene": "square-check",
+      "say": "Measure corner to corner, both diagonals. If the two numbers match, the box is square. If they do not, push the long corner until they do.",
+      "do": [
+        "Measure diagonally from top-left to bottom-right",
+        "Measure top-right to bottom-left",
+        "Nudge the frame until both measurements match"
+      ],
+      "tip": "This is the secret of furniture that does not have sagging doors and sticking drawers. The back panel is what locks the shape in, so get it square first."
+    },
+    {
+      "title": "Fit the back panel",
+      "secs": 16,
+      "scene": "back-panel-nail",
+      "say": "The thin board is the back. It is also the thing that stops the whole piece from racking. Nail it on properly, starting at the corners.",
+      "do": [
+        "White or printed side faces out",
+        "Start a nail in each corner before filling in the rest",
+        "Nails every few inches along every edge, including the middle shelf if there is one"
+      ],
+      "tip": "Hold a heavy book against the inside of the panel as a backstop while you nail. Much less bounce.",
+      "watch": "A back panel nailed onto an out-of-square box permanently locks in the twist. Square first, nail second."
+    },
+    {
+      "title": "Strap it to the wall",
+      "secs": 14,
+      "scene": "antitip-strap",
+      "say": "If it is taller than it is wide, it can tip. Find a wall stud, screw the bracket in, and strap the furniture to it. Two minutes.",
+      "do": [
+        "Find a stud with a stud finder or by tapping for the solid sound",
+        "If there is no stud, use a proper drywall anchor rated for the weight",
+        "Screw the bracket to the wall and to the furniture, strap tight"
+      ],
+      "tip": "If no strap came in the box, every manufacturer will mail you one free, and a hardware store sells them for a few dollars.",
+      "watch": "Dressers tip when a child pulls open the top drawer and climbs. It takes very little weight. Do this step."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The cam lock just spins forever and never tightens",
+      "a": "The bolt head is not inside the cam. Pull the joint apart and look at the cam from the side: the keyhole gap must point at the edge the bolt comes from. Turn the cam around and try again."
+    },
+    {
+      "q": "The holes do not line up",
+      "a": "Almost always a panel is flipped or in the wrong position. Pull it apart, lay both panels down matching the manual's picture exactly, and compare hole positions before rejoining."
+    },
+    {
+      "q": "A screw hole is stripped and the screw spins",
+      "a": "Break a wooden toothpick or two off inside the hole with a drop of wood glue, let it set twenty minutes, then screw into that. Holds surprisingly well."
+    },
+    {
+      "q": "The whole thing wobbles or leans",
+      "a": "The back panel is either missing nails or was fitted while the box was out of square. Pull a few nails, square the box with the diagonal measurement, re-nail."
+    },
+    {
+      "q": "A part is missing or damaged",
+      "a": "Go to the manufacturer's site and search 'replacement parts'. IKEA, Sauder, Ameriwood, South Shore and most others ship hardware free. Have your model number and the part letter from the manual ready."
+    },
+    {
+      "q": "I put it together in the wrong order and now I am stuck",
+      "a": "Cam locks are designed to come apart. Turn them counterclockwise half a turn and the panels separate. Nothing is ruined. Go back two steps."
+    }
+  ],
+  "terms": [
+    "cam-lock",
+    "cam-bolt",
+    "dowel",
+    "square",
+    "stud",
+    "anti-tip"
+  ]
+}

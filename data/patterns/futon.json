@@ -1,0 +1,188 @@
+{
+  "id": "futon",
+  "name": "Futon or convertible sofa bed",
+  "tagline": "Two side arms, a seat deck, a back deck, and a hinge mechanism that lets it fold flat.",
+  "covers": [
+    "Futons and futon frames",
+    "Convertible sofa beds",
+    "Click-clack sofas",
+    "Daybeds with a folding back",
+    "Sleeper loveseats"
+  ],
+  "difficulty": 3,
+  "minutes": 55,
+  "people": 2,
+  "peopleNote": "Two people. The decks are heavy and must be held at an angle while bolted.",
+  "tools": [
+    {
+      "n": "The provided Allen key",
+      "why": "Most frame bolts.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Brackets and some arm hardware.",
+      "req": true
+    },
+    {
+      "n": "Adjustable wrench",
+      "why": "The arm bolts are often hex-head and under a lot of load.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Barrel bolts and washers",
+    "Side arms",
+    "Seat and back decks",
+    "Hinge mechanism",
+    "Mattress straps"
+  ],
+  "before": [
+    "Clear a space the size of the futon fully flat as a bed, not as a sofa. You will need to lay it out to test it.",
+    "Identify the seat deck from the back deck now. They are different lengths and the mistake costs a full disassembly.",
+    "Keep the mattress rolled and out of the room until the frame is done."
+  ],
+  "safety": [
+    "Keep fingers out of the hinge mechanism when converting. These mechanisms close with real force.",
+    "Never leave a futon half-converted with children around. The folding action can trap a hand."
+  ],
+  "steps": [
+    {
+      "title": "Lay out the two arms and both decks",
+      "secs": 20,
+      "scene": "read-parts-list",
+      "say": "You have two side arms, a seat deck, a back deck, and the hinge hardware. The seat deck is usually the shorter one. Confirm against the manual before anything else.",
+      "do": [
+        "Two arms, mirror images, often marked L and R",
+        "Two decks of slightly different lengths",
+        "Hinge arms and barrel bolts in their own bag"
+      ],
+      "watch": "Swapping the seat and back decks is the classic futon error. Measure both and check the manual's dimensions."
+    },
+    {
+      "title": "Attach the hinge mechanism to the decks",
+      "secs": 22,
+      "scene": "hinge-mech",
+      "say": "The folding mechanism bolts to the outer rails of both decks. Get all its bolts started loosely, and check the mechanism's pivot points face the right way.",
+      "do": [
+        "Mechanism arms onto the deck rails",
+        "All bolts finger-tight",
+        "Mirror it exactly on both sides"
+      ],
+      "tip": "Photograph the manual's mechanism diagram and keep it on your phone screen while you work. The orientation is genuinely hard to read from a small printed picture."
+    },
+    {
+      "title": "Bolt the seat deck to the arms",
+      "secs": 22,
+      "scene": "side-rail-bolt",
+      "say": "With a helper holding an arm upright, bolt the seat deck to it. Barrel bolts and washers, finger-tight. Then the other arm.",
+      "do": [
+        "Helper holds the arm vertical",
+        "Washer, bolt, hand tight",
+        "Repeat on the second arm so the frame stands on its own"
+      ],
+      "watch": "An arm let go while only one bolt is in will swing and crack. Keep hold until both bolts are in."
+    },
+    {
+      "title": "Bolt the back deck on",
+      "secs": 20,
+      "scene": "side-rail-bolt",
+      "say": "The back deck bolts to the mechanism, not directly to the arms. Line up its pivot with the mechanism's slot and bolt it loosely.",
+      "do": [
+        "Line up the pivot bolt first",
+        "All bolts started loose",
+        "Check the back can swing freely before tightening"
+      ],
+      "tip": "If the back cannot swing, the mechanism is on backwards. Check it before you tighten anything — afterwards is a full disassembly."
+    },
+    {
+      "title": "Test the fold before you tighten",
+      "secs": 20,
+      "scene": "futon-fold",
+      "say": "Convert it from sofa to bed and back, twice, while everything is still loose. This is where you catch a mistake cheaply.",
+      "do": [
+        "Lift the seat deck and push the back down to flat",
+        "Pull it back up to sofa position",
+        "Do it twice, watching for binding"
+      ],
+      "watch": "If it binds or will not go flat, something is mirrored wrong. Fix it now."
+    },
+    {
+      "title": "Tighten everything in sequence",
+      "secs": 20,
+      "scene": "tighten-sequence",
+      "say": "With the futon in the sofa position, tighten the arm bolts, then the deck bolts, then the mechanism. Then do a second lap.",
+      "do": [
+        "Sofa position for tightening",
+        "Arms, decks, mechanism, in that order",
+        "Second lap"
+      ],
+      "tip": "Tighten it in the position it will spend most of its life, so the frame settles into that shape."
+    },
+    {
+      "title": "Fit the mattress and strap it down",
+      "secs": 20,
+      "scene": "mattress-place",
+      "say": "Unroll the mattress onto the deck and use the straps or ties to hold it. Unstrapped futon mattresses slide off every time you convert.",
+      "do": [
+        "Unroll on the deck in bed position",
+        "Thread the straps around the deck slats",
+        "Snug, not crushing the mattress"
+      ],
+      "tip": "A new futon mattress needs a day or two to finish expanding. It will feel firm and look thin at first."
+    },
+    {
+      "title": "Convert it ten times",
+      "secs": 18,
+      "scene": "futon-fold",
+      "say": "Work the mechanism ten times. It will loosen up and you will catch any bolt that needed another turn.",
+      "do": [
+        "Sofa to bed and back, repeatedly",
+        "Listen for knocks",
+        "Retighten anything that moved"
+      ],
+      "tip": "New mechanisms are stiff. Ten cycles and it will feel like the showroom model."
+    },
+    {
+      "title": "Protect the floor and the wall",
+      "secs": 18,
+      "scene": "floor-protect",
+      "say": "Felt pads under the feet, and leave a few inches from the wall. A futon moves backwards every time someone sits down heavily.",
+      "do": [
+        "Felt pads on hard floors",
+        "A few inches of clearance behind",
+        "Check the back clears the wall in bed position"
+      ],
+      "watch": "Measure the footprint in bed position. Futons grow by a foot or more when flat and that often means moving it away from a wall."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "It will not fold flat",
+      "a": "The mechanism is almost certainly mirrored wrong on one side, or the back deck is in the seat position. Loosen everything and compare both sides against the manual photo."
+    },
+    {
+      "q": "One side folds and the other sticks",
+      "a": "The two mechanisms are at slightly different positions on the deck rails. Loosen both, align them by measuring from the same end, and retighten."
+    },
+    {
+      "q": "The frame creaks loudly",
+      "a": "Barrel bolts have settled. A full tightening lap in the sofa position fixes most of it. Felt or nylon washers at the pivot points kill the rest."
+    },
+    {
+      "q": "The mattress slides off when I convert it",
+      "a": "Use the straps. If none came, luggage straps or heavy-duty velcro ties around the deck slats work perfectly."
+    },
+    {
+      "q": "A bolt is too short to reach",
+      "a": "You have a bolt from the wrong bag, or the frame needs loosening elsewhere so it can shuffle. Loosen everything, let the frame find its shape, then try again."
+    }
+  ],
+  "terms": [
+    "barrel-bolt",
+    "handed",
+    "mechanism",
+    "washer"
+  ]
+}

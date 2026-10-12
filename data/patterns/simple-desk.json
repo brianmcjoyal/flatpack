@@ -1,0 +1,191 @@
+{
+  "id": "simple-desk",
+  "name": "Four-leg desk or table",
+  "tagline": "A top, four legs, and a crossbar. The easiest piece of furniture there is, if you tighten in the right order.",
+  "covers": [
+    "Computer and writing desks",
+    "Study desks",
+    "Console and side tables",
+    "Dining tables with straight legs",
+    "Craft and workbench tables"
+  ],
+  "difficulty": 1,
+  "minutes": 25,
+  "people": 1,
+  "peopleNote": "One person, two if the top is glass or very large.",
+  "tools": [
+    {
+      "n": "Phillips screwdriver",
+      "why": "Leg plates and brackets.",
+      "req": true
+    },
+    {
+      "n": "The provided Allen key",
+      "why": "Leg bolts and crossbars.",
+      "req": true
+    },
+    {
+      "n": "Cordless drill on low torque",
+      "why": "Faster for the many small screws in a leg plate.",
+      "req": false
+    },
+    {
+      "n": "A bubble level or the level app on your phone",
+      "why": "Checking the top before you load it with a monitor.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Leg bolts",
+    "Wood screws",
+    "Adjustable feet",
+    "Crossbar or stretcher"
+  ],
+  "before": [
+    "Work with the top upside down on the flattened box. You will do nine tenths of the job this way.",
+    "Keep screws in their bags. A desk kit often has three screw lengths and the long one through a thin top goes straight out the other side.",
+    "Decide which way the desk will face now, so the cable notch and the modesty panel end up at the back."
+  ],
+  "safety": [
+    "Never put weight on a desk whose bolts are only finger-tight.",
+    "Glass tops: lift with two people, never by one edge, and never set a glass edge down on a hard floor."
+  ],
+  "steps": [
+    {
+      "title": "Top upside down, good face protected",
+      "secs": 16,
+      "scene": "cardboard-floor",
+      "say": "Lay the desktop upside down on the flattened cardboard. Working this way means gravity is holding the legs in place instead of fighting you.",
+      "do": [
+        "Good face down, onto cardboard or a blanket",
+        "Pre-drilled holes facing up at you",
+        "Sweep the floor first — one bit of grit scratches a whole top"
+      ]
+    },
+    {
+      "title": "Work out front, back, left and right",
+      "secs": 19,
+      "scene": "panel-identify",
+      "say": "Find the back edge. It is usually the one with a cable notch, a rougher finish, or extra bracket holes. Mark it so you cannot forget.",
+      "do": [
+        "Look for a cable cut-out or grommet hole: that is the back",
+        "Compare the two long edges for finish quality",
+        "Put a sticky note on the back edge"
+      ],
+      "watch": "A desk assembled front-to-back has its cable notch against the wall and all its bracket screws visible. Thirty seconds now."
+    },
+    {
+      "title": "Check the screws go in the right holes",
+      "secs": 19,
+      "scene": "screw-length",
+      "say": "Hold each screw next to the thickness of the top. If a screw is longer than the top is thick, it does not belong in the top.",
+      "do": [
+        "Short fat screws: into the top",
+        "Long bolts: through the legs into a threaded insert",
+        "Compare lengths side by side against the manual's picture"
+      ],
+      "watch": "A too-long screw driven into a desktop punches a visible dimple or a hole right through the finished surface. This is permanent."
+    },
+    {
+      "title": "Attach the legs, finger-tight",
+      "secs": 23,
+      "scene": "leg-screw",
+      "say": "Put each leg or leg plate on its holes and start every screw before tightening any. Four legs, all loose.",
+      "do": [
+        "Line the plate up square with the edges of the top",
+        "Start all screws by hand",
+        "Legs should point straight up, not splayed"
+      ],
+      "tip": "Legs often have a top and bottom. The end with the adjustable foot goes to the floor."
+    },
+    {
+      "title": "Fit the crossbar or stretcher",
+      "secs": 21,
+      "scene": "crossbar",
+      "say": "The bar between the legs is not decoration. It is the thing that stops the desk from racking side to side. Bolt it in while everything is still loose.",
+      "do": [
+        "Bolt both ends finger-tight",
+        "If there are two bars, fit both",
+        "Check it is not upside down — bolt holes usually only match one way"
+      ],
+      "watch": "Skipping the crossbar because it looked optional is the number one cause of a wobbly desk."
+    },
+    {
+      "title": "Tighten in a cross pattern, twice",
+      "secs": 21,
+      "scene": "tighten-sequence",
+      "say": "Tighten opposite corners rather than going round in order, like a car wheel. Then do a second lap. This pulls the desk into square by itself.",
+      "do": [
+        "Front-left, then back-right, then front-right, then back-left",
+        "Crossbar last",
+        "Second full lap"
+      ],
+      "tip": "Firm, then stop. Chipboard and MDF strip easily, and a stripped leg plate is a desk that never stops wobbling."
+    },
+    {
+      "title": "Flip it over, carefully",
+      "secs": 19,
+      "scene": "flip-over",
+      "say": "Lift it rather than rolling it over on a leg. Legs levered sideways is exactly how leg plates get bent and screws get stripped.",
+      "do": [
+        "Lift from the top itself, not the legs",
+        "Two people if it is large or glass",
+        "Set it down on all four feet at once"
+      ],
+      "watch": "Never flip a desk by pushing it over onto one pair of legs. That load goes straight into the screw threads."
+    },
+    {
+      "title": "Level it and kill the wobble",
+      "secs": 21,
+      "scene": "leveling-feet",
+      "say": "Push each corner. If it rocks, turn the adjustable foot on the leg that lifts off the floor until all four sit down. Then check the top is level.",
+      "do": [
+        "Press each corner in turn to find the short leg",
+        "Screw that foot out until the rock stops",
+        "Lay a level on the top, side to side and front to back"
+      ],
+      "tip": "If the legs have no adjustable feet, a folded index card or a stick-on felt pad under the short leg works permanently and silently."
+    },
+    {
+      "title": "Run the cables before you load it up",
+      "secs": 21,
+      "scene": "cable-channel",
+      "say": "Thread your power strip and cables now, while the desk is empty and light enough to move. Afterwards it is a wrestling match.",
+      "do": [
+        "Mount the power strip to the underside with its screw holes or velcro",
+        "Feed cables through the notch or grommet",
+        "Use a few cable ties along the crossbar"
+      ],
+      "tip": "Leave each cable a little slack where it reaches the monitor so you can still tilt and swivel."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The desk wobbles however much I tighten it",
+      "a": "Three usual causes: the crossbar is missing or loose, the floor is uneven and the feet need adjusting, or a leg plate screw is stripped. Check in that order."
+    },
+    {
+      "q": "A screw went through the top",
+      "a": "It was the wrong length. Back it out, fill the hole with a wax touch-up stick or colored filler, and use the correct short screw. Compare lengths before driving the rest."
+    },
+    {
+      "q": "A leg plate screw spins and will not bite",
+      "a": "Stripped hole. Push a wooden toothpick or two with a drop of wood glue into the hole, let it set, then re-drive. Or move to a fresh hole a half inch away if the plate allows."
+    },
+    {
+      "q": "The desk is not level even though it does not rock",
+      "a": "Rock and level are different problems. Use a level on the top and adjust the feet on the low side until the bubble centers."
+    },
+    {
+      "q": "The cable notch ended up facing the room",
+      "a": "The top is on back-to-front. Unscrew the legs, rotate the top, re-screw. Twenty minutes and no harm done — the holes are symmetrical on nearly every desk."
+    }
+  ],
+  "terms": [
+    "stretcher",
+    "leveling-foot",
+    "grommet",
+    "square"
+  ]
+}

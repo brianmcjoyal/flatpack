@@ -1,0 +1,212 @@
+{
+  "id": "play-yard",
+  "name": "Play yard and portable crib",
+  "tagline": "No tools at all. The whole product is four rails and a center release, and the order you do them in is everything.",
+  "covers": [
+    "Pack and play style play yards",
+    "Portable and travel cribs",
+    "Play yards with a bassinet insert",
+    "Playpens",
+    "Travel cots"
+  ],
+  "difficulty": 2,
+  "minutes": 15,
+  "people": 1,
+  "peopleNote": "One person, but expect the first attempt to take three times as long as every attempt after it.",
+  "standard": {
+    "name": "ASTM F406 / 16 CFR 1221",
+    "note": "Play yards must meet 16 CFR 1221. The standard exists largely because of older designs whose top rails could collapse into a V and entrap a child. Modern rails lock positively — which is why a rail that has not locked is the thing to check."
+  },
+  "recall": true,
+  "tools": [
+    {
+      "n": "Nothing at all",
+      "why": "Play yards are entirely tool-free by design. If you are reaching for a tool, something is wrong.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "The play yard",
+    "Mattress pad",
+    "Bassinet insert (on some models)",
+    "Carry bag"
+  ],
+  "before": [
+    "Do the first assembly at home with time to spare, not in a hotel room at midnight with a tired baby. Every play yard has a knack and you want to learn it calmly.",
+    "Unfold it on a flat floor with space all around.",
+    "Read which way up the mattress pad goes. Many are one-sided."
+  ],
+  "safety": [
+    "All four top rails must lock straight and rigid. A rail left in a partly folded V is the entrapment hazard the whole standard was written around.",
+    "Use only the pad supplied with it. Never add a mattress, a folded quilt or extra padding — a gap at the edge or a soft surface is how infants suffocate in play yards.",
+    "If it has a bassinet or changer insert, remove it completely once your baby can push up on hands and knees.",
+    "Never add a separate crib mattress to a play yard. Undersized and oversized mattresses in play yards are among the most recalled products in this entire category."
+  ],
+  "steps": [
+    {
+      "title": "Check the model for a recall",
+      "secs": 18,
+      "scene": "recall-check",
+      "say": "Play yards and their mattress pads have a heavy recall history. Check the model, and if you are using an aftermarket mattress, check that too.",
+      "do": [
+        "Model number on the label sewn into the fabric",
+        "Search at cpsc.gov/recalls",
+        "If an aftermarket mattress is involved, stop and use the supplied pad instead"
+      ],
+      "watch": "Aftermarket play yard mattresses have been recalled repeatedly for creating entrapment gaps. The supplied pad is part of the tested product."
+    },
+    {
+      "title": "Unfold and lift the rails before the floor",
+      "secs": 23,
+      "scene": "playard-unfold",
+      "say": "Take it out of the bag, spread the legs, and lift all four top rails most of the way up — but do not push any of them fully down yet. The center must stay raised.",
+      "do": [
+        "Spread the four legs out",
+        "Lift each top rail until it is nearly straight",
+        "Leave the floor and the center hub raised"
+      ],
+      "tip": "This is the step everyone gets backwards. Rails first, center last. Pushing the center down early is why a rail will then refuse to lock.",
+      "watch": "If you force the center down first, the rails cannot reach their locked position and you will be convinced the product is broken."
+    },
+    {
+      "title": "Lock each rail with a firm push",
+      "secs": 23,
+      "scene": "playard-rail",
+      "say": "Push the middle of each top rail down and outward until it snaps straight with an audible click. All four, one at a time.",
+      "do": [
+        "One rail at a time, pushing at its midpoint",
+        "Listen and feel for the click",
+        "A locked rail is dead straight with no sag in the middle"
+      ],
+      "tip": "Push down and slightly outward, not just down. The outward component is what lets the latch travel over center.",
+      "watch": "Sight along each rail afterwards. Any sag in the middle means that rail has not locked, and that is the exact V-shape the standard exists to prevent."
+    },
+    {
+      "title": "Now push the center down",
+      "secs": 18,
+      "scene": "playard-center",
+      "say": "With all four rails locked, press the center of the floor firmly straight down until it bottoms out and the frame goes rigid.",
+      "do": [
+        "Both hands flat in the center of the floor",
+        "Press straight down until it stops",
+        "The whole frame should stiffen at once"
+      ],
+      "tip": "Put your weight into it. The center hub needs real force and people are often too gentle with something a baby will use."
+    },
+    {
+      "title": "Lay the mattress pad in, supplied one only",
+      "secs": 20,
+      "scene": "bassinet-pad",
+      "say": "The pad goes in flat, correct side up, and it should reach every edge with no gap and no bunching.",
+      "do": [
+        "Supplied pad only, firm side up",
+        "Flat into the corners, no rucks",
+        "Velcro it down if it has tabs"
+      ],
+      "watch": "Never add anything under or on top of this pad. Play yard pads are deliberately thin and firm, and that is the safety feature, not a cost saving."
+    },
+    {
+      "title": "Fit the bassinet insert, if you are using one",
+      "secs": 20,
+      "scene": "bassinet-basket",
+      "say": "The newborn bassinet layer hangs from the top rails. Every attachment point must engage, and it must sit level and taut.",
+      "do": [
+        "Hook or velcro at every attachment point the manual shows",
+        "Check it hangs level, not sloping to one end",
+        "Press down in the middle — it should be taut, not hammocking"
+      ],
+      "watch": "Remove the insert entirely the moment your baby can push up on hands and knees. Leaving it in past that point is a fall and entrapment hazard."
+    },
+    {
+      "title": "Check every rail and corner",
+      "secs": 20,
+      "scene": "playard-check",
+      "say": "Walk around it. Push down on the middle of each rail. Nothing should move, sag, or click.",
+      "do": [
+        "Press the midpoint of all four rails",
+        "Push the corners inward",
+        "Lift one side slightly and confirm nothing unlatches"
+      ],
+      "tip": "Do this every single time you set it up, not just the first time. Travel setups are rushed, and this is the five-second check that catches it."
+    },
+    {
+      "title": "Learn the fold before you need it",
+      "secs": 20,
+      "scene": "playard-fold",
+      "say": "Folding is the reverse and it has its own trick: pull the center strap up first, then release each rail, then collapse. Practise once now.",
+      "do": [
+        "Pull the center floor strap upward first",
+        "Then release each rail using its button or latch",
+        "Then push the legs together and the center all the way up"
+      ],
+      "tip": "Nearly every play yard that 'will not fold' has had the rails released before the center was lifted. Center up first, every time.",
+      "watch": "Never force a fold. If it will not go, a rail has not released — forcing it is how the latches break."
+    },
+    {
+      "title": "Place it safely and re-check at every setup",
+      "secs": 18,
+      "scene": "calendar-recheck",
+      "say": "Away from cords, windows and heaters. And because this product gets packed and unpacked constantly, the check is per setup, not per month.",
+      "do": [
+        "Clear of all blind and curtain cords",
+        "On a flat floor",
+        "Full rail check at every single setup"
+      ],
+      "tip": "Keep the instructions in the carry bag. You will be setting this up in an unfamiliar room sooner or later."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every single setup",
+      "what": "Press down hard on the midpoint of all four top rails. Any sag means that rail has not locked. This is the one check that matters most."
+    },
+    {
+      "when": "Every single setup",
+      "what": "Confirm the center floor is pressed fully down and the frame is rigid."
+    },
+    {
+      "when": "Every single setup",
+      "what": "Check the pad lies flat to every edge with no gap and nothing added underneath."
+    },
+    {
+      "when": "Every month of use",
+      "what": "Inspect the fabric for tears and the mesh sides for holes, especially along the seams at the corners."
+    },
+    {
+      "when": "When your baby can push up on hands and knees",
+      "what": "Remove the bassinet and changer inserts completely. This milestone ends their use immediately."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "A rail will not lock straight",
+      "a": "The center is already pushed down. Lift the center of the floor back up, get all four rails locked straight first, then press the center down last. This fixes it almost every time."
+    },
+    {
+      "q": "It will not fold up",
+      "a": "Pull the strap in the center of the floor upward first, then release the rails. Releasing rails before lifting the center is the usual cause, and forcing it from there breaks latches."
+    },
+    {
+      "q": "One corner sags",
+      "a": "That rail has not gone over center. Push down and outward at its midpoint until it clicks. Do not leave it — a sagging rail is the classic play yard entrapment shape."
+    },
+    {
+      "q": "Can I use a thicker mattress to make it comfier?",
+      "a": "No. Play yard pads are thin and firm by design, and aftermarket mattresses for play yards are among the most recalled products in juvenile gear, because they create gaps at the edges. Use the supplied pad."
+    },
+    {
+      "q": "The mesh has a small tear",
+      "a": "Stop using it. Mesh tears grow, and a hole in a play yard side is both an entrapment and a strangulation risk. Contact the manufacturer about a replacement."
+    },
+    {
+      "q": "Can my baby sleep in it overnight?",
+      "a": "Yes — a play yard that meets the current standard is a safe sleep surface, with the supplied pad, nothing added, and all four rails locked. It is a legitimate full-time crib alternative."
+    }
+  ],
+  "terms": [
+    "over-center-latch",
+    "detent",
+    "two-finger-test",
+    "mesh-side"
+  ]
+}

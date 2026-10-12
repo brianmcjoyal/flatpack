@@ -1,0 +1,211 @@
+{
+  "id": "drawers",
+  "name": "Drawers and drawer slides",
+  "tagline": "The part of a dresser everyone dreads. It is four sides, a base, and a pair of runners that have to be level.",
+  "covers": [
+    "Dresser and chest drawers",
+    "Nightstand drawers",
+    "Desk drawer units",
+    "Filing cabinets",
+    "Under-bed storage drawers"
+  ],
+  "difficulty": 3,
+  "minutes": 45,
+  "people": 1,
+  "peopleNote": "One person, but you need patience rather than strength.",
+  "tools": [
+    {
+      "n": "Phillips screwdriver",
+      "why": "Slides, drawer boxes, and handle bolts.",
+      "req": true
+    },
+    {
+      "n": "Rubber mallet",
+      "why": "Drawer base panels that slide into grooves.",
+      "req": true
+    },
+    {
+      "n": "Tape measure",
+      "why": "Getting both slides at exactly the same height. This is the entire job.",
+      "req": true
+    },
+    {
+      "n": "Pencil",
+      "why": "Marking slide positions before you screw anything.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Drawer slides, left and right",
+    "Small slide screws",
+    "Drawer base panel",
+    "Handle bolts",
+    "Drawer stops"
+  ],
+  "before": [
+    "Build every drawer box before you install any of them. Batch work is much faster.",
+    "Keep the tiny slide screws separate from everything else. They are the easiest hardware in the house to lose.",
+    "Do this with the cabinet already square and its back panel on. Drawers will never run true in a racked cabinet."
+  ],
+  "safety": [
+    "Never pull more than one drawer out at a time on an unanchored dresser. That is how they tip.",
+    "Drawer slides have sharp stamped edges. Mind your fingertips when you push them into the cabinet."
+  ],
+  "steps": [
+    {
+      "title": "Sort the slides into lefts and rights",
+      "secs": 17,
+      "scene": "slide-sort",
+      "say": "Slides come in handed pairs. Hold two up as mirror images and you will see it. Most are stamped with an L or an R, or an arrow that points to the front.",
+      "do": [
+        "Look for a stamped L or R, or a small arrow",
+        "Hold them as a mirror pair to confirm",
+        "Separate into two piles before you start"
+      ],
+      "watch": "A slide on the wrong side either will not screw on or will run rough forever. Sort first."
+    },
+    {
+      "title": "Build the drawer boxes",
+      "secs": 18,
+      "scene": "drawer-box",
+      "say": "Four sides screw or cam together into a square. Then the thin base panel slides into the groove around the bottom. Do not nail it until the box is square.",
+      "do": [
+        "Front, back and two sides joined",
+        "Base slides into the groove from the back",
+        "Check the box is square by measuring its diagonals, then secure the base"
+      ],
+      "tip": "A drawer box that is out of square will bind in the cabinet no matter how perfect your slides are.",
+      "watch": "The base panel goes into a groove. If you are forcing it, one of the four sides is upside down and its groove is at the top."
+    },
+    {
+      "title": "Fit the drawer half of the slide",
+      "secs": 19,
+      "scene": "drawer-slide",
+      "say": "One half of each slide screws to the outside of the drawer box, usually flush with the bottom front. The front end of the slide goes at the front.",
+      "do": [
+        "Pull the slide apart into its two halves if it separates",
+        "The shorter or inner half goes on the drawer",
+        "Flush with the bottom edge, pushed right up to the front"
+      ],
+      "tip": "Pushed fully forward matters. A slide set back half an inch makes the drawer front sit proud of the cabinet."
+    },
+    {
+      "title": "Mark the slide heights inside the cabinet",
+      "secs": 20,
+      "scene": "slide-mark",
+      "say": "This is the step that decides whether your drawers glide or grind. Measure up from the bottom of the cabinet on both sides and pencil a line for every slide.",
+      "do": [
+        "Measure from the cabinet bottom, not from the previous slide",
+        "Mark the same height on the left and right walls",
+        "Double check both numbers before driving a screw"
+      ],
+      "tip": "Most cabinets have pre-drilled holes for the slides. If yours does, use them and skip the measuring — they are already correct.",
+      "watch": "Slides even a sixteenth of an inch out of level will make a drawer tilt, rub, and refuse to close flush. Measure twice."
+    },
+    {
+      "title": "Screw the cabinet half in",
+      "secs": 19,
+      "scene": "slide-mount",
+      "say": "Line each slide up with your mark, start with the front screw, check it is still level along the whole length, then drive the back screw.",
+      "do": [
+        "Front screw first, snug not tight",
+        "Check the slide sits level front to back",
+        "Back screw, then the middle ones"
+      ],
+      "tip": "Use the middle, round holes for the first screws. Many slides also have slotted holes that let you nudge the slide up or down later."
+    },
+    {
+      "title": "Slide the drawer in and test it empty",
+      "secs": 17,
+      "scene": "drawer-test",
+      "say": "Push the drawer in until the slides engage and click. Run it in and out several times. It should move with one finger.",
+      "do": [
+        "Line both slides up at once and push until it clicks",
+        "Open and close five or six times",
+        "Listen for scraping, watch for tilt"
+      ],
+      "watch": "If it needs force, stop. Something is out of level — do not force it in and bend the slide."
+    },
+    {
+      "title": "Adjust until the fronts line up",
+      "secs": 19,
+      "scene": "drawer-front-adjust",
+      "say": "Close all the drawers and stand back. Any front that sits high, low, or crooked gets fixed by loosening that slide and nudging it in its slot.",
+      "do": [
+        "Close every drawer and look along the face",
+        "Loosen the offending slide's screws a half turn",
+        "Nudge up or down, retighten, retest"
+      ],
+      "tip": "Many dressers also have adjustable drawer fronts with their own bolts, so you can shift just the face without touching the slides. Check the manual."
+    },
+    {
+      "title": "Fit handles or knobs",
+      "secs": 17,
+      "scene": "handle-fit",
+      "say": "Bolts go through from the inside of the drawer front. Snug them, do not crank them, and check they all sit at the same angle.",
+      "do": [
+        "Bolt from inside out",
+        "Snug, not tight — you can crack a drawer front",
+        "Sight along the row to check they are level"
+      ],
+      "tip": "If a bolt is slightly too short to catch, remove a washer. If it is too long and bottoms out, add one."
+    },
+    {
+      "title": "Fit the drawer stops, then load it",
+      "secs": 17,
+      "scene": "drawer-stop",
+      "say": "Little plastic or metal stops keep the drawer from pulling all the way out. Fit them, then load the drawer, heaviest at the bottom of the dresser.",
+      "do": [
+        "Stops clip or screw into the back of the slide",
+        "Test by pulling the drawer out firmly",
+        "Load the bottom drawers heaviest"
+      ],
+      "watch": "Without stops a loaded drawer comes all the way out in your hands. With a dresser, that can pull the whole piece over."
+    },
+    {
+      "title": "Anchor the dresser to the wall",
+      "secs": 17,
+      "scene": "antitip-strap",
+      "say": "A dresser with drawers out is a tipping hazard by design. Strap it to a stud. This is the step that matters most and takes the least time.",
+      "do": [
+        "Find a stud, or use a heavy-duty anchor",
+        "Bracket to wall, bracket to furniture",
+        "Strap snug, not slack"
+      ],
+      "tip": "Free anti-tip kits are available from every major manufacturer and cost a few dollars at any hardware store."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The drawer will not close flush",
+      "a": "Usually one slide is set further back than the other, or is not level. Loosen both slides on that drawer, push the drawer closed, hold the front flush, and retighten."
+    },
+    {
+      "q": "The drawer is crooked or drops at one side",
+      "a": "The two slides are at different heights. Measure from the cabinet bottom to each slide. They must match. Fix the one that is wrong, not both."
+    },
+    {
+      "q": "The drawer scrapes or grinds",
+      "a": "Either the drawer box is out of square, the cabinet is out of square, or a screw head is standing proud and catching. Run your finger along the slide path to feel for a snag."
+    },
+    {
+      "q": "A slide screw stripped its hole",
+      "a": "Toothpick plus wood glue into the hole, let it set, re-drive. Or move to one of the slide's other holes, which exist for exactly this reason."
+    },
+    {
+      "q": "The drawer falls out if I pull it all the way",
+      "a": "Drawer stops are missing or not fitted. Check the hardware bag for small plastic clips. If they are genuinely absent, request them from the manufacturer."
+    },
+    {
+      "q": "The drawer base keeps popping out of its groove",
+      "a": "The box was assembled out of square, or the base is nailed in only at one end. Square the box with the diagonals, then nail or screw the base at every corner."
+    }
+  ],
+  "terms": [
+    "drawer-slide",
+    "handed",
+    "square",
+    "drawer-stop",
+    "anti-tip"
+  ]
+}

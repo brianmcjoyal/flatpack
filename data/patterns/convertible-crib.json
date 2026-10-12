@@ -1,0 +1,279 @@
+{
+  "id": "convertible-crib",
+  "name": "Convertible crib",
+  "tagline": "Two ends, two sides, a mattress support, and eight barrel nuts that fight you. The build is easy. Getting it right is what matters.",
+  "covers": [
+    "3-in-1 and 4-in-1 convertible cribs",
+    "Standard full-size cribs",
+    "Mini and portable cribs",
+    "Crib and changer combos",
+    "Toddler-bed-convertible cribs"
+  ],
+  "difficulty": 2,
+  "minutes": 60,
+  "people": 1,
+  "peopleNote": "One person can do it. A second pair of hands makes holding a side upright much easier.",
+  "standard": {
+    "name": "ASTM F1169 / 16 CFR 1219",
+    "note": "Full-size cribs sold in the US must meet 16 CFR 1219. As of 1 August 2026 the mandatory version is ASTM F1169-25. Your manual prints the version it was built to — older cribs commonly say F1169-10a. A crib built to a 2010 revision is still legal to own and use, but if you are buying second-hand, that date is worth knowing."
+  },
+  "recall": true,
+  "tools": [
+    {
+      "n": "The supplied Allen wrench",
+      "why": "Usually an M4. It is the only wrench the crib needs.",
+      "req": true
+    },
+    {
+      "n": "A flat-head screwdriver",
+      "why": "Not supplied, and not optional. You use it to rotate the barrel nuts so the bolt can find the thread. Without it this job is miserable.",
+      "req": true
+    },
+    {
+      "n": "A flashlight or phone light",
+      "why": "Looking down bolt holes to see which way a barrel nut is facing.",
+      "req": false
+    },
+    {
+      "n": "A soft blanket or the flattened box",
+      "why": "You will lay crib ends on their face. Cribs are usually the nicest finish in the room.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "Allen wrench (usually M4)",
+    "Long bolts for the sides (often M6 x 60mm)",
+    "Barrel nuts (often M6 x 17mm)",
+    "Shorter bolts for the mattress support (often M6 x 18mm)",
+    "Mattress support with a warning pouch attached"
+  ],
+  "before": [
+    "Do not use a power screwdriver or a drill on a crib. Manufacturers say this explicitly. Power tools strip the wood thread and snap bolts, and a stripped crib bolt is not a cosmetic problem.",
+    "Build it in the nursery. An assembled crib does not fit through a standard doorway.",
+    "Count every bolt and barrel nut against the parts list before you start. Crib makers ship missing hardware free and fast, but only if you find out on day one.",
+    "Keep the instruction booklet. There is a pouch sewn to the mattress support specifically to store it, because you will need it again when you convert the crib."
+  ],
+  "safety": [
+    "Never substitute hardware. A hardware-store bolt that looks identical is not grade-matched to a crib bolt, and crib hardware is engineered for repeated impact loading. Order the real part.",
+    "Tighten every fastener fully. CPSC testing found that a crib fastener backed off as little as half a turn loses its clamping force, and side-impact loading then works it looser. The gap that opens up is an entrapment and strangulation risk.",
+    "No pillows, comforters, bumpers or extra padding go in the crib. Padded crib bumpers are banned in the US under the Safe Sleep for Babies Act.",
+    "Stop using the crib when your child reaches 35 inches tall, or starts climbing out — whichever comes first.",
+    "Never place a crib near a window, or anywhere a blind or curtain cord can reach it."
+  ],
+  "steps": [
+    {
+      "title": "Check for a recall before you build it",
+      "secs": 16,
+      "scene": "recall-check",
+      "say": "Two minutes, before any tools come out. Cribs are recalled more than almost any furniture, and a recalled crib is not something you want to discover after assembly.",
+      "do": [
+        "Find the model and lot number on the label, usually on the bottom rail of a crib end",
+        "Search that model at cpsc.gov/recalls",
+        "Register the crib with the manufacturer so they can reach you if one is issued later"
+      ],
+      "tip": "Registration is the only way a manufacturer can warn you. It takes a minute and they do not use it for marketing.",
+      "watch": "This matters most for a hand-me-down or second-hand crib, where no registration card ever reached you and the original box is long gone."
+    },
+    {
+      "title": "Lay everything out and count it",
+      "secs": 16,
+      "scene": "read-parts-list",
+      "say": "Four big parts and three kinds of hardware. Lay them out, match them to the parts page, and count the bolts and barrel nuts before anything else.",
+      "do": [
+        "Left end, right end, two sides, and the mattress support",
+        "Long bolts for the sides, short bolts for the mattress support — they are not interchangeable",
+        "Barrel nuts: small metal cylinders with a threaded hole through the middle"
+      ],
+      "tip": "Check the pre-assembled parts too. Manuals say to confirm that factory-assembled joints are tight, and sometimes they are not.",
+      "watch": "If anything is missing or damaged, stop and call the manufacturer. Do not improvise with hardware from a drawer."
+    },
+    {
+      "title": "Understand the barrel nut — this is the whole job",
+      "secs": 19,
+      "scene": "crib-barrel-nut",
+      "say": "A barrel nut is a metal cylinder that drops into a round hole in the crib end, with a threaded hole running across it. The bolt comes in from the side and has to thread into that cross hole. If the barrel nut is rotated even slightly, the bolt cannot find it.",
+      "do": [
+        "Drop the barrel nut into its hole",
+        "Look at the slot on its end — that slot tells you which way the threaded hole is pointing",
+        "Turn the slot with a flat-head screwdriver until the threaded hole lines up with where the bolt will come from",
+        "Hold it there with the screwdriver while you start the bolt by hand"
+      ],
+      "tip": "Sight down the bolt hole with a flashlight. You should be able to see straight through the barrel nut's threaded hole. If you see metal, rotate it.",
+      "watch": "This single step is where nearly everyone gets stuck and starts to believe the parts are faulty. They almost never are. The barrel nut is just facing the wrong way."
+    },
+    {
+      "title": "Attach the first side to both ends",
+      "secs": 18,
+      "scene": "crib-frame",
+      "say": "Stand the two ends up and bring one side between them. Start all four bolts by hand before tightening any of them. The frame needs slack to find its shape.",
+      "do": [
+        "Both ends upright, side panel between them",
+        "Barrel nuts rotated and held with the screwdriver",
+        "Every bolt started by hand, several turns, before the wrench touches anything"
+      ],
+      "tip": "Lean the ends against a wall or a box so they stay upright while you work. Or have someone hold them.",
+      "watch": "If a bolt will not start with finger pressure, do not force it with the wrench. You are cross-threading, and the thread you are destroying is in the barrel nut."
+    },
+    {
+      "title": "Fit the mattress support — springs up, pouch up",
+      "secs": 18,
+      "scene": "mattress-support",
+      "say": "The mattress support drops in and bolts at all four corners. It has an orientation: the springs face up, and the warning pouch sewn to it must face up too.",
+      "do": [
+        "Springs facing up, pouch facing up",
+        "One bolt in each of the four corners",
+        "Tighten all four with the Allen wrench"
+      ],
+      "tip": "The pouch facing up is not cosmetic. It is where the instructions live, and the warnings printed on it have to stay readable for the life of the crib.",
+      "watch": "These four bolts are the single most important fasteners in the crib, and they are also the ones you will never see again once the mattress goes in. Mattress support failures — loose pins, broken brackets — are the most repeated structural recall in this entire product category."
+    },
+    {
+      "title": "Choose the mattress height now",
+      "secs": 16,
+      "scene": "mattress-height",
+      "say": "Most cribs have three positions. Highest is only for a newborn who cannot push up. Drop it as soon as your baby can sit, and drop it again before they can stand.",
+      "do": [
+        "Highest position: newborn only, while they cannot push up on their own",
+        "Middle: once they can sit up unaided",
+        "Lowest: before they can pull to standing — not after"
+      ],
+      "tip": "Moving the support later means undoing four bolts. It is a ten-minute job, so do not put it off.",
+      "watch": "With the mattress at its highest setting, the top of the crib side must sit at least 3 inches above the mattress surface. If it does not, you are already one position too high."
+    },
+    {
+      "title": "Attach the second side",
+      "secs": 14,
+      "scene": "crib-frame",
+      "say": "Same as the first: barrel nuts rotated, all four bolts started by hand, then tightened. The crib becomes rigid as soon as this side goes on.",
+      "do": [
+        "Rotate each barrel nut and hold it with the screwdriver",
+        "All four bolts hand-started first",
+        "Then tighten"
+      ],
+      "tip": "If the holes do not quite line up, loosen the bolts on the opposite side a turn or two. The frame will shuffle into place."
+    },
+    {
+      "title": "Tighten properly — and know what tight means",
+      "secs": 18,
+      "scene": "torque-feel",
+      "say": "Go around every bolt and bring it up firm, then do a second lap. Firm means the wrench stops turning easily and the joint has no movement. Not gorilla-tight, because you are pulling steel into wood.",
+      "do": [
+        "Short end of the Allen wrench in the bolt, long end in your hand, for more control and less force",
+        "Tighten until the resistance climbs sharply, then stop",
+        "Second full lap, because tightening one bolt loosens its neighbor",
+        "Grab the top rail and try to rack the crib — there should be no movement and no creak"
+      ],
+      "tip": "If a bolt keeps turning without ever firming up, the barrel nut is spinning in its hole or the thread has stripped. Stop and get a replacement part.",
+      "watch": "Never finish a crib with any fastener less than fully seated. Half a turn of slack is enough to let impact loading open a gap."
+    },
+    {
+      "title": "The two-finger mattress gap test",
+      "secs": 18,
+      "scene": "two-finger-gap",
+      "say": "Put the mattress in and push it tight to one side. If you can fit more than two fingers between the mattress and the crib frame at any point, the mattress is too small for this crib.",
+      "do": [
+        "Press the mattress firmly into one corner",
+        "Try to slide two fingers into the gap on the opposite side and at both ends",
+        "More than two fingers of gap means the wrong mattress, not a crib to work around"
+      ],
+      "tip": "A full-size crib mattress is a regulated size: at least 51 5/8 inches long and 27 1/4 inches wide, and no more than 6 inches thick. Buy to that spec and the gap takes care of itself.",
+      "watch": "Mattress fit is the most recalled failure in this category — undersized mattresses, mattresses sold for the wrong frame, extra padding added on top. A gap at the side of a crib is where infants become trapped. No crib manual we reviewed actually tells you to run this test."
+    },
+    {
+      "title": "Check the slats and the rail height",
+      "secs": 16,
+      "scene": "slat-check",
+      "say": "Slats must be no more than two and three-eighths inches apart — about the width of a soda can. None should be loose, cracked, or missing.",
+      "do": [
+        "Try to pass a standard soda can between any two slats: it should not fit",
+        "Push each slat and check for movement",
+        "Confirm no cracks, especially where slats meet the rails"
+      ],
+      "tip": "Slat spacing is set at the factory, so this is really a check for shipping damage and for second-hand cribs that have been apart and back together.",
+      "watch": "Wider slat spacing has triggered real recalls. If a can passes through, stop using the crib and contact the manufacturer."
+    },
+    {
+      "title": "Set the re-check reminder before you walk away",
+      "secs": 11,
+      "scene": "calendar-recheck",
+      "say": "Every crib manual says to inspect periodically and none of them tell you how often. Put it in your phone now: monthly, and after any move.",
+      "do": [
+        "Monthly recurring reminder, two minutes each time",
+        "Also after any house move, any disassembly, and whenever the mattress height changes"
+      ],
+      "tip": "The schedule in the next section tells you exactly what to check each time, and it takes less time than making the bed."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every month",
+      "what": "Grab the top rails and rack the crib side to side. Any movement or creak means a bolt has backed off. Go around all twelve with the Allen wrench."
+    },
+    {
+      "when": "Every month",
+      "what": "Reach under the mattress and check the four mattress-support bolts. These are the ones you cannot see, and they are the most common structural failure in cribs."
+    },
+    {
+      "when": "Every month",
+      "what": "Run the two-finger gap test again. Mattresses compress and shift, and babies grow into the gap."
+    },
+    {
+      "when": "Every month",
+      "what": "Run a hand down every slat looking for cracks or movement, especially where the slat meets the rail."
+    },
+    {
+      "when": "After any move or disassembly",
+      "what": "Full re-tighten of every fastener. Wood threads lose grip a little each time a crib comes apart, so a crib on its third assembly needs more attention, not less."
+    },
+    {
+      "when": "Each time you lower the mattress",
+      "what": "You already have the wrench out and four bolts undone — re-tighten everything else while you are there."
+    },
+    {
+      "when": "Twice a year",
+      "what": "Re-check the model number at cpsc.gov/recalls. Recalls get issued years after a crib ships."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The bolt will not go into the barrel nut",
+      "a": "The barrel nut is rotated the wrong way. Put a flat-head screwdriver in the slot on its end and turn it until you can see daylight through its threaded hole when you sight down the bolt hole. Hold it there while you hand-start the bolt. This is the answer about nine times out of ten."
+    },
+    {
+      "q": "The barrel nut keeps falling out of its hole",
+      "a": "Hold the crib end flat so the hole faces up and gravity keeps the nut seated, or put a small piece of tape over the outside of the hole while you start the bolt. Some people use a magnetic screwdriver to hold it in position."
+    },
+    {
+      "q": "A bolt spins forever and never tightens",
+      "a": "Either the barrel nut is rotating in its hole, or the thread has stripped. Try holding the barrel nut still with the screwdriver. If it still spins, stop and order a replacement barrel nut — do not leave that joint partly tight."
+    },
+    {
+      "q": "The frame is twisted and rocks on the floor",
+      "a": "Loosen every bolt a couple of turns, stand the crib on a flat floor, press down on each corner so it settles square, then re-tighten in two laps. Tightening a crib while it sits on carpet or an uneven floor locks the twist in."
+    },
+    {
+      "q": "I have lost the instructions",
+      "a": "Check the pouch sewn to the mattress support — that is what it is for. Otherwise every major manufacturer has manuals by model number on their site, free."
+    },
+    {
+      "q": "I am missing a bolt and the store is closed",
+      "a": "Wait. Do not substitute. Crib bolts are specified for repeated impact loading and a visually identical hardware-store bolt is not the same part. Every manufacturer ships crib hardware free, usually within a few days."
+    },
+    {
+      "q": "The crib creaks when the baby moves",
+      "a": "A creak is a joint moving. Do a full two-lap re-tighten including the four mattress-support bolts underneath. If it still creaks, find which joint by rocking the crib with a hand on each joint in turn."
+    },
+    {
+      "q": "It is a hand-me-down and I do not know its history",
+      "a": "Check the model against the CPSC recall list, confirm no drop-side (those have been banned since 2011), run the soda-can slat test and the two-finger mattress test, and fully re-tighten every fastener. If any hardware is missing, order it new from the manufacturer rather than using the crib as-is."
+    }
+  ],
+  "terms": [
+    "barrel-nut",
+    "mattress-support",
+    "two-finger-test",
+    "slat-spacing",
+    "preload",
+    "anti-tip"
+  ]
+}

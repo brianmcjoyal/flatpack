@@ -1,0 +1,218 @@
+{
+  "id": "bassinet-sleeper",
+  "name": "Bassinet and bedside sleeper",
+  "tagline": "A fabric basket on a folding frame. Light, quick, and with two failure points that have caused real recalls.",
+  "covers": [
+    "Standalone bassinets",
+    "Bedside and co-sleeper bassinets",
+    "Rocking and gliding bassinets",
+    "Travel bassinets",
+    "Moses basket stands"
+  ],
+  "difficulty": 1,
+  "minutes": 25,
+  "people": 1,
+  "peopleNote": "One person. Nothing here is heavy.",
+  "standard": {
+    "name": "ASTM F2194 / 16 CFR 1218",
+    "note": "Bassinets sold in the US must meet 16 CFR 1218. A key requirement: the sleep surface must sit at an angle of no more than 10 degrees. Inclined sleepers steeper than that are banned under the Safe Sleep for Babies Act, and several were recalled after infant deaths."
+  },
+  "recall": true,
+  "tools": [
+    {
+      "n": "Your hands",
+      "why": "Most bassinets are tool-free: legs click, fabric zips, the frame locks open.",
+      "req": true
+    },
+    {
+      "n": "The supplied Allen key",
+      "why": "Some frames bolt rather than click.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Bassinet frame with folding legs",
+    "Fabric basket or sleep surface",
+    "Mattress pad (use only this one)",
+    "Bedside anchoring straps on co-sleeper models"
+  ],
+  "before": [
+    "Unfold it fully on a flat floor before you decide anything else. You need to see every joint click into its locked position.",
+    "Check the weight and age limits on the label. Most bassinets end at around 15 to 20 pounds, or as soon as the baby can push up on hands and knees — whichever comes first.",
+    "If it is a bedside sleeper, measure your bed height now. The sleeper must be able to meet your mattress height with no step and no gap."
+  ],
+  "safety": [
+    "The sleep surface must be flat. If the mattress pad sits at more than a very slight angle, stop using it — inclined sleep is the hazard that drove this category's biggest recalls.",
+    "Use only the pad that came with it. Never add a second mattress, a folded blanket, or extra padding. A deadly gap or a soft surface is the result.",
+    "Stop using a bassinet the moment your baby can push up on hands and knees or roll over, even if they are under the weight limit.",
+    "Nothing else goes in: no pillows, no bumpers, no toys, no loose blankets."
+  ],
+  "steps": [
+    {
+      "title": "Check the model for a recall",
+      "secs": 20,
+      "scene": "recall-check",
+      "say": "Bassinets have one of the worst recall records in nursery gear. Two minutes at cpsc.gov/recalls before you build it.",
+      "do": [
+        "Find the model number on the label under the fabric or on the frame",
+        "Search it at cpsc.gov/recalls",
+        "Register the product with the manufacturer"
+      ],
+      "watch": "This matters doubly for a borrowed or second-hand bassinet. Several recalled models stayed in circulation for years after the recall because they were passed between families."
+    },
+    {
+      "title": "Open the frame until every joint locks",
+      "secs": 22,
+      "scene": "frame-lock",
+      "say": "Spread the legs until each hinge clicks. A click is not a courtesy — it is the locking detent, and a leg that has not clicked can fold under load.",
+      "do": [
+        "Push each leg out until you hear and feel a distinct click",
+        "Look at each joint: a locked hinge sits flat and straight, an unlocked one has a visible angle",
+        "Press down firmly on the frame — nothing should give"
+      ],
+      "tip": "Count the joints and confirm each one individually. It is easy to lock three and assume the fourth.",
+      "watch": "Support legs breaking and frames collapsing are documented bassinet recall causes. An unlocked joint is the same failure with none of the manufacturing defect."
+    },
+    {
+      "title": "Fit the basket to the frame",
+      "secs": 20,
+      "scene": "bassinet-basket",
+      "say": "The fabric basket either drops into the frame and clips, or slides onto rails. It must engage on all sides, not just at the ends.",
+      "do": [
+        "Line the basket up with the frame the way the manual shows",
+        "Press down until every clip or catch engages",
+        "Lift the basket upward from the middle — it should not come free"
+      ],
+      "watch": "A basket seated at the ends but not the sides can tip. Always lift-test it before the mattress pad goes in."
+    },
+    {
+      "title": "Lay the pad in flat — only the supplied one",
+      "secs": 20,
+      "scene": "bassinet-pad",
+      "say": "The pad that came with it is the only pad that goes in. It should lie completely flat and fill the base with no gaps at the edges.",
+      "do": [
+        "Supplied pad only, firm side up if it has one",
+        "It should reach every edge of the base",
+        "Nothing underneath it and nothing on top of it except a fitted sheet"
+      ],
+      "tip": "If you want a spare sheet, buy one made for that exact bassinet model. Bassinet bases are not a standard size.",
+      "watch": "Adding a second mattress or a folded blanket to make it softer is how infants suffocate. Firm and flat is the design, not a compromise."
+    },
+    {
+      "title": "Check it is actually flat",
+      "secs": 20,
+      "scene": "bassinet-level",
+      "say": "Put a phone with a level app on the pad, along its length. It should read close to flat, and no more than ten degrees in any case.",
+      "do": [
+        "Level app on the sleep surface, lengthwise and across",
+        "Adjust the frame's leg height settings if it has them",
+        "Check the floor too — a sloping floor tilts the whole thing"
+      ],
+      "tip": "Ten degrees is the regulatory ceiling, not a target. Aim for flat.",
+      "watch": "Any product that holds a baby at a meaningful incline for sleep is unsafe, regardless of what it was marketed as. This is the single biggest lesson from this product category."
+    },
+    {
+      "title": "Bedside sleepers: close the gap",
+      "secs": 22,
+      "scene": "bedside-gap",
+      "say": "If it attaches to your bed, the two surfaces must be level with each other and strapped tight with no gap at all between the sleeper and your mattress.",
+      "do": [
+        "Adjust the sleeper's height so its sleep surface matches your mattress height exactly",
+        "Use the supplied anchoring straps under your mattress and pull them tight",
+        "Push the sleeper hard away from the bed — it must not open a gap"
+      ],
+      "tip": "Re-check the straps every few days. Adult beds move more than you would think.",
+      "watch": "A bedside sleeper that drifts away from the bed creates exactly the gap the design exists to prevent. A recalled model failed precisely because its attachment mechanism allowed an opening."
+    },
+    {
+      "title": "Test the rocking lock, if it rocks",
+      "secs": 18,
+      "scene": "rock-lock",
+      "say": "Rocking bassinets have a lock. Find it, use it, and know which position is which, because rocking is for soothing while you watch — not for sleep.",
+      "do": [
+        "Locate the lock pins or levers on both sides",
+        "Engage them and confirm the basket no longer rocks",
+        "Lock it for unattended sleep"
+      ],
+      "watch": "An unlocked rocking bassinet can let a baby roll to one side and end up against the fabric wall."
+    },
+    {
+      "title": "Shake it, then load it",
+      "secs": 20,
+      "scene": "shake-test",
+      "say": "Grip the frame and shake it firmly. Press down hard in the middle of the pad. Any flex, click, or give means a joint is not locked.",
+      "do": [
+        "Shake side to side and front to back",
+        "Press down firmly in the center of the sleep surface",
+        "Lift one end slightly and check nothing separates"
+      ],
+      "tip": "Do this once a week for the whole time it is in use. It takes five seconds."
+    },
+    {
+      "title": "Place it well and set a reminder",
+      "secs": 18,
+      "scene": "calendar-recheck",
+      "say": "Away from windows, cords, heaters and radiators. On a flat floor. Then set a weekly reminder to re-run the shake test.",
+      "do": [
+        "Clear of all blind and curtain cords",
+        "Not against a radiator or heater",
+        "Weekly shake-test reminder in your phone"
+      ],
+      "watch": "Bassinets get moved around the house constantly, which is exactly why they need checking more often than a crib, not less."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every week",
+      "what": "Shake the frame and press firmly on the sleep surface. Every hinge should be locked and nothing should flex."
+    },
+    {
+      "when": "Every week",
+      "what": "Confirm the pad is still flat and the fitted sheet has not bunched underneath it."
+    },
+    {
+      "when": "Every few days, for a bedside sleeper",
+      "what": "Pull the sleeper away from the bed. If a gap opens, re-tighten the anchoring straps."
+    },
+    {
+      "when": "Every time you move it",
+      "what": "Re-confirm every leg joint has clicked into its lock. Moving a bassinet between rooms is when joints get knocked out of lock."
+    },
+    {
+      "when": "Every month",
+      "what": "Check the weight and milestone limits against your baby. The hands-and-knees milestone arrives suddenly and it ends bassinet use immediately."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "A leg will not click into place",
+      "a": "Something is blocking the detent — usually fabric caught in the hinge. Work the fabric clear and try again. Never use a bassinet with a joint that will not lock."
+    },
+    {
+      "q": "The sleep surface looks tilted",
+      "a": "Check the floor first with a level app, then the frame's height settings — many have independent adjustment at each end. If you cannot get it close to flat, stop using it."
+    },
+    {
+      "q": "There is a gap between the bedside sleeper and my bed",
+      "a": "Lower or raise the sleeper so the surfaces match exactly, then re-tighten the anchoring straps under your mattress. If the gap will not close, your bed may be outside the height range the sleeper supports — check the manual."
+    },
+    {
+      "q": "The mattress pad seems thin",
+      "a": "It is supposed to be. Firm and thin is the safe design. Do not add padding — that is the single most dangerous modification you can make to a bassinet."
+    },
+    {
+      "q": "Can I use a hand-me-down bassinet?",
+      "a": "Check the model against the CPSC recall list first, confirm it has its original pad, confirm the sleep surface sits flat, and confirm every joint locks. If the original pad is missing, buy the manufacturer's replacement rather than substituting."
+    },
+    {
+      "q": "My baby has outgrown the weight limit but still fits",
+      "a": "The limit is not about fitting. Move to a crib. The same applies the first time they push up on hands and knees, whatever the scale says."
+    }
+  ],
+  "terms": [
+    "detent",
+    "two-finger-test",
+    "incline-limit",
+    "mattress-support"
+  ]
+}

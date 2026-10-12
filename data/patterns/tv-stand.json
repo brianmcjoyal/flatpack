@@ -1,0 +1,211 @@
+{
+  "id": "tv-stand",
+  "name": "TV stand or media console",
+  "tagline": "A long cam-lock box with doors, cable holes, and a top that has to carry your television.",
+  "covers": [
+    "TV stands and media consoles",
+    "Entertainment centers",
+    "Sideboards and credenzas",
+    "Low cabinets with doors",
+    "Fireplace TV consoles"
+  ],
+  "difficulty": 2,
+  "minutes": 70,
+  "people": 1,
+  "peopleNote": "One to build. Two to lift the finished unit and definitely two to put the TV on it.",
+  "tools": [
+    {
+      "n": "Phillips screwdriver",
+      "why": "Cam bolts, hinges, back panel.",
+      "req": true
+    },
+    {
+      "n": "Rubber mallet",
+      "why": "Dowels and back panel nails.",
+      "req": true
+    },
+    {
+      "n": "Tape measure",
+      "why": "Squaring the box and centring the doors.",
+      "req": true
+    },
+    {
+      "n": "Small flathead screwdriver",
+      "why": "Adjusting hinge screws so the doors line up. This is what makes it look professional.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Cam locks and cam bolts",
+    "Dowels",
+    "Hinges",
+    "Shelf pins",
+    "Back panel and nails",
+    "Handles or knobs"
+  ],
+  "before": [
+    "Measure the TV's feet, not its screen size. A 65-inch TV with wide-set feet needs a stand wider than most people expect.",
+    "Build it where it will live. A six-foot console does not turn a corner in a hallway.",
+    "Check the stand's weight rating against your TV. It is on the listing or in the manual."
+  ],
+  "safety": [
+    "A TV on a stand can be pulled over by a child. Use the stand's anti-tip strap and also strap the TV itself to the wall or the stand.",
+    "Never put a TV on a unit whose cams are not fully locked and whose back panel is not nailed on."
+  ],
+  "steps": [
+    {
+      "title": "Spread out and label everything",
+      "secs": 16,
+      "scene": "read-parts-list",
+      "say": "Media consoles have the most look-alike panels of any furniture. Lay them all out, match each to its letter in the manual, and pencil the letter on.",
+      "do": [
+        "All panels out, none stacked",
+        "Match every one to the parts diagram",
+        "Pencil the letter on a hidden face"
+      ],
+      "watch": "Long horizontal panels for the top, bottom and shelves often differ by a quarter inch. Labeling is not optional here."
+    },
+    {
+      "title": "Dowels and cam bolts in",
+      "secs": 18,
+      "scene": "dowel-tap",
+      "say": "Tap the dowels halfway into the edge holes and hand-tighten the cam bolts into the face holes, exactly as the diagram shows for each panel.",
+      "do": [
+        "Dowels in edge holes, half in",
+        "Cam bolts in face holes, hand-tight to the shoulder",
+        "Do all panels before you join any"
+      ],
+      "tip": "Doing all the prep across every panel first, then all the joining, is much faster than panel-by-panel."
+    },
+    {
+      "title": "Cams into the big holes, gap toward the joint",
+      "secs": 18,
+      "scene": "cam-insert",
+      "say": "Each big round hole takes a cam lock, with the keyhole gap pointing toward the edge the bolt arrives from. Check every one before you close anything.",
+      "do": [
+        "One cam per large round hole",
+        "Keyhole gap faces the incoming bolt",
+        "Flush with the surface"
+      ],
+      "watch": "On a unit this size you may be inserting twenty cams. One backwards means one joint that never closes, and finding it later is miserable."
+    },
+    {
+      "title": "Build the two end sections first",
+      "secs": 18,
+      "scene": "panel-join",
+      "say": "Most consoles are really two small boxes joined by a long top and bottom. Build each end section flat first, then bring them together.",
+      "do": [
+        "Side panel flat, divider and shelves in",
+        "Lock those cams",
+        "Repeat for the other end"
+      ],
+      "tip": "Two small assemblies joined at the end is far easier to handle than wrestling a six-foot frame from the start."
+    },
+    {
+      "title": "Join with the top and bottom, then lock",
+      "secs": 18,
+      "scene": "panel-join",
+      "say": "Lay the long bottom down, stand both end sections on it, then set the top across. Get every dowel started before you press anything home.",
+      "do": [
+        "Bottom panel down first",
+        "End sections on, dowels started",
+        "Top across, press down evenly along its whole length"
+      ],
+      "watch": "Pressing one end fully home before the other starts cracks dowel holes. Work along the length evenly."
+    },
+    {
+      "title": "Square it, then fit the back",
+      "secs": 20,
+      "scene": "square-check",
+      "say": "Measure both diagonals and push until they match. Then fit the back panel, which locks that shape in and gives you your cable holes.",
+      "do": [
+        "Diagonals equal",
+        "Back panel printed side out",
+        "Corner nails first, then all the way round and into the dividers"
+      ],
+      "tip": "Punch out or locate the cable holes in the back before nailing it on. Doing it afterwards means working in a tiny gap.",
+      "watch": "Doors will never line up on an out-of-square box. This step is why some consoles look factory-made and others look homemade."
+    },
+    {
+      "title": "Hang the doors and adjust the hinges",
+      "secs": 20,
+      "scene": "hinge-door",
+      "say": "Screw the hinge plates into the cabinet, clip the doors on, then use the hinge adjustment screws to line the doors up with each other.",
+      "do": [
+        "Hinge plates into the pre-drilled cup holes in the cabinet",
+        "Clip or screw the door hinges to the plates",
+        "Adjust: one screw moves the door sideways, one moves it in and out, one moves it up and down"
+      ],
+      "tip": "Close both doors and look at the gap between them. Turn the adjustment screws a quarter turn at a time until that gap is even top to bottom. Five minutes of this transforms how the whole thing looks.",
+      "watch": "Hinges are handed on some units. If a door hangs at a strange angle, you may have a left hinge on the right door."
+    },
+    {
+      "title": "Handles, shelf pins, and the inside",
+      "secs": 16,
+      "scene": "handle-fit",
+      "say": "Bolt the handles through the pre-drilled holes, push in the shelf pins at matching heights, and drop in the adjustable shelves.",
+      "do": [
+        "Handle bolts go in from the inside of the door",
+        "Shelf pins: count holes from the bottom, same count all four corners",
+        "Shelves in, press each corner"
+      ],
+      "tip": "If a handle bolt is too long and sticks out, add a washer or two behind the handle to take up the slack."
+    },
+    {
+      "title": "Sort the cables while the back is still accessible",
+      "secs": 18,
+      "scene": "cable-channel",
+      "say": "Set up the console, box, and power strip now and feed everything through the cable holes before the TV is on top blocking your view.",
+      "do": [
+        "Power strip inside the cabinet, or screwed to the back",
+        "Each device's cable through its own hole",
+        "Label both ends of every cable with masking tape"
+      ],
+      "tip": "Labeling cables with masking tape and a pen takes two minutes and saves an hour every single time you change anything."
+    },
+    {
+      "title": "TV on, then strap everything down",
+      "secs": 18,
+      "scene": "tv-mount",
+      "say": "With two people, lift the TV on and center it. Then strap the console to the wall and strap the TV to the console or the wall.",
+      "do": [
+        "Two people, lift from the bottom bezel and the back, never the screen",
+        "Center it over the unit's vertical dividers if you can",
+        "Anti-tip strap on the console, anti-tip strap or wall mount on the TV"
+      ],
+      "tip": "Put the TV's weight over a vertical divider rather than the unsupported middle of a long top panel.",
+      "watch": "Tipping televisions injure thousands of children a year, nearly always off a chest or a stand. Both straps, every time."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The doors do not line up and the gap is crooked",
+      "a": "This is what hinge adjustment screws are for, and it is almost never a manufacturing fault. Close both doors, find the uneven gap, and turn the sideways-adjustment screw on the offending hinge a quarter turn at a time. Also confirm the cabinet is square."
+    },
+    {
+      "q": "The top sags in the middle under the TV",
+      "a": "The TV's weight is over an unsupported span. Shift the TV so its feet sit over the vertical dividers, or add a support block or a center leg underneath."
+    },
+    {
+      "q": "A door hangs open or swings shut by itself",
+      "a": "The whole unit is not level. Adjust the feet or shim the low side — doors are a very sensitive level gauge."
+    },
+    {
+      "q": "The cable holes are in the wrong places for my setup",
+      "a": "Most back panels are thin hardboard. A new hole can be cut with a hole saw or even a sharp knife, from the inside out, with the panel supported. Mark it first and keep it away from the edges."
+    },
+    {
+      "q": "My TV is wider than the stand",
+      "a": "Overhang up to a few inches each side is usually fine structurally but looks wrong and is easy to knock. Check the TV's foot spacing against the stand's top width — feet must land fully on the surface."
+    }
+  ],
+  "terms": [
+    "cam-lock",
+    "dowel",
+    "hinge-adjust",
+    "shelf-pin",
+    "square",
+    "anti-tip"
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "safety-gate",
+  "name": "Baby safety gate",
+  "tagline": "Two kinds exist, and using the wrong kind at the top of the stairs is the most dangerous mistake in baby-proofing.",
+  "covers": [
+    "Pressure-mounted baby gates",
+    "Hardware-mounted stair gates",
+    "Extra-wide and retractable gates",
+    "Banister gate installation",
+    "Doorway and hallway gates"
+  ],
+  "difficulty": 2,
+  "minutes": 45,
+  "people": 1,
+  "peopleNote": "One person, though holding a wide gate level while marking holes is easier with two.",
+  "standard": {
+    "name": "ASTM F1004 / 16 CFR 1239",
+    "note": "Safety gates sold in the US must meet 16 CFR 1239, mandatory since July 2021. It covers strength, gap spacing, latch security and labeling. Crucially, the standard does not make a pressure-mounted gate safe at the top of stairs — the label on the gate itself will tell you where it may be used."
+  },
+  "tools": [
+    {
+      "n": "Stud finder",
+      "why": "Hardware-mounted gates must go into studs or solid timber. Drywall will not hold a child's weight against a gate.",
+      "req": true
+    },
+    {
+      "n": "Drill with a small bit",
+      "why": "Pilot holes. Driving a screw into a stud without one splits wood and snaps screws.",
+      "req": true
+    },
+    {
+      "n": "Spirit level or a phone level app",
+      "why": "A gate that is not plumb will not latch reliably, and a latch that sometimes does not catch is worse than no gate.",
+      "req": true
+    },
+    {
+      "n": "Tape measure and pencil",
+      "why": "Marking hole positions at matching heights on both sides.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Final tightening by hand gives better feel than a drill.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "Wall cups or mounting brackets",
+    "Screws and wall plugs",
+    "Spacers or extensions",
+    "Latch mechanism"
+  ],
+  "before": [
+    "Work out which gate you have. If it tightens with threaded cups and no screws, it is pressure-mounted. If it comes with brackets and screws, it is hardware-mounted.",
+    "Measure the opening at the top, middle and bottom. Door frames and stair openings are rarely parallel, and the narrowest measurement is the one that matters.",
+    "Decide what you are mounting into. Drywall, plaster, timber trim, metal baluster and a round newel post all need different approaches."
+  ],
+  "safety": [
+    "Never use a pressure-mounted gate at the top of a staircase. A pressure gate is held by friction, and a child leaning on it can dislodge it and fall with the gate. Only a hardware-mounted gate belongs at the top of stairs.",
+    "A pressure gate also has a bottom bar, which is a trip hazard in a doorway you walk through at night.",
+    "Stop using gates once a child can climb them. At that point a gate becomes a thing to fall from.",
+    "Never fit a gate with a horizontal bar pattern that works as a ladder at the top of stairs."
+  ],
+  "steps": [
+    {
+      "title": "Work out which gate you are holding",
+      "secs": 19,
+      "scene": "gate-type",
+      "say": "Pressure-mounted gates have four threaded cups you wind out against the frame. Hardware-mounted gates have brackets that screw into the wall. They are not interchangeable.",
+      "do": [
+        "Threaded cups and no screws: pressure-mounted",
+        "Brackets and wood screws: hardware-mounted",
+        "Read the label on the gate itself — it states where the gate may be used"
+      ],
+      "watch": "Some gates ship with both options. If yours does and it is going at the top of stairs, you must use the hardware brackets."
+    },
+    {
+      "title": "Top of stairs means hardware-mounted, always",
+      "secs": 19,
+      "scene": "gate-stairs",
+      "say": "This is the one rule that matters more than every other step here. At the top of a staircase, only a hardware-mounted gate screwed into studs or solid timber.",
+      "do": [
+        "Top of stairs: hardware-mounted, no exceptions",
+        "Bottom of stairs and ordinary doorways: pressure-mounted is acceptable",
+        "A gate that swings must open away from the stairs, never out over the steps"
+      ],
+      "tip": "At the bottom of the stairs, mount the gate on the lowest step rather than at the foot, so a child cannot get onto the first few steps.",
+      "watch": "Pressure gates pass the same lab tests, but they are held by friction and real homes have bumps, knocks and determined toddlers. The failure mode at the top of stairs is a fall down the full flight."
+    },
+    {
+      "title": "Measure the opening in three places",
+      "secs": 15,
+      "scene": "gate-measure",
+      "say": "Measure the width at the top, the middle and the bottom. Use the narrowest. Then check your gate's range covers it with extensions if needed.",
+      "do": [
+        "Three measurements, top, middle, bottom",
+        "Use the narrowest number",
+        "Check the gate's stated range and count your extension panels"
+      ],
+      "watch": "A gate stretched to the very end of its range has almost no adjustment left for the inevitable second attempt."
+    },
+    {
+      "title": "Find what is behind the wall",
+      "secs": 20,
+      "scene": "gate-mount",
+      "say": "Run the stud finder across both sides. You need solid timber behind at least the hinge side. Mark the stud edges in pencil.",
+      "do": [
+        "Stud finder both sides, then tap to confirm the solid note",
+        "Door frames and trim are usually solid timber and make good fixing points",
+        "If you only have drywall, use heavy-duty toggle anchors rated well above a child's weight"
+      ],
+      "tip": "A doorway is the easiest win: the frame itself is solid timber all the way up both sides.",
+      "watch": "A plastic wall plug in plasterboard will pull out under a child throwing their weight at a gate. That is the exact load the gate exists to take."
+    },
+    {
+      "title": "Mark, level, and pilot-drill",
+      "secs": 20,
+      "scene": "gate-level",
+      "say": "Hold the brackets up, level the gate, and mark every hole. Then drill pilot holes before any screw goes in.",
+      "do": [
+        "Level the gate before marking — check with a level app",
+        "Mark all four bracket holes at matching heights left and right",
+        "Pilot-drill slightly narrower than the screw"
+      ],
+      "tip": "A gate that is out of level will drift open or fail to latch. The latch is the whole product, and it only works if the gate hangs plumb.",
+      "watch": "Measure the bracket heights from the floor on both sides and make them identical. Eyeballing it is why so many gates latch on one try out of three."
+    },
+    {
+      "title": "Fix the brackets and hang the gate",
+      "secs": 18,
+      "scene": "gate-fix",
+      "say": "Screws in fully and seated, then hang the gate and check it swings freely without catching.",
+      "do": [
+        "Screws driven fully home, not left proud",
+        "Hang the gate and swing it through its full travel",
+        "Check the gap at the hinge side stays small through the swing"
+      ],
+      "tip": "Finish the last turn of each screw by hand. You get much better feel for when it is seated and you will not strip the hole."
+    },
+    {
+      "title": "Check the gaps",
+      "secs": 18,
+      "scene": "gate-gaps",
+      "say": "The gap under the gate must be small enough that a child cannot crawl beneath, and there must be no gap at the sides wide enough to trap a head or a limb.",
+      "do": [
+        "Under the gate: no more than about three inches",
+        "Sides: no gaps that a head could enter",
+        "Check the gate has no horizontal bars a child can use as footholds"
+      ],
+      "watch": "Gaps at the hinge side open and close as the gate swings. Check them through the full travel, not just when closed."
+    },
+    {
+      "title": "Test the latch properly",
+      "secs": 18,
+      "scene": "gate-latch",
+      "say": "Close it twenty times. It must latch every single time, with a positive click, without you having to lift or push the gate into position.",
+      "do": [
+        "Twenty closes, counting the failures",
+        "Then push hard on the gate from the unsafe side",
+        "Shake it and lean on it with real weight"
+      ],
+      "tip": "If it latches nineteen times out of twenty, that is a failure. A gate you have to think about is a gate that will be left open.",
+      "watch": "If it will not latch reliably, the gate is not level or the brackets are at different heights. Fix the mounting, do not live with the latch."
+    },
+    {
+      "title": "Pressure gates: the direction rule",
+      "secs": 18,
+      "scene": "gate-pressure",
+      "say": "If you are fitting a pressure gate in a doorway, the pressure bar goes on the side away from the child, so pushing on the gate tightens it rather than loosening it.",
+      "do": [
+        "Wind all four cups out evenly, not one at a time",
+        "Bar and mounting hardware on the side away from the child",
+        "Re-tighten weekly — pressure gates work loose"
+      ],
+      "watch": "Pressure gates loosen. A weekly squeeze-and-tighten is part of owning one, and it is the reason they are not trusted at the top of stairs."
+    },
+    {
+      "title": "Set the re-check reminder",
+      "secs": 15,
+      "scene": "calendar-recheck",
+      "say": "Gates take daily abuse from adults stepping over them and children hanging on them. Monthly for hardware gates, weekly for pressure gates.",
+      "do": [
+        "Weekly for pressure-mounted: re-tighten the cups",
+        "Monthly for hardware-mounted: re-tighten the bracket screws",
+        "Re-check gaps whenever you move a gate to a new opening"
+      ],
+      "tip": "Gates get relocated around a house constantly. Every relocation is a fresh installation, with all the same checks."
+    }
+  ],
+  "recheck": [
+    {
+      "when": "Every week, pressure-mounted",
+      "what": "Push firmly on the gate from both sides and re-tighten the four cups. Pressure gates work loose with every use."
+    },
+    {
+      "when": "Every month, hardware-mounted",
+      "what": "Re-tighten the bracket screws and check none has pulled in the wall."
+    },
+    {
+      "when": "Every month",
+      "what": "Close it twenty times and count the failures. It should latch every time without being lifted or nudged."
+    },
+    {
+      "when": "Every month",
+      "what": "Re-check the gap under the gate and at the hinge side through the full swing."
+    },
+    {
+      "when": "Whenever you move it",
+      "what": "Treat it as a brand new installation: measure, level, find studs, re-check every gap."
+    },
+    {
+      "when": "When your child starts climbing",
+      "what": "A gate a child can climb is a fall hazard, not a barrier. That is the point to stop using it."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The gate will not latch reliably",
+      "a": "It is not level, or the two brackets are at different heights. Measure from the floor to each bracket — they must match. Re-level and re-fix. Do not try to compensate with the latch adjustment."
+    },
+    {
+      "q": "There is no stud where I need to mount it",
+      "a": "Use heavy-duty toggle anchors rated well above a child's weight — not plastic plugs. Better, shift the gate a few inches to catch the door frame, which is solid timber on both sides."
+    },
+    {
+      "q": "I need to mount to a round banister post",
+      "a": "Use a banister adapter kit. It wraps the post and gives you a flat surface to screw into without drilling the banister. Never screw directly into a decorative newel post without checking it is structural."
+    },
+    {
+      "q": "My pressure gate keeps loosening",
+      "a": "That is what they do. Re-tighten weekly, and make sure the cups bear on flat, solid surfaces rather than on trim mouldings. If it is at the top of stairs, replace it with a hardware-mounted gate."
+    },
+    {
+      "q": "The opening is wider than the gate",
+      "a": "Most gates sell matching extension panels. Use the manufacturer's own — mixing brands changes the gap spacing and the strength of the joint."
+    },
+    {
+      "q": "My toddler can open the latch",
+      "a": "Many gates have a two-action latch that can be made stiffer, or can be mounted higher. If yours cannot, replace it. A gate a child can open is doing nothing."
+    },
+    {
+      "q": "Can I use a gate for a doorway with no frame on one side?",
+      "a": "You need something solid to fix to. A wall-mounted Y-spindle or a timber batten screwed into studs gives you a fixing point. Do not rely on drywall alone."
+    }
+  ],
+  "terms": [
+    "stud",
+    "toggle-anchor",
+    "pilot-hole",
+    "pressure-mount",
+    "hardware-mount",
+    "plumb"
+  ]
+}

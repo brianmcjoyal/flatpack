@@ -1,0 +1,210 @@
+{
+  "id": "bookcase-open",
+  "name": "Bookcase or shelving unit",
+  "tagline": "Two tall sides, fixed and adjustable shelves, and a thin back that does all the structural work.",
+  "covers": [
+    "Standard bookcases",
+    "Tall and short shelving units",
+    "Ladder and etagere shelves",
+    "Display cabinets without doors",
+    "Corner shelving"
+  ],
+  "difficulty": 2,
+  "minutes": 50,
+  "people": 1,
+  "peopleNote": "One person to build, two to stand a tall one up.",
+  "tools": [
+    {
+      "n": "Phillips screwdriver",
+      "why": "Shelf screws and the back panel.",
+      "req": true
+    },
+    {
+      "n": "Rubber mallet or hammer with a towel",
+      "why": "Dowels and back panel nails.",
+      "req": true
+    },
+    {
+      "n": "Tape measure",
+      "why": "Squaring before the back goes on, and spacing adjustable shelves evenly.",
+      "req": true
+    },
+    {
+      "n": "Stud finder",
+      "why": "Anchoring it to the wall, which on a tall bookcase matters more than on almost any other furniture.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Cam locks and cam bolts",
+    "Dowels",
+    "Shelf pins",
+    "Back panel and nails",
+    "Anti-tip bracket"
+  ],
+  "before": [
+    "Build it in the room it will live in, lying down, then stand it up into its final position.",
+    "Work on the flattened box. Bookcase sides are long and the finished faces mark easily.",
+    "Measure your ceiling height if it is a tall unit. Standing up an 80-inch bookcase in a room with a 90-inch ceiling needs about a foot of swing room."
+  ],
+  "safety": [
+    "A tall bookcase loaded with books is extremely top-heavy. It must be anchored to the wall. Children climb shelves.",
+    "Load heavy things on the bottom shelves and light things up top, always."
+  ],
+  "steps": [
+    {
+      "title": "Lay both sides down and label them",
+      "secs": 16,
+      "scene": "panel-identify",
+      "say": "The two tall panels are the sides. They are mirror images. Lay them out with the shelf pin holes facing each other and pencil an L and an R on the back edges.",
+      "do": [
+        "Rows of small holes face inward, toward each other",
+        "Finished edge with the plastic strip faces front",
+        "Pencil-mark left and right"
+      ],
+      "watch": "Side panels are the classic mirror-image trap. Get these the wrong way round and every hole after it is wrong."
+    },
+    {
+      "title": "Dowels and cam bolts into the shelves",
+      "secs": 19,
+      "scene": "dowel-tap",
+      "say": "The fixed shelves get dowels in the edge holes and cam bolts in the face holes. Tap the dowels half in. Hand-tighten the bolts.",
+      "do": [
+        "Dowels into the small edge holes, tapped to half depth",
+        "Cam bolts into the flat face holes, hand-tight",
+        "Fixed shelves only — the adjustable ones sit on pins"
+      ],
+      "tip": "Fixed shelves are usually top, bottom, and one in the middle. The rest float on pins."
+    },
+    {
+      "title": "Cams into the side panels, facing the right way",
+      "secs": 19,
+      "scene": "cam-insert",
+      "say": "Drop a cam lock into each big round hole on the inside of the side panels. The keyhole gap on the cam must point toward the shelf it will grab.",
+      "do": [
+        "Big round holes on the inside faces",
+        "Keyhole gap points toward where the bolt will enter",
+        "Sit flush, not proud"
+      ],
+      "watch": "Cam facing the wrong way is the reason a joint will not close. It is always this."
+    },
+    {
+      "title": "Build the ladder flat on the floor",
+      "secs": 18,
+      "scene": "panel-join",
+      "say": "Lay one side panel down, stand the shelves into it, then lower the other side panel on top. It looks like a ladder lying on its back.",
+      "do": [
+        "One side flat, inside face up",
+        "Shelves in, top and bottom first",
+        "Second side lowered on, lining up all dowels at once"
+      ],
+      "tip": "Getting six dowels into six holes at once is easier if you tilt the second panel on and walk it down from one end."
+    },
+    {
+      "title": "Lock the cams",
+      "secs": 16,
+      "scene": "cam-twist",
+      "say": "Turn each cam clockwise about half a turn until it bites. Work from the middle outward so you do not twist the frame.",
+      "do": [
+        "Clockwise, half a turn, until firm",
+        "Middle shelves first, then the ends",
+        "Tug each joint to test"
+      ],
+      "watch": "Stop at firm. A broken cam has to be drilled out."
+    },
+    {
+      "title": "Square it with the diagonals",
+      "secs": 18,
+      "scene": "square-check",
+      "say": "Still lying flat, measure both diagonals of the frame. Push the long corner until the two measurements match. The frame should now look like a rectangle, not a parallelogram.",
+      "do": [
+        "Measure top-left to bottom-right",
+        "Measure top-right to bottom-left",
+        "Push the long corner until equal"
+      ],
+      "tip": "On tall bookcases this matters hugely. A twisted frame leans away from the wall at the top."
+    },
+    {
+      "title": "Nail the back on, corners first",
+      "secs": 22,
+      "scene": "back-panel-nail",
+      "say": "The thin back board is the entire reason the bookcase stays square. Nail a corner, then the opposite corner, then fill in all around and into every fixed shelf.",
+      "do": [
+        "Printed or white side faces out",
+        "Four corners first",
+        "Then nails every few inches along both sides, top, bottom, and into each fixed shelf edge"
+      ],
+      "tip": "Nailing into the shelf edges too is what stops shelves sagging. Most people only nail the outside edge and wonder why it racks.",
+      "watch": "If the back panel comes in two halves, they overlap at a fixed shelf. Check the manual for which one goes on first."
+    },
+    {
+      "title": "Stand it up and set the adjustable shelves",
+      "secs": 18,
+      "scene": "shelf-pin",
+      "say": "Stand it up with help. Push four shelf pins into the holes for each shelf, making sure all four are at the same height, then drop the shelf on.",
+      "do": [
+        "Count holes from the bottom, the same number on all four corners",
+        "Push pins in fully",
+        "Set shelf, press down at each corner to confirm it sits flat"
+      ],
+      "tip": "Count the holes rather than eyeballing it. One pin a hole off and the shelf rocks forever.",
+      "watch": "Shelf pins can be metal pegs, plastic clips, or little plastic shelf supports with a lip. The lip faces up."
+    },
+    {
+      "title": "Anchor it to the wall",
+      "secs": 18,
+      "scene": "antitip-strap",
+      "say": "Find a stud, screw the bracket to the wall and to the back of the bookcase, strap it tight. On a tall bookcase this is the most important step in the build.",
+      "do": [
+        "Stud finder, or tap and listen for the solid note",
+        "No stud available? Use a toggle or heavy-duty drywall anchor",
+        "Bracket to wall, bracket to furniture, strap pulled snug"
+      ],
+      "tip": "Two anchors on a wide unit, one at each end, is better than one in the middle.",
+      "watch": "A loaded bookcase can weigh two hundred pounds. Anchors are not a suggestion."
+    },
+    {
+      "title": "Load it bottom-heavy",
+      "secs": 16,
+      "scene": "load-shelves",
+      "say": "Heaviest books on the bottom shelf, lightest on top. This lowers the center of gravity and stops the shelves bowing.",
+      "do": [
+        "Heavy on the bottom two shelves",
+        "Light decor up high",
+        "Spread weight across each shelf rather than piling it in the middle"
+      ],
+      "tip": "If a shelf is already bowing, turn it over. They usually bow back the other way and look new again."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The bookcase leans forward at the top",
+      "a": "The frame was nailed out of square, or the floor slopes. Loosen a few back panel nails, square the diagonals, re-nail. Then anchor it to the wall, which also pulls the top back into line."
+    },
+    {
+      "q": "A shelf sags in the middle",
+      "a": "Too much weight for the span. Turn the shelf over so it bows the other way, move heavy items to the bottom, or add a small support block under the center. Wide bookcases are simply weak in the middle."
+    },
+    {
+      "q": "The shelf rocks when I touch it",
+      "a": "One shelf pin is in the wrong hole. Count holes up from the bottom at all four corners — the counts must be identical."
+    },
+    {
+      "q": "The whole thing twists if I push a corner",
+      "a": "The back panel is doing its job badly: either missing nails, or not nailed into the fixed shelves. Add nails along every edge and every fixed shelf."
+    },
+    {
+      "q": "A cam lock snapped",
+      "a": "They are a standard size, sold in packs at any hardware store or online as '15mm cam lock fittings'. Pick out the broken one and press in a new one."
+    }
+  ],
+  "terms": [
+    "cam-lock",
+    "dowel",
+    "shelf-pin",
+    "square",
+    "stud",
+    "anti-tip"
+  ]
+}

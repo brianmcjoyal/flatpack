@@ -1,0 +1,193 @@
+{
+  "id": "upholstered-bed",
+  "name": "Upholstered or wooden bed with a headboard",
+  "tagline": "Fabric or wood headboard, two side rails, and slats. The headboard bolts are the fiddly part.",
+  "covers": [
+    "Upholstered platform beds",
+    "Fabric or velvet headboard beds",
+    "Wooden platform beds",
+    "Beds with built-in headboards",
+    "Storage beds with drawers"
+  ],
+  "difficulty": 3,
+  "minutes": 60,
+  "people": 2,
+  "peopleNote": "Genuinely a two-person job. The headboard is heavy and awkward and needs holding upright while you bolt it.",
+  "tools": [
+    {
+      "n": "The provided Allen key",
+      "why": "Most bolts.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Slat clips and smaller brackets.",
+      "req": true
+    },
+    {
+      "n": "Socket wrench or adjustable wrench",
+      "why": "The headboard bolts are often hex-head and far easier with a wrench than the little Allen key.",
+      "req": false
+    },
+    {
+      "n": "Flashlight or phone light",
+      "why": "You will be looking into dark pockets behind fabric for hidden bolt holes.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Headboard bolts and washers",
+    "Side rail brackets",
+    "Slats",
+    "Center support legs"
+  ],
+  "before": [
+    "Build it in the bedroom with the door closed behind you. This never fits through a doorway assembled.",
+    "Lay the headboard face-down on the bed's cardboard or a blanket. Fabric picks up every bit of grit from a bare floor.",
+    "Get the mattress out of the room entirely if you can, or stand it in the hallway."
+  ],
+  "safety": [
+    "Never let the headboard stand unsupported while only partly bolted. It will fall, and it is heavy.",
+    "Slats must all be present and secured. A missing slat concentrates all your weight onto its neighbors."
+  ],
+  "steps": [
+    {
+      "title": "Lay the headboard face-down on something soft",
+      "secs": 18,
+      "scene": "headboard-flat",
+      "say": "Put the headboard face-down on a blanket or the flattened box. You will be working on its back, and fabric scuffs.",
+      "do": [
+        "Face-down, padded surface",
+        "Legs or bolt plates pointing up at you",
+        "Have a second person steady it"
+      ],
+      "watch": "Do not drag an upholstered headboard across carpet. It pulls threads."
+    },
+    {
+      "title": "Find the hidden bolt holes",
+      "secs": 20,
+      "scene": "find-holes",
+      "say": "On upholstered beds the bolt holes are often behind a flap of fabric or inside a dark pocket. Shine a light and feel for the metal plate.",
+      "do": [
+        "Look for a seam or flap you can lift",
+        "Feel through the fabric for a hard metal plate",
+        "Shine a light directly into the pocket"
+      ],
+      "tip": "Push the fabric aside with a finger rather than cutting anything. The holes are always there, just buried.",
+      "watch": "Never cut fabric to find a hole. Check the manual's diagram again instead."
+    },
+    {
+      "title": "Attach the side rails to the headboard, loosely",
+      "secs": 24,
+      "scene": "side-rail-bolt",
+      "say": "Bring one side rail up to the headboard and start its bolts with washers. Finger-tight only. The frame needs to move to find its shape.",
+      "do": [
+        "Washer between bolt head and bracket, every time",
+        "Thread by hand first, then a couple of turns with the key",
+        "Do both side rails before tightening anything"
+      ],
+      "tip": "Left and right rails are usually different. Check for L and R markings, often stamped or stickered on the inside face."
+    },
+    {
+      "title": "Bring in the foot rail and close the rectangle",
+      "secs": 20,
+      "scene": "frame-layout",
+      "say": "The foot rail joins the two side rails and completes the rectangle. Bolt it finger-tight too. Now you have a frame you can square up.",
+      "do": [
+        "Line up the brackets, start every bolt by hand",
+        "Keep everything loose",
+        "Check the rectangle looks roughly right"
+      ],
+      "watch": "If a bolt refuses to start, the rail is upside down. Brackets usually only fit one way round."
+    },
+    {
+      "title": "Fit the center support and its legs",
+      "secs": 20,
+      "scene": "center-support",
+      "say": "The center rail runs head to foot down the middle and carries most of the load. Bolt it in and screw its legs down until they touch the floor.",
+      "do": [
+        "Bolt both ends to the head and foot rails",
+        "Screw the center legs in",
+        "Make sure each leg actually contacts the floor"
+      ],
+      "watch": "A center leg hovering a quarter inch above the floor does nothing. Thread it down until it bears weight."
+    },
+    {
+      "title": "Stand it up and square the frame",
+      "secs": 20,
+      "scene": "square-check",
+      "say": "With two people, lift the frame upright onto its legs. Measure both diagonals and nudge until they match.",
+      "do": [
+        "Lift together, from the rails not the fabric",
+        "Measure corner to corner both ways",
+        "Push the long corner until the numbers agree"
+      ],
+      "tip": "Squaring a bed matters more than people think. It is why one side of the mattress ends up sitting proud of the frame."
+    },
+    {
+      "title": "Tighten every bolt, twice around",
+      "secs": 20,
+      "scene": "tighten-sequence",
+      "say": "Now tighten everything firmly, working around the frame. Then do a second lap, because the first lap loosens things.",
+      "do": [
+        "Headboard bolts first, they carry the most stress",
+        "Then side rails, then foot, then center",
+        "Second full lap"
+      ],
+      "tip": "Firm, not gorilla-tight. You are clamping steel to wood and you can crush the wood."
+    },
+    {
+      "title": "Lay and secure the slats",
+      "secs": 20,
+      "scene": "slat-lay",
+      "say": "Drop each slat into its clip or onto its ledge, spacing them evenly. Screw down the ones the manual tells you to.",
+      "do": [
+        "Even spacing, head to foot",
+        "Push each one fully into its clip",
+        "Screw or clip the end slats so the set cannot migrate"
+      ],
+      "watch": "Count the slats against the manual. A bed short one slat will develop a dip exactly where you sleep."
+    },
+    {
+      "title": "Sit on each corner, then make the bed",
+      "secs": 18,
+      "scene": "shake-test",
+      "say": "Sit heavily on each corner and the middle. Listen for creaks and look for flex. Fix anything now, before the mattress hides it all.",
+      "do": [
+        "Sit on each corner and the center",
+        "Rock side to side",
+        "Chase any creak to its bolt and tighten"
+      ],
+      "tip": "A creak that appears a month in is almost always a bolt that settled. Keep the Allen key in your nightstand drawer."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "I cannot find the bolt holes on the headboard",
+      "a": "They are behind the fabric. Lift any flap along the bottom edge, or feel for a hard metal plate and part the fabric with your fingers. Check the manual diagram for roughly how far from the edge. Never cut."
+    },
+    {
+      "q": "The headboard wobbles side to side",
+      "a": "The headboard bolts are not tight, or washers were left out. Washers spread the load and stop the bolt pulling through. Take it apart far enough to add them."
+    },
+    {
+      "q": "The side rails are different and I bolted on the wrong one",
+      "a": "Easy fix. Loosen it off, swap sides, re-bolt. Check inside faces for an L or R sticker."
+    },
+    {
+      "q": "There is a gap between the mattress and the headboard",
+      "a": "The frame is out of square, or the slats have drifted toward the foot. Square the diagonals and push the slat set back up to the head."
+    },
+    {
+      "q": "The bed creaks every time I move",
+      "a": "Full tightening lap first. Then check for wood-on-wood contact at the slat ends and stick on felt pads. Also make sure the frame is not touching the wall — that knock sounds exactly like a frame creak."
+    }
+  ],
+  "terms": [
+    "slat",
+    "center-support",
+    "washer",
+    "square"
+  ]
+}

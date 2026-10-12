@@ -1,0 +1,185 @@
+{
+  "id": "dining-chairs",
+  "name": "Dining chairs and stools",
+  "tagline": "A seat, four legs, a back. You will build the same chair two or four times, so the first one is practice.",
+  "covers": [
+    "Dining chairs sold in pairs or sets of four",
+    "Accent and side chairs",
+    "Bar and counter stools",
+    "Upholstered dining chairs",
+    "Folding and stacking chairs"
+  ],
+  "difficulty": 1,
+  "minutes": 20,
+  "people": 1,
+  "peopleNote": "One person. Per chair, not for the set.",
+  "tools": [
+    {
+      "n": "The provided Allen key",
+      "why": "Nearly all chair bolts.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Seat plates and some back brackets.",
+      "req": false
+    },
+    {
+      "n": "A cloth or old towel",
+      "why": "To work on, so you do not scuff the seat fabric or the leg finish.",
+      "req": true
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Hex bolts and washers",
+    "Floor glides or felt pads",
+    "Leg brackets"
+  ],
+  "before": [
+    "Open only one chair's hardware bag at a time. Mixing four sets of look-alike bolts is a mess you do not need.",
+    "Build the first chair slowly and the rest will take five minutes each.",
+    "Work on a towel. Chair legs are usually the most visible finish in the box."
+  ],
+  "safety": [
+    "A chair bolt that is only finger-tight will fail with someone sitting on it. Final tightening is not optional.",
+    "Do not stand on a chair you just built until you have tightened everything and sat on it first."
+  ],
+  "steps": [
+    {
+      "title": "Turn the seat upside down on a towel",
+      "secs": 19,
+      "scene": "cardboard-floor",
+      "say": "Put the seat upside down on a folded towel. Everything bolts to the underside, and this way gravity helps instead of fighting you.",
+      "do": [
+        "Seat upside down, padded surface",
+        "Threaded inserts or bracket holes facing up",
+        "All four legs within reach"
+      ]
+    },
+    {
+      "title": "Sort front legs from back legs",
+      "secs": 22,
+      "scene": "panel-identify",
+      "say": "On most chairs the back legs are longer, because they continue upward to become the back. Match them to the manual before bolting anything.",
+      "do": [
+        "Longer pair, or the pair with extra holes, goes at the back",
+        "Check for L and R markings on the back legs",
+        "Lay them out in position first"
+      ],
+      "watch": "Front legs in the back sockets is the single most common chair mistake, and it is invisible until the chair is finished and leans."
+    },
+    {
+      "title": "Start every bolt before tightening any",
+      "secs": 21,
+      "scene": "bolt-hex",
+      "say": "Thread all the leg bolts in with their washers, just a few turns each. Loose everywhere. Nothing tight yet.",
+      "do": [
+        "Washer between bolt and wood or metal, always",
+        "Thread by hand first to feel the threads catch",
+        "All bolts started before any are tightened"
+      ],
+      "watch": "If a bolt will not start by hand, back it out. Forcing it with the Allen key strips the insert and that leg is then permanently loose."
+    },
+    {
+      "title": "Fit the back or backrest",
+      "secs": 21,
+      "scene": "chair-back-bracket",
+      "say": "The back either bolts onto the rear legs or drops into brackets. Get all its bolts started loosely too, then check it is centered and square.",
+      "do": [
+        "Line the back up with both rear legs",
+        "All bolts started loosely",
+        "Sight along it to check it is not twisted"
+      ],
+      "tip": "Look at the chair from the front. A back that leans to one side now will lean forever once tightened."
+    },
+    {
+      "title": "Stand it up, then tighten diagonally",
+      "secs": 21,
+      "scene": "tighten-sequence",
+      "say": "Set the chair upright on a flat floor, press down on the seat to settle everything, then tighten in a diagonal pattern. Two laps.",
+      "do": [
+        "Chair on a flat floor, press the seat down firmly",
+        "Front-left, back-right, front-right, back-left",
+        "Second full lap"
+      ],
+      "tip": "Pressing the seat down while you tighten is what makes the difference between a chair that stays tight for years and one that is wobbly in a month."
+    },
+    {
+      "title": "Kill the rock with the glides",
+      "secs": 19,
+      "scene": "leveling-feet",
+      "say": "Press each corner of the seat. If it rocks, the plastic glides or felt pads let you fix it — add a second pad on the short leg.",
+      "do": [
+        "Press each corner to find the short leg",
+        "Tap plastic glides fully in",
+        "Double up a felt pad under the short leg if needed"
+      ],
+      "tip": "Felt pads on every leg are worth doing anyway. They protect the floor and they stop the dragging noise that drives everyone mad."
+    },
+    {
+      "title": "Sit in it and bounce",
+      "secs": 19,
+      "scene": "shake-test",
+      "say": "Sit down and shift your weight around. Any creak or movement means one more pass with the Allen key.",
+      "do": [
+        "Sit, lean back, shift side to side",
+        "Listen for creaks",
+        "Re-tighten anything that moved"
+      ],
+      "watch": "Do this before anyone else sits in it. A chair is one of the few pieces of furniture that fails with someone on it."
+    },
+    {
+      "title": "Build the rest from memory",
+      "secs": 19,
+      "scene": "repeat-build",
+      "say": "Now you know the chair. The second one takes five minutes. Open one hardware bag at a time and repeat exactly the same order.",
+      "do": [
+        "One hardware bag per chair",
+        "Same order every time",
+        "Same tightening pattern"
+      ],
+      "tip": "Put the finished chairs in the next room as you go. It keeps your workspace clear and stops you mixing up parts."
+    },
+    {
+      "title": "Re-tighten everything in two weeks",
+      "secs": 19,
+      "scene": "calendar-recheck",
+      "say": "Set a reminder. Wood and upholstery compress slightly in the first weeks of use. One tightening pass then and the chairs will stay solid for years.",
+      "do": [
+        "Phone reminder for two weeks out",
+        "One lap with the Allen key on every chair",
+        "Keep the Allen key taped under one seat"
+      ],
+      "tip": "Taping the Allen key under a seat is the single best piece of furniture advice there is. You will always know where it is."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The chair wobbles and will not stop",
+      "a": "Loosen everything, stand the chair on a flat floor, press hard on the seat, and retighten in a diagonal pattern. Nine times out of ten it was tightened while upside down and the joints settled crooked."
+    },
+    {
+      "q": "One leg is shorter than the others",
+      "a": "Usually it is not — the chair is just assembled slightly out of square. Try the retightening trick first. If it genuinely is short, double up a felt pad."
+    },
+    {
+      "q": "A bolt spins and will not tighten",
+      "a": "The threaded insert in the wood has pulled loose. Pull it out, add a drop of two-part epoxy around it, push it back and let it cure overnight before bolting."
+    },
+    {
+      "q": "The back leans to one side",
+      "a": "Loosen the back bolts, hold it straight while looking from the front, and retighten evenly, alternating sides."
+    },
+    {
+      "q": "The chair creaks when I sit",
+      "a": "A joint is slightly loose. Creaking is wood or metal moving against wood. Find it by sitting and shifting while a helper listens, then tighten that bolt."
+    }
+  ],
+  "terms": [
+    "handed",
+    "washer",
+    "glide",
+    "threaded-insert"
+  ]
+}

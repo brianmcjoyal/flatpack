@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flatpack — assembly instructions that actually make sense</title>
+<meta name="description" content="Type in whatever furniture you bought. Get plain-English assembly steps and a three-minute walkthrough.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🪛</text></svg>">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M4 7h16M4 7v12h16V7M9 7V4h6v3M9 13h6"/>
+      </svg>
+      Flatpack
+    </a>
+    <nav>
+      <a href="#browse-sec">Browse</a>
+      <a href="#how">How it works</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <h1>Assembly instructions<br>that actually make sense.</h1>
+    <p class="lede">Type in whatever you bought. Get plain English, a three-minute walkthrough, and the one step everybody skips.</p>
+
+    <div class="searchbox">
+      <form id="searchform" autocomplete="off">
+        <input id="q" type="search" placeholder="e.g. Zinus queen bed frame" aria-label="What did you buy?" enterkeyhint="search">
+        <button class="btn" type="submit">Show me how</button>
+      </form>
+      <div class="suggest" id="suggest" role="listbox" aria-label="Suggestions"></div>
+    </div>
+
+    <div class="chips">
+      <button class="chip" data-q="6 drawer dresser">6-drawer dresser</button>
+      <button class="chip" data-q="office chair">Office chair</button>
+      <button class="chip" data-q="bed frame">Bed frame</button>
+      <button class="chip" data-q="tv stand">TV stand</button>
+      <button class="chip" data-q="bookshelf">Bookshelf</button>
+      <button class="chip" data-q="gaming chair">Gaming chair</button>
+      <button class="chip" data-q="drawer wont close">My drawer won't close</button>
+      <button class="chip" data-q="crib">Crib</button>
+      <button class="chip" data-q="pack n play">Pack 'n Play</button>
+      <button class="chip" data-q="baby gate">Baby gate</button>
+    </div>
+  </div>
+
+  <section>
+    <div class="sec-head"><h2>Things people are building today</h2></div>
+    <div class="grid" id="popular"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Nursery and baby furniture</h2></div>
+    <div class="note" style="margin-bottom:14px">
+      <p style="margin-top:0"><b>These guides work differently, on purpose.</b> We went through the CPSC recall
+      database and read the manufacturers' own manuals for this category. Two things stood out. The most repeated
+      structural failure in cribs is the mattress support — the four bolts you can never see once the mattress is
+      in. And every nursery manual says to inspect the product "periodically" without once saying how often or
+      what to look at.</p>
+      <p style="margin-bottom:0">So every nursery guide here carries the safety standard that applies, a prompt to
+      check your model against the recall list, and <b>a re-check schedule</b> — the thing the manuals leave out.</p>
+    </div>
+    <div class="grid" id="nursery"></div>
+  </section>
+
+  <section id="how">
+    <div class="sec-head"><h2>How this works</h2></div>
+    <div class="panel">
+      <p style="margin-top:0">Hundreds of thousands of different pieces of furniture are sold online, and it feels like
+      each one needs its own manual. It doesn't. A Zinus bed, an Amazon Basics bed and a Novogratz bed are the
+      same six moves. Every cam-lock dresser on earth — IKEA, Sauder, Ameriwood, South Shore — is the same
+      twelve steps.</p>
+      <p>So instead of chasing a manual per product, Flatpack works out <b>which of
+      <span id="stat-patterns">–</span> assembly patterns</b> your item uses, adds anything specific to
+      <b><span id="stat-brands">–</span> brands'</b> hardware, and walks you through it. Type in a product
+      we've never heard of and it still works, because the hardware underneath is the same.</p>
+      <div class="callout">
+        <p style="margin:0"><b>Every guide gives you:</b> a three-minute animated walkthrough you can pause and
+        step through, the full written version in plain English, the tools you actually need and why,
+        what to do when a part doesn't fit, and the safety step that matters — which for most furniture
+        is anchoring it to the wall.</p>
+      </div>
+      <p class="faint" style="margin-bottom:0">Covering <span id="stat-covers">–</span> kinds of furniture across
+      <span id="stat-patterns-2">–</span> patterns. Written for someone kneeling on a floor at 9pm, not for an engineer.</p>
+    </div>
+  </section>
+
+  <section id="browse-sec">
+    <div class="sec-head"><h2>Browse by room</h2></div>
+    <div id="browse"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Everything these guides cover</h2></div>
+    <div class="pills" id="covers-list"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>What we don't cover</h2></div>
+    <div class="note">
+      <p style="margin-top:0">Being straight with you about the edges. Cribs and nursery furniture used to be on this list and are now covered in depth — these are what is genuinely still out of scope:</p>
+      <ul id="gaps" style="margin-bottom:0"></ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <p>Flatpack is a reference guide, not the manufacturer. Where your manual and this guide disagree,
+  your manual wins — it knows your exact model. For cribs, bunk beds and anything a child sleeps in or
+  climbs on, the manufacturer's instructions and their current safety notices are the authority.</p>
+  <p>Missing a part? Nearly every manufacturer ships replacement hardware free. Search their site for
+  “replacement parts” with your model number to hand.</p>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

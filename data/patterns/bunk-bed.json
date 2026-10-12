@@ -1,0 +1,222 @@
+{
+  "id": "bunk-bed",
+  "name": "Bunk bed or loft bed",
+  "tagline": "The one build where getting it exactly right genuinely matters. Slow, methodical, and double-check everything.",
+  "covers": [
+    "Twin over twin bunk beds",
+    "Twin over full bunks",
+    "Loft beds with a desk underneath",
+    "Triple and L-shaped bunks",
+    "Kids' mid-sleeper beds"
+  ],
+  "difficulty": 4,
+  "minutes": 150,
+  "people": 2,
+  "peopleNote": "Two adults, genuinely required. Parts are long, heavy, and must be held in position while bolted.",
+  "tools": [
+    {
+      "n": "The provided Allen key",
+      "why": "Most frame bolts.",
+      "req": true
+    },
+    {
+      "n": "Socket wrench or adjustable wrench",
+      "why": "Bunk bolts are long and under real load. An Allen key alone will not get them properly tight.",
+      "req": true
+    },
+    {
+      "n": "Phillips screwdriver",
+      "why": "Slat clips, guard rails, ladder brackets.",
+      "req": true
+    },
+    {
+      "n": "Bubble level",
+      "why": "A bunk bed that is not level puts uneven load on the posts.",
+      "req": true
+    },
+    {
+      "n": "Stud finder",
+      "why": "Anchoring loft beds and tall bunks to the wall.",
+      "req": false
+    }
+  ],
+  "provided": [
+    "Allen key",
+    "Long bunk bolts, washers and barrel nuts",
+    "Guard rails",
+    "Ladder",
+    "Slats and clips",
+    "Anti-tip hardware"
+  ],
+  "before": [
+    "Measure your ceiling height. You need the mattress plus enough headroom for a child to sit up on the top bunk, usually around thirty inches above the mattress.",
+    "Build it in the final position, in the room, with the door shut behind you. It will not move afterwards.",
+    "Count every single bolt against the manual before starting. On a bunk bed, a missing bolt is a safety issue rather than an inconvenience.",
+    "Allow real time. This is a two to three hour job and rushing it is exactly the wrong instinct."
+  ],
+  "safety": [
+    "Top bunks are not for children under six. That is the standard guidance from safety regulators, not a suggestion.",
+    "Guard rails on both sides of the top bunk, even the wall side. Children roll into the gap between bed and wall.",
+    "The gap between the guard rail and the mattress top must be small enough that a child cannot slip through. Use the mattress thickness the manual specifies — a thicker mattress raises the sleeping surface and defeats the rail.",
+    "Never let anyone sleep in it until every bolt has been checked twice and the bed has been anchored.",
+    "No hanging anything from the bed: ropes, belts, scarves. That is a strangulation risk in a child's bed."
+  ],
+  "steps": [
+    {
+      "title": "Count every bolt and part against the manual",
+      "secs": 19,
+      "scene": "read-parts-list",
+      "say": "Lay out all four posts, both bed frames, the rails, the ladder, the guard rails, and every bag of hardware. Count them against the list. Twice.",
+      "do": [
+        "All panels and posts laid out and labelled",
+        "Count bolts, washers and barrel nuts against the manual",
+        "Set anything missing aside and request it before you start"
+      ],
+      "watch": "On a bunk bed, do not substitute a bolt from the hardware store because it 'looks the same'. Bolt grade and length are engineered here. Request the real part."
+    },
+    {
+      "title": "Build the bottom bunk frame first",
+      "secs": 17,
+      "scene": "frame-layout",
+      "say": "Assemble the lower bed's side rails to the posts, finger-tight, so you have a rectangle standing on its four posts.",
+      "do": [
+        "Side rails to the posts, bolts and washers started",
+        "Head and foot panels in",
+        "Everything loose, nothing tightened yet"
+      ],
+      "tip": "The posts are usually identical but the rails are not. Check head rail against foot rail for different hole patterns."
+    },
+    {
+      "title": "Add the upper bunk rails, loose",
+      "secs": 19,
+      "scene": "side-rail-bolt",
+      "say": "With one person steadying each end, bolt the upper side rails and end panels onto the same posts. Still finger-tight. The frame will feel alarming at this stage and that is normal.",
+      "do": [
+        "One person per end, holding the posts vertical",
+        "Upper rails bolted on finger-tight",
+        "Washers under every bolt head"
+      ],
+      "watch": "Do not let go of the frame while bolts are loose. A half-bolted bunk frame will fold."
+    },
+    {
+      "title": "Square and plumb it, then tighten hard",
+      "secs": 19,
+      "scene": "square-check",
+      "say": "Check both diagonals on each bunk and check the posts are vertical with a level. Then tighten every bolt firmly with a wrench, not just the Allen key.",
+      "do": [
+        "Diagonals equal on the lower and upper frames",
+        "Level against each post, both directions",
+        "Tighten every bolt firmly with a wrench, then a full second lap"
+      ],
+      "tip": "Firm means firm here. These bolts carry a child and the load changes every time someone climbs. Two full laps minimum."
+    },
+    {
+      "title": "Fit all the slats and secure every one",
+      "secs": 17,
+      "scene": "slat-lay",
+      "say": "Both bunks get their full set of slats, evenly spaced, and every slat screwed or clipped down. On a bunk bed no slat is optional.",
+      "do": [
+        "Count the slats against the manual, both bunks",
+        "Even spacing, no gaps larger than the manual allows",
+        "Screw or clip every slat, not just the end ones"
+      ],
+      "watch": "An unsecured slat on a top bunk can be pushed out from below by a child's feet. Secure all of them."
+    },
+    {
+      "title": "Fit the guard rails on both sides",
+      "secs": 19,
+      "scene": "guard-rail",
+      "say": "Bolt the guard rails to the top bunk on both sides, including the wall side. Tighten them fully and then try to move them.",
+      "do": [
+        "Both sides, even against a wall",
+        "Bolts fully tightened with the wrench",
+        "Pull hard on each rail to test it"
+      ],
+      "tip": "If the kit only supplies one rail, order a second from the manufacturer. The wall-side gap is a recognized entrapment risk.",
+      "watch": "Measure the gap from the top of the mattress to the top of the rail. The manual gives a minimum — usually around five inches. A mattress thicker than specified raises the surface and shrinks that gap to nothing."
+    },
+    {
+      "title": "Attach the ladder and test it with your own weight",
+      "secs": 17,
+      "scene": "ladder-fit",
+      "say": "Bolt or hook the ladder on according to the manual, tighten it fully, then climb it yourself. An adult's weight is the test, not a child's.",
+      "do": [
+        "Ladder brackets bolted, fully tight",
+        "Check it cannot lift off its hooks",
+        "Climb it yourself, all the way up, and bounce"
+      ],
+      "watch": "A ladder that merely hooks on must also have its securing screw or clip fitted. Unsecured ladders lift off under a climbing child's weight."
+    },
+    {
+      "title": "Anchor the bed to the wall",
+      "secs": 17,
+      "scene": "antitip-strap",
+      "say": "Loft beds and tall bunks must be anchored. Find a stud, bracket the frame to the wall, and tighten it so the bed cannot rock away from the wall.",
+      "do": [
+        "Stud finder, or a heavy-duty anchor rated well above the bed's weight",
+        "Bracket to the post and to the wall",
+        "Push the frame hard to confirm it does not move"
+      ],
+      "tip": "Even if the manual calls anchoring optional, do it. A loft bed is tall, narrow, and gets climbed.",
+      "watch": "A loft bed with a desk underneath is the tallest, narrowest furniture in the house. Anchor it."
+    },
+    {
+      "title": "Check the mattress thickness against the rail",
+      "secs": 17,
+      "scene": "mattress-place",
+      "say": "Put the top mattress in and measure from its surface to the top of the guard rail. If it is less than the manual's minimum, you need a thinner mattress.",
+      "do": [
+        "Mattress in, no extra topper",
+        "Measure from the mattress surface to the rail top",
+        "Compare against the manual's minimum, usually about five inches"
+      ],
+      "watch": "This is the mistake that undoes all the other safety work. A thick mattress plus a topper can leave almost no rail at all. Use the thickness the bed was designed for."
+    },
+    {
+      "title": "Full safety walkthrough, then a monthly reminder",
+      "secs": 19,
+      "scene": "calendar-recheck",
+      "say": "Go over every bolt one final time with the wrench. Shake the whole bed. Then set a monthly reminder to re-check the bolts, because they loosen with use.",
+      "do": [
+        "Every bolt, one more lap with the wrench",
+        "Shake the bed hard at the top",
+        "Monthly phone reminder to re-tighten"
+      ],
+      "tip": "Bunk bed bolts genuinely do loosen — a bed with a child climbing it is a structure under constant cyclic load. A monthly two-minute check is the whole maintenance plan."
+    }
+  ],
+  "fixes": [
+    {
+      "q": "The frame wobbles side to side",
+      "a": "Bolts are not tight enough, which is very common because an Allen key cannot generate enough torque. Go around every bolt with a socket wrench or wrench. Also confirm the diagonals are square and all slats are fitted and secured."
+    },
+    {
+      "q": "A bolt hole does not line up",
+      "a": "Loosen every bolt on that bunk a couple of turns. The frame will shuffle and the bolt will go in. Then retighten everything from the center outward. Never drill a new hole in a bunk bed."
+    },
+    {
+      "q": "I am missing a bolt",
+      "a": "Stop and order the exact part from the manufacturer. Do not substitute a hardware store bolt — length and grade are engineered for this load. Every major brand ships bunk bed hardware free and quickly."
+    },
+    {
+      "q": "The guard rail gap looks too big with our mattress",
+      "a": "Your mattress is thicker than the bed was designed for. Use a thinner one. This is the single most common bunk bed safety failure and no amount of tightening fixes it."
+    },
+    {
+      "q": "The bed creaks when my child moves",
+      "a": "Do a full wrench lap. Then check for wood-on-wood contact at the slat ends and add felt pads. Also make sure the bed is not touching the wall — that knock is often mistaken for a frame creak."
+    },
+    {
+      "q": "Can I separate it into two single beds?",
+      "a": "Only if the manual says so and only using the parts supplied for it. Many bunks convert, but some posts are not designed to be bed legs on their own."
+    }
+  ],
+  "terms": [
+    "barrel-nut",
+    "guard-rail",
+    "plumb",
+    "square",
+    "stud",
+    "anti-tip"
+  ]
+}
