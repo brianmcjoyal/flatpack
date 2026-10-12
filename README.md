@@ -1,5 +1,7 @@
 # Flatpack
 
+**Live: https://brianmcjoyal.github.io/flatpack/**
+
 Plain-English furniture assembly guides with a three-minute animated walkthrough.
 Type in whatever you bought — "Zinus Shalini queen bed", "6 drawer dresser",
 "my drawer won't close" — and it works out which assembly pattern your item uses.
@@ -13,6 +15,30 @@ node ~/Desktop/flatpack/serve.js
 ```
 
 Then open http://localhost:4321
+
+## Publishing a change
+
+```bash
+cd ~/Desktop/flatpack && node build.js && bash check.sh && git add -A && git commit -m "..." && git push
+```
+
+`build.js` regenerates the 31 static guide pages, `fixes.html` and `sitemap.xml`.
+GitHub Pages redeploys automatically about a minute after the push.
+
+**Always run `build.js` before committing.** The `/g/*.html` pages are generated
+artifacts that are committed to the repo — if you edit a pattern and forget to
+rebuild, the live site keeps serving the old version. `check.sh` runs the build
+for you and will fail if the output is stale or wrong.
+
+## Why there are two ways to view a guide
+
+- `/g/<id>.html` — the real page. Static, crawlable, ~3,000 words in the HTML,
+  with HowTo/FAQ structured data. This is what gets shared and indexed.
+- `guide.html?q=<free text>` — the matcher. Takes anything typed, works out the
+  pattern, and redirects to the canonical `/g/` page.
+
+Both render identical markup because both call `buildGuideHTML()` in
+`js/guide-html.js`, which is deliberately DOM-free so Node can run it too.
 
 ## The idea
 
