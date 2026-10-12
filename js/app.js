@@ -4,6 +4,7 @@ const $ = s => document.querySelector(s);
 const el = (tag, cls, html) => { const n = document.createElement(tag); if (cls) n.className = cls; if (html != null) n.innerHTML = html; return n; };
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const go = q => { location.href = 'guide.html?q=' + encodeURIComponent(q); };
+// (guide.html runs the matcher, then hands off to the canonical /g/ page)
 
 let data;
 try {
@@ -68,7 +69,7 @@ POPULAR.forEach(label => {
   if (!c) return;
   const p = data.patterns.find(x => x.id === c.pattern);
   const a = el('a', 'card');
-  a.href = `guide.html?p=${c.pattern}&q=${encodeURIComponent(c.label)}`;
+  a.href = `g/${c.pattern}.html`;
   a.innerHTML = `<span class="t">${esc(c.label)}</span><span class="s">${esc(p.name)}</span>
     <span class="meta"><span>${p.minutes} min</span><span>${'●'.repeat(p.difficulty)}${'○'.repeat(5 - p.difficulty)}</span></span>`;
   popWrap.append(a);
@@ -78,7 +79,7 @@ POPULAR.forEach(label => {
 const nurseryWrap = document.querySelector('#nursery');
 data.patterns.filter(p => p.group === 'Nursery').forEach(p => {
   const a = el('a', 'card');
-  a.href = `guide.html?p=${p.id}`;
+  a.href = `g/${p.id}.html`;
   a.innerHTML = `<span class="t">${esc(p.name)}</span><span class="s">${esc(p.tagline)}</span>
     <span class="meta"><span>${p.minutes} min</span><span>${p.people === 1 ? '1 person' : p.people + ' people'}</span>
     <span>${'●'.repeat(p.difficulty)}${'○'.repeat(5 - p.difficulty)}</span></span>`;
@@ -96,7 +97,7 @@ groups.forEach(g => {
   const grid = el('div', 'grid');
   data.patterns.filter(p => p.group === g).forEach(p => {
     const a = el('a', 'card');
-    a.href = `guide.html?p=${p.id}`;
+    a.href = `g/${p.id}.html`;
     a.innerHTML = `<span class="t">${esc(p.name)}</span><span class="s">${esc(p.tagline)}</span>
       <span class="meta"><span>${p.minutes} min</span><span>${p.people === 1 ? '1 person' : p.people + ' people'}</span>
       <span>${'●'.repeat(p.difficulty)}${'○'.repeat(5 - p.difficulty)}</span></span>`;

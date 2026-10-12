@@ -115,16 +115,16 @@ export function suggest(query, data, limit = 7) {
     const starts = c.label.toLowerCase().startsWith(raw);
     if (starts || q.every(t => lt.some(x => x.startsWith(t)))) {
       const p = data.patterns.find(x => x.id === c.pattern);
-      push(c.label, p ? p.name : '', `guide.html?p=${c.pattern}&q=${encodeURIComponent(c.label)}`, starts ? 0 : 1);
+      push(c.label, p ? p.name : '', `g/${c.pattern}.html`, starts ? 0 : 1);
     }
   }
   for (const p of data.patterns) {
     const nt = tokens(p.name);
-    if (q.every(t => nt.some(x => x.startsWith(t)))) push(p.name, p.tagline, `guide.html?p=${p.id}`, 2);
+    if (q.every(t => nt.some(x => x.startsWith(t)))) push(p.name, p.tagline, `g/${p.id}.html`, 2);
     for (const cv of p.covers) {
       const ct = tokens(cv);
       if (q.every(t => ct.some(x => x.startsWith(t))))
-        push(cv.replace(/^\w/, c => c.toUpperCase()), p.name, `guide.html?p=${p.id}&q=${encodeURIComponent(cv)}`, 3);
+        push(cv.replace(/^\w/, c => c.toUpperCase()), p.name, `g/${p.id}.html`, 3);
     }
   }
   return out.sort((a, b) => a.rank - b.rank || a.label.length - b.label.length).slice(0, limit);

@@ -109,6 +109,31 @@ if(fail.length)process.exit(1);
 console.log('✓ player clock: boundaries, skips, end-clamp and full playthrough all correct');
 " || fail=1
 
+node build.js >/dev/null 2>&1 || { say "✗ build.js failed"; fail=1; }
+python3 - <<'PYEOF' || fail=1
+import json, glob, os, re, sys
+ix = json.load(open('data/index.json'))
+bad = []
+for p in ix['patterns']:
+    f = f"g/{p['id']}.html"
+    if not os.path.exists(f): bad.append(f"missing static page {f}"); continue
+    html = open(f).read()
+    if p['name'] not in html: bad.append(f"{f}: name not in static HTML")
+    if 'application/ld+json' not in html: bad.append(f"{f}: no structured data")
+    if 'data-pattern=' not in html: bad.append(f"{f}: no hydration marker")
+    if 'guide.html?p=' in html: bad.append(f"{f}: links to the non-canonical URL")
+    words = len(re.sub(r'<[^>]+>', ' ', re.sub(r'<script[\s\S]*?</script>', '', html)).split())
+    if words < 800: bad.append(f"{f}: only {words} words of crawlable content")
+for f in ('sitemap.xml', 'robots.txt', 'fixes.html'):
+    if not os.path.exists(f): bad.append(f"missing {f}")
+if 'Disallow: /' in open('robots.txt').read(): bad.append("robots.txt still blocks indexing")
+n = open('sitemap.xml').read().count('<loc>')
+if n != len(ix['patterns']) + 2: bad.append(f"sitemap has {n} urls, expected {len(ix['patterns'])+2}")
+for x in bad: print('✗', x)
+print(f"\u2713 {len(ix['patterns'])} static pages, structured data, sitemap and robots all good" if not bad else "")
+sys.exit(1 if bad else 0)
+PYEOF
+
 grep -roiE '\b(centre|aluminium|colour|neighbour|labelling|levelling|initialisation|spanner)[a-z]*' data js *.html 2>/dev/null \
   && { say "✗ British spelling found above"; fail=1; } || say "✓ US spelling consistent"
 
